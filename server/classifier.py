@@ -20,6 +20,7 @@ from typing import Any
 # Nature-of-suit codes that disproportionately contain class actions.
 NOS_CATEGORIES: dict[str, tuple[str, str]] = {
     "850": ("Securities/Commodities/Exchange", "Securities"),
+    "820": ("Copyright", "Copyright"),
     "410": ("Antitrust", "Antitrust"),
     "480": ("Consumer Credit", "Consumer"),
     "375": ("False Claims Act", "Consumer"),
