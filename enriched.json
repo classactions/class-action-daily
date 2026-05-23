@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-23T12:13:32.064346Z",
+  "generated_at": "2026-05-23T12:20:32.001002Z",
   "days_back": 7,
   "count": 3,
   "stats": {
     "total_filings": 3,
-    "distinct_categories": 2,
+    "distinct_categories": 3,
     "distinct_courts": 3,
-    "needs_llm": 2
+    "needs_llm": 1
   },
   "actions": [
     {
@@ -23,10 +23,10 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/73384790/hobbs-v-platforms-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664725/gov.uscourts.nysd.664725.1.0.pdf",
       "snippet": "              Case 1:26-cv-04314       Document 1      Filed 05/22/26      Page 1 of 32\n\n\n\n\n                        IN THE UNITED STATES DISTRICT COURT\n                      FOR THE SOUTHERN DISTRICT OF NEW YORK\n\n\n JEFF HOBBS; ALFRED DOUGLAS STONE;\n on behalf of themselves and all others similarly\n situated,                                                             CLASS ACTION\n\n                                 Plaintiffs,                             COMPLAINT\n         v.\n                     ",
-      "category": "Other",
-      "subcategory": "Other",
+      "category": "Copyright",
+      "subcategory": "Copyright",
       "category_source": "rule",
-      "category_confidence": 0.2,
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
