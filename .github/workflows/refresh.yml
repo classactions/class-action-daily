@@ -1,0 +1,48 @@
+name: Refresh Filings
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # every 30 minutes
+  workflow_dispatch:          # also lets you run it manually from the Actions tab
+
+# Allow this workflow to push enriched.json back to the repo
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r server/requirements.txt
+
+      - name: Run worker (poll → Law360 → export)
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: python -m server.worker all
+
+      - name: Commit enriched.json if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Force-add enriched.json (it's in .gitignore for local use, but we want it
+          # committed when produced by the worker)
+          git add -f enriched.json
+          if git diff --staged --quiet; then
+            echo "No changes to enriched.json"
+          else
+            git commit -m "refresh enriched.json [skip ci]"
+            git push
+          fi
