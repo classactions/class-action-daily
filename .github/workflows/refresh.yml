@@ -31,7 +31,7 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
-        run: python -m server.worker all
+        run: python -m server.worker all --export-days 30
 
       - name: Commit enriched.json if it changed
         run: |
