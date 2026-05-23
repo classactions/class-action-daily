@@ -1,0 +1,1022 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Class Action Daily &middot; Federal Filings Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4f0e8;
+    --bg-panel:#ebe5d6;
+    --bg-card:#fbf8f1;
+    --ink:#15202b;
+    --ink-soft:#3b4654;
+    --ink-mute:#7a8290;
+    --rule:#cfc6b1;
+    --rule-soft:#e0d8c2;
+    --accent:#7a1f1f;       /* oxblood — category accent */
+    --accent-soft:#a85050;
+    --l360:#1f5d68;         /* teal — Law360 enrichment accent */
+    --l360-soft:#e6eff1;
+    --tag-bg:#15202b;
+    --tag-ink:#f4f0e8;
+    --serif:'Fraunces', 'Iowan Old Style', Georgia, serif;
+    --sans:'IBM Plex Sans', system-ui, sans-serif;
+    --mono:'IBM Plex Mono', ui-monospace, monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  a.link{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+  a.link:hover{color:var(--ink)}
+  button{font-family:inherit;font-size:inherit;color:inherit;background:none;border:none;cursor:pointer;padding:0}
+
+  /* ===== Masthead ===== */
+  .masthead{
+    border-bottom:2px solid var(--ink);
+    padding:24px 32px 16px;
+    background:var(--bg);
+  }
+  .masthead-top{
+    display:flex;justify-content:space-between;align-items:baseline;
+    font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);
+    border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:16px;
+  }
+  .masthead-top .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-right:6px;vertical-align:middle;animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .masthead h1{
+    font-family:var(--serif);font-weight:600;font-style:normal;
+    font-size:clamp(40px, 5vw, 64px);
+    letter-spacing:-.025em;line-height:.95;margin:0;
+    font-variation-settings:"opsz" 144;
+  }
+  .masthead h1 em{font-style:italic;font-weight:500;color:var(--accent)}
+  .masthead .sub{
+    margin-top:8px;font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);
+    font-variation-settings:"opsz" 14;
+  }
+  .masthead-stats{
+    display:flex;gap:32px;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);
+  }
+  .stat{
+    display:flex;flex-direction:column;
+  }
+  .stat .num{font-family:var(--serif);font-size:32px;font-weight:600;line-height:1;font-variation-settings:"opsz" 48}
+  .stat .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-mute);margin-top:4px}
+
+  /* ===== Layout ===== */
+  .shell{
+    display:grid;grid-template-columns:260px 1fr;gap:0;
+    min-height:calc(100vh - 200px);
+  }
+  aside{
+    border-right:1px solid var(--rule);
+    padding:24px 24px 40px;
+    background:var(--bg);
+    position:sticky;top:0;
+    align-self:start;
+  }
+  main{
+    padding:24px 32px 80px;
+    min-width:0;
+  }
+
+  /* ===== Sidebar ===== */
+  .filter-group{margin-bottom:24px}
+  .filter-group h3{
+    font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-mute);margin:0 0 10px;font-weight:500;
+    padding-bottom:6px;border-bottom:1px solid var(--rule-soft);
+  }
+  .filter-list{list-style:none;padding:0;margin:0}
+  .filter-list li{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:5px 0;font-size:13px;cursor:pointer;
+    color:var(--ink-soft);
+    border-bottom:1px dotted transparent;
+  }
+  .filter-list li:hover{color:var(--accent)}
+  .filter-list li.active{color:var(--ink);font-weight:500}
+  .filter-list li.active::before{content:"▸ ";color:var(--accent)}
+  .filter-list li .count{font-family:var(--mono);font-size:11px;color:var(--ink-mute)}
+  .search-box{
+    width:100%;padding:8px 10px;font-family:var(--sans);font-size:13px;
+    background:var(--bg-card);border:1px solid var(--rule);
+    color:var(--ink);
+  }
+  .search-box:focus{outline:none;border-color:var(--accent)}
+
+  /* ===== Toolbar ===== */
+  .toolbar{
+    display:flex;justify-content:space-between;align-items:center;
+    margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--rule);
+  }
+  .toolbar .title{
+    font-family:var(--serif);font-size:24px;font-weight:600;
+    font-variation-settings:"opsz" 36;
+  }
+  .toolbar .controls{display:flex;gap:16px;align-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-mute)}
+  .toolbar .controls select{
+    font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;
+    background:transparent;border:none;border-bottom:1px solid var(--ink);
+    color:var(--ink);padding:2px 4px;
+  }
+
+  /* ===== Filing list (table-ish, but rule-separated rows) ===== */
+  .filings{display:flex;flex-direction:column}
+  .filing{
+    display:grid;
+    grid-template-columns: 70px 1fr 160px 110px 90px;
+    gap:16px;align-items:start;
+    padding:18px 4px;border-bottom:1px solid var(--rule-soft);
+    cursor:pointer;
+    transition:background .15s ease;
+  }
+  .filing:hover{background:var(--bg-card)}
+  .filing .date{
+    font-family:var(--mono);font-size:11px;color:var(--ink-mute);
+    text-transform:uppercase;letter-spacing:.05em;padding-top:3px;
+  }
+  .filing .date .day{display:block;font-family:var(--serif);font-size:22px;color:var(--ink);line-height:1;margin-bottom:2px;font-variation-settings:"opsz" 24}
+  .filing .case{min-width:0}
+  .filing .case .name{
+    font-family:var(--serif);font-size:17px;font-weight:500;line-height:1.25;
+    color:var(--ink);margin-bottom:6px;
+    font-variation-settings:"opsz" 20;
+  }
+  .filing .case .name em{font-style:italic;font-weight:400}
+  .filing .case .meta{
+    font-family:var(--mono);font-size:10.5px;color:var(--ink-mute);
+    letter-spacing:.03em;
+  }
+  .filing .case .meta span+span::before{content:" · ";color:var(--rule)}
+  .filing .case .snippet{
+    margin-top:6px;font-size:12.5px;color:var(--ink-soft);
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  .filing .case .snippet mark{background:#f3e3a2;color:var(--ink);padding:0 2px}
+  .filing .court{
+    font-family:var(--mono);font-size:11px;color:var(--ink-soft);padding-top:4px;
+  }
+  .filing .court .court-id{display:block;font-weight:500;color:var(--ink);text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+  .filing .cat{padding-top:4px}
+  .tag{
+    display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.06em;
+    text-transform:uppercase;background:var(--tag-bg);color:var(--tag-ink);
+    padding:3px 7px 2px;line-height:1.2;
+  }
+  .tag.acc{background:var(--accent);color:#fff}
+  .tag.lt{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+  .filing .actions{
+    display:flex;flex-direction:column;gap:6px;align-items:flex-end;padding-top:4px;
+  }
+  .btn{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;
+    padding:5px 8px;border:1px solid var(--ink);background:transparent;color:var(--ink);
+    transition:background .15s ease, color .15s ease;
+    white-space:nowrap;
+  }
+  .btn:hover{background:var(--ink);color:var(--bg)}
+  .btn.primary{background:var(--ink);color:var(--bg)}
+  .btn.primary:hover{background:var(--accent);border-color:var(--accent)}
+
+  /* ===== Drawer ===== */
+  .drawer-scrim{
+    position:fixed;inset:0;background:rgba(20,28,38,.45);
+    opacity:0;pointer-events:none;transition:opacity .2s ease;z-index:50;
+  }
+  .drawer-scrim.open{opacity:1;pointer-events:auto}
+  .drawer{
+    position:fixed;top:0;right:0;height:100vh;width:min(620px, 92vw);
+    background:var(--bg-card);border-left:2px solid var(--ink);
+    transform:translateX(100%);transition:transform .25s cubic-bezier(.2,.7,.2,1);
+    z-index:51;overflow-y:auto;
+  }
+  .drawer.open{transform:translateX(0)}
+  .drawer-head{
+    padding:20px 28px 16px;border-bottom:1px solid var(--rule);position:sticky;top:0;background:var(--bg-card);z-index:1;
+    display:flex;justify-content:space-between;align-items:flex-start;gap:16px;
+  }
+  .drawer-head .close{
+    font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--ink-mute);
+  }
+  .drawer-head .close:hover{color:var(--accent)}
+  .drawer-body{padding:24px 28px 60px}
+  .drawer-body h2{
+    font-family:var(--serif);font-weight:600;font-size:28px;line-height:1.15;
+    margin:0 0 8px;letter-spacing:-.01em;
+    font-variation-settings:"opsz" 36;
+  }
+  .drawer-body h2 em{font-style:italic;font-weight:500}
+  .drawer-body .docket{font-family:var(--mono);font-size:12px;color:var(--ink-mute);margin-bottom:18px}
+  .drawer-body .row{
+    display:grid;grid-template-columns:130px 1fr;gap:12px;
+    padding:10px 0;border-bottom:1px dotted var(--rule);
+    font-size:13px;
+  }
+  .drawer-body .row dt{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-mute);padding-top:2px}
+  .drawer-body .row dd{margin:0;color:var(--ink-soft)}
+  .drawer-body .snippet-full{
+    margin-top:20px;padding:16px;background:var(--bg);border-left:3px solid var(--accent);
+    font-family:var(--serif);font-style:italic;font-size:14px;line-height:1.6;color:var(--ink);
+    font-variation-settings:"opsz" 14;
+  }
+  .drawer-body .snippet-full mark{background:#f3e3a2;font-style:normal;padding:0 2px}
+  .drawer-actions{
+    display:flex;gap:10px;margin-top:24px;flex-wrap:wrap;
+  }
+
+  /* ===== Footer / meta ===== */
+  .feed-foot{
+    margin-top:28px;padding-top:16px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:11px;color:var(--ink-mute);text-align:center;letter-spacing:.04em;
+  }
+
+  /* ===== Banner when using mock data ===== */
+  .banner{
+    background:var(--ink);color:var(--bg);padding:8px 16px;
+    font-family:var(--mono);font-size:11px;letter-spacing:.04em;text-align:center;
+  }
+  .banner code{background:rgba(255,255,255,.12);padding:1px 5px;border-radius:2px}
+
+  /* ===== View-mode toggle (Internal vs Public) ===== */
+  .mode-toggle{
+    display:inline-flex;align-items:stretch;border:1px solid var(--ink);background:var(--bg);
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+  }
+  .mode-toggle button{
+    padding:5px 12px;color:var(--ink-soft);background:transparent;
+    border:none;border-right:1px solid var(--ink);cursor:pointer;
+  }
+  .mode-toggle button:last-child{border-right:none}
+  .mode-toggle button.on{background:var(--ink);color:var(--bg)}
+  .mode-toggle button:hover:not(.on){background:var(--bg-card)}
+  .mode-toggle.public button.on{background:var(--l360);border-color:var(--l360);color:#fff}
+
+  body.mode-public .l360-only{display:none !important}
+  body.mode-public .banner.l360-banner{display:block !important}
+
+  /* ===== Law360 enrichment chip + panel ===== */
+  .l360-chip{
+    display:inline-flex;align-items:center;gap:4px;
+    font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;
+    background:var(--l360);color:#fff;padding:2px 6px 1px;line-height:1.3;
+    margin-top:4px;
+  }
+  .l360-chip .dot{width:5px;height:5px;border-radius:50%;background:#fff;display:inline-block}
+
+  /* Confidence indicator — only shown for low-confidence rule-based categories */
+  .conf-chip{
+    display:inline-block;font-family:var(--mono);font-size:9px;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--ink-mute);background:transparent;
+    border:1px dashed var(--ink-mute);padding:1px 5px;line-height:1.3;
+    margin-top:4px;
+  }
+  .conf-chip[data-source="llm"]{color:var(--l360);border-color:var(--l360);border-style:solid}
+
+  .l360-panel{
+    margin-top:24px;padding:18px 18px 14px;background:var(--l360-soft);
+    border-left:3px solid var(--l360);
+  }
+  .l360-panel h3{
+    margin:0 0 12px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--l360);font-weight:500;
+    display:flex;align-items:center;gap:8px;
+  }
+  .l360-panel h3 .badge{
+    background:var(--l360);color:#fff;padding:2px 6px;font-size:9px;
+  }
+  .l360-item{
+    padding:10px 0;border-top:1px dotted #b9cdd2;
+  }
+  .l360-item:first-of-type{border-top:none}
+  .l360-item .l360-title{
+    font-family:var(--serif);font-size:14px;line-height:1.3;color:var(--ink);
+    font-weight:500;display:block;margin-bottom:4px;
+    font-variation-settings:"opsz" 14;
+  }
+  .l360-item .l360-title:hover{color:var(--l360)}
+  .l360-item .l360-meta{
+    font-family:var(--mono);font-size:10px;color:var(--ink-mute);letter-spacing:.04em;
+    margin-bottom:6px;
+  }
+  .l360-item .l360-meta .section{
+    display:inline-block;background:#fff;color:var(--l360);padding:1px 5px;
+    border:1px solid var(--l360);margin-right:6px;text-transform:uppercase;
+  }
+  .l360-item .l360-summary{
+    font-size:12.5px;color:var(--ink-soft);line-height:1.5;
+  }
+  .l360-item .l360-confidence{
+    font-family:var(--mono);font-size:9.5px;color:var(--ink-mute);
+    margin-left:6px;text-transform:uppercase;letter-spacing:.05em;
+  }
+  .l360-foot{
+    font-family:var(--mono);font-size:9.5px;color:var(--ink-mute);
+    margin-top:10px;padding-top:8px;border-top:1px dotted #b9cdd2;
+    line-height:1.5;
+  }
+
+  /* Public-mode banner */
+  .banner.l360-banner{
+    background:var(--l360);display:none;
+  }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 1100px){
+    .filing{grid-template-columns: 60px 1fr 110px;gap:14px}
+    .filing .court, .filing .actions{display:none}
+    .filing .cat{grid-column:3}
+  }
+  @media (max-width: 720px){
+    .shell{grid-template-columns:1fr}
+    aside{position:static;border-right:none;border-bottom:1px solid var(--rule);padding:16px 20px}
+    main{padding:16px 20px 60px}
+    .filing{grid-template-columns: 1fr;gap:6px}
+    .filing .date{order:-1}
+    .filing .cat{order:1}
+    .masthead{padding:18px 20px 12px}
+    .masthead-stats{gap:18px;flex-wrap:wrap}
+  }
+
+  /* loading shimmer */
+  .skeleton{background:linear-gradient(90deg,var(--bg-panel),var(--bg-card),var(--bg-panel));background-size:200% 100%;animation:shim 1.4s linear infinite;color:transparent;border-radius:2px}
+  @keyframes shim{0%{background-position:100% 0}100%{background-position:-100% 0}}
+</style>
+</head>
+<body>
+
+<div id="banner" class="banner" style="display:none">
+  Showing <strong>sample data</strong>. To pull live filings, run <code>python fetch_class_actions.py</code> with a CourtListener token and reload.
+</div>
+<div class="banner l360-banner">
+  <strong>PUBLIC VIEW</strong> &middot; Law360 enrichment is hidden. This is the safe view for any non-subscriber audience.
+</div>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span><span class="dot"></span>LIVE FEED &middot; FEDERAL DISTRICT COURTS</span>
+    <span style="display:flex;align-items:center;gap:18px">
+      <span class="mode-toggle" id="mode-toggle" role="tablist" aria-label="View mode">
+        <button data-mode="internal" class="on" title="Show Law360 enrichment (subscriber-only)">Internal</button>
+        <button data-mode="public" title="Hide subscriber content (safe for public site)">Public</button>
+      </span>
+      <span id="ts">—</span>
+    </span>
+  </div>
+  <h1>Class Action <em>Daily</em></h1>
+  <div class="sub">A daily intake of newly-filed federal putative class &amp; collective actions, categorized for plaintiffs' practice.</div>
+  <div class="masthead-stats" id="stats">
+    <div class="stat"><span class="num" id="stat-total">—</span><span class="lbl">filings shown</span></div>
+    <div class="stat"><span class="num" id="stat-cats">—</span><span class="lbl">categories</span></div>
+    <div class="stat"><span class="num" id="stat-courts">—</span><span class="lbl">districts</span></div>
+    <div class="stat l360-only"><span class="num" id="stat-l360" style="color:var(--l360)">—</span><span class="lbl">with Law360 coverage</span></div>
+    <div class="stat"><span class="num" id="stat-window">—</span><span class="lbl">day window</span></div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside>
+    <div class="filter-group">
+      <h3>Search</h3>
+      <input class="search-box" id="q" placeholder="case name, party, keyword…" />
+    </div>
+    <div class="filter-group">
+      <h3>Category</h3>
+      <ul class="filter-list" id="cats"></ul>
+    </div>
+    <div class="filter-group">
+      <h3>District</h3>
+      <ul class="filter-list" id="courts"></ul>
+    </div>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <div class="title" id="feed-title">Today's Filings</div>
+      <div class="controls">
+        <label>Sort
+          <select id="sort">
+            <option value="date_desc">Newest first</option>
+            <option value="date_asc">Oldest first</option>
+            <option value="court">By district</option>
+            <option value="category">By category</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div class="filings" id="filings"></div>
+    <div class="feed-foot" id="foot">—</div>
+  </main>
+</div>
+
+<!-- Drawer -->
+<div class="drawer-scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <div style="font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-mute)">Filing detail</div>
+    <button class="close" id="close-drawer">Close ✕</button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</aside>
+
+<script>
+// ============================================================
+// Data loading: try to fetch class_actions.json (from the Python
+// fetcher); if it's not there, fall back to the mock dataset.
+// ============================================================
+
+const MOCK = {
+  generated_at: new Date().toISOString(),
+  days_back: 1,
+  count: 12,
+  law360_match_count: 4,
+  law360_total_items: 38,
+  actions: [
+    {
+      case_name: "Hollis v. NorthBay Health Systems, Inc.",
+      docket_number: "3:26-cv-02418",
+      court: "U.S. District Court, Northern District of California",
+      court_id: "cand",
+      date_filed: todayMinus(0),
+      nature_of_suit: "890 Other Statutory Actions",
+      nos_code: "890",
+      category: "Privacy / Data",
+      subcategory: "Data Breach",
+      cause: "28:1332 Diversity-Notice of Removal",
+      parties_summary: "Marisol Hollis; NorthBay Health Systems, Inc.",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Plaintiff brings this <mark>class action</mark> on behalf of approximately 569,000 patients whose personally identifiable information was exposed in a March 2026 data security incident…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1001,
+      law360_coverage: [
+        {
+          section: "Cybersecurity & Privacy",
+          title: "NorthBay Health Hit With Class Action Over Patient Data Leak",
+          summary: "A proposed class action filed Wednesday in California federal court alleges NorthBay Health Systems failed to safeguard the records of more than half a million patients in a March data security incident, exposing Social Security numbers and medical histories.",
+          url: "https://www.law360.com/articles/example-1001",
+          pub_date: todayMinus(0),
+          confidence: "docket"
+        },
+        {
+          section: "Class Action",
+          title: "NorthBay Health Hit With Class Action Over Patient Data Leak",
+          summary: "A proposed class action filed Wednesday in California federal court alleges NorthBay Health Systems failed to safeguard the records of more than half a million patients in a March data security incident, exposing Social Security numbers and medical histories.",
+          url: "https://www.law360.com/articles/example-1001",
+          pub_date: todayMinus(0),
+          confidence: "docket"
+        }
+      ]
+    },
+    {
+      case_name: "Vargas v. Cresta Logistics LLC",
+      docket_number: "1:26-cv-04129",
+      court: "U.S. District Court, Eastern District of New York",
+      court_id: "nyed",
+      date_filed: todayMinus(0),
+      nature_of_suit: "710 Fair Labor Standards Act",
+      nos_code: "710",
+      category: "Wage & Hour",
+      subcategory: "FLSA Collective Action",
+      cause: "29:201 Fair Labor Standards Act",
+      parties_summary: "Diego Vargas; Cresta Logistics LLC",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Defendant misclassified plaintiff and similarly-situated last-mile drivers as independent contractors, denying overtime pay in violation of the FLSA and NYLL. Plaintiff seeks certification of a <mark>collective action</mark>…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1002,
+      law360_coverage: []
+    },
+    {
+      case_name: "In re Apex Therapeutics Inc. Securities Litigation",
+      docket_number: "1:26-cv-03877",
+      court: "U.S. District Court, Southern District of New York",
+      court_id: "nysd",
+      date_filed: todayMinus(0),
+      nature_of_suit: "850 Securities/Commodities/Exchange",
+      nos_code: "850",
+      category: "Securities",
+      subcategory: "10b-5 / §11",
+      cause: "15:78 Securities Exchange Act",
+      parties_summary: "Lead plaintiff TBD; Apex Therapeutics Inc.; et al.",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Putative <mark>class action</mark> on behalf of all purchasers of Apex common stock between Jan. 14, 2025 and Apr. 22, 2026 alleging materially false statements regarding Phase III trial enrollment…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1003,
+      law360_coverage: [
+        {
+          section: "Securities",
+          title: "Apex Therapeutics Faces Investor Suit Over FX-204 Trial Disclosures",
+          summary: "Shareholders accused Apex Therapeutics in a Manhattan federal class action of concealing slow enrollment in its closely-watched FX-204 Phase III trial, sending the stock down 38% over a single trading session in April.",
+          url: "https://www.law360.com/articles/example-1003",
+          pub_date: todayMinus(0),
+          confidence: "docket"
+        }
+      ]
+    },
+    {
+      case_name: "Patel v. Stoneridge Grocers, Inc.",
+      docket_number: "1:26-cv-02211",
+      court: "U.S. District Court, Northern District of Illinois",
+      court_id: "ilnd",
+      date_filed: todayMinus(0),
+      nature_of_suit: "890 Other Statutory Actions",
+      nos_code: "890",
+      category: "Privacy / Data",
+      subcategory: "BIPA / Biometric Privacy",
+      cause: "740 ILCS 14/15",
+      parties_summary: "Anjali Patel; Stoneridge Grocers, Inc.",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: null,
+      snippet: "Defendant collected employees' fingerprint scans for timekeeping without obtaining written informed consent or publishing a retention schedule, in violation of the Illinois <mark>Biometric</mark> Information Privacy Act…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1004,
+      law360_coverage: []
+    },
+    {
+      case_name: "Okeke v. Lumiré Cosmetics, LLC",
+      docket_number: "1:26-cv-22517",
+      court: "U.S. District Court, Southern District of Florida",
+      court_id: "flsd",
+      date_filed: todayMinus(0),
+      nature_of_suit: "370 Other Fraud",
+      nos_code: "370",
+      category: "Consumer",
+      subcategory: "False Advertising",
+      cause: "28:1332 Diversity",
+      parties_summary: "Chinwe Okeke; Lumiré Cosmetics, LLC",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Defendant marketed its 'clinically proven' anti-aging serum despite the absence of any peer-reviewed clinical study, deceiving reasonable consumers in a <mark>class action</mark> brought under FDUTPA and N.Y. GBL §349…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1005,
+      law360_coverage: []
+    },
+    {
+      case_name: "Reichert v. Veridian Energy Holdings, Inc.",
+      docket_number: "2:26-cv-01402",
+      court: "U.S. District Court, Eastern District of Pennsylvania",
+      court_id: "paed",
+      date_filed: todayMinus(1),
+      nature_of_suit: "791 ERISA",
+      nos_code: "791",
+      category: "ERISA",
+      subcategory: "401(k) Excessive Fee",
+      cause: "29:1132 ERISA",
+      parties_summary: "Daniel Reichert; Veridian Energy Holdings, Inc.; Plan Committee",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Fiduciaries of Defendant's $1.4B 401(k) plan retained imprudent recordkeeping arrangements and high-cost share classes, breaching ERISA §404 duties in this putative <mark>class action</mark>…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1006,
+      law360_coverage: [
+        {
+          section: "Benefits",
+          title: "Veridian Energy 401(k) Fiduciaries Hit With Excessive Fee Suit",
+          summary: "A Veridian Energy employee filed a putative class action Tuesday accusing the company's retirement plan committee of paying above-market recordkeeping fees and selecting expensive share classes when cheaper options were available.",
+          url: "https://www.law360.com/articles/example-1006",
+          pub_date: todayMinus(1),
+          confidence: "docket"
+        }
+      ]
+    },
+    {
+      case_name: "Choi v. Streamveil Inc.",
+      docket_number: "5:26-cv-02955",
+      court: "U.S. District Court, Northern District of California",
+      court_id: "cand",
+      date_filed: todayMinus(1),
+      nature_of_suit: "890 Other Statutory Actions",
+      nos_code: "890",
+      category: "Privacy / Data",
+      subcategory: "VPPA / Pixel Tracking",
+      cause: "18:2710 Video Privacy Protection Act",
+      parties_summary: "Hana Choi; Streamveil Inc.",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Defendant disclosed subscribers' video-viewing histories to Meta via the Meta <mark>Pixel</mark> without consent, violating the Video Privacy Protection Act in this putative <mark>class action</mark>…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1007,
+      law360_coverage: []
+    },
+    {
+      case_name: "Brennan v. Apex Therapeutics Inc.",
+      docket_number: "1:26-cv-03921",
+      court: "U.S. District Court, Southern District of New York",
+      court_id: "nysd",
+      date_filed: todayMinus(1),
+      nature_of_suit: "850 Securities/Commodities/Exchange",
+      nos_code: "850",
+      category: "Securities",
+      subcategory: "Derivative",
+      cause: "28:1332 Diversity",
+      parties_summary: "Patrick Brennan, derivatively on behalf of Apex Therapeutics Inc.",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Shareholder derivative complaint alleging the board breached its fiduciary duties in connection with disclosures regarding the FX-204 Phase III trial, related to In re Apex Therapeutics Securities Litigation…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1008,
+      law360_coverage: []
+    },
+    {
+      case_name: "Chowdhury v. Trail & Pike Outfitters, Inc.",
+      docket_number: "3:26-cv-00872",
+      court: "U.S. District Court, District of Oregon",
+      court_id: "ord",
+      date_filed: todayMinus(1),
+      nature_of_suit: "446 Amer. w/ Disabilities — Other",
+      nos_code: "446",
+      category: "Civil Rights",
+      subcategory: "ADA Title III — Website",
+      cause: "42:12181 Americans with Disabilities Act",
+      parties_summary: "Rashid Chowdhury; Trail & Pike Outfitters, Inc.",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: null,
+      snippet: "Defendant's e-commerce website is inaccessible to screen-reader users, denying blind consumers equal access to goods in violation of ADA Title III on behalf of a nationwide <mark>class</mark>…",
+      category_source: "rule",
+      category_confidence: 0.35,
+      docket_id: 1009,
+      law360_coverage: []
+    },
+    {
+      case_name: "Diaz v. AcceleraCard Financial, N.A.",
+      docket_number: "8:26-cv-00744",
+      court: "U.S. District Court, Central District of California",
+      court_id: "cacd",
+      date_filed: todayMinus(2),
+      nature_of_suit: "480 Consumer Credit",
+      nos_code: "480",
+      category: "Consumer",
+      subcategory: "TCPA",
+      cause: "47:227 Telephone Consumer Protection Act",
+      parties_summary: "Esteban Diaz; AcceleraCard Financial, N.A.",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Defendant placed at least 47 automated debt-collection calls to plaintiff's cellular telephone after a clear revocation of consent, in violation of the <mark>TCPA</mark>…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1010,
+      law360_coverage: []
+    },
+    {
+      case_name: "In re Generic Glipizide Antitrust Litigation",
+      docket_number: "2:26-cv-01988",
+      court: "U.S. District Court, Eastern District of Pennsylvania",
+      court_id: "paed",
+      date_filed: todayMinus(2),
+      nature_of_suit: "410 Antitrust",
+      nos_code: "410",
+      category: "Antitrust",
+      subcategory: "Price-Fixing / Sherman §1",
+      cause: "15:1 Sherman Act",
+      parties_summary: "Direct Purchaser Plaintiffs; multiple generic pharmaceutical manufacturers",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Direct-purchaser putative <mark>class action</mark> alleging horizontal <mark>price-fixing</mark> and market-allocation among generic glipizide manufacturers from 2019–2025…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1011,
+      law360_coverage: [
+        {
+          section: "Competition",
+          title: "Direct Purchasers Allege Generic Diabetes Drug Price-Fixing Scheme",
+          summary: "A new MDL-bound complaint accuses five generic-drug manufacturers of coordinating to allocate the U.S. market for glipizide tablets from 2019 to 2025, citing internal communications produced in parallel state-AG investigations.",
+          url: "https://www.law360.com/articles/example-1011",
+          pub_date: todayMinus(2),
+          confidence: "caption"
+        }
+      ]
+    },
+    {
+      case_name: "Whitfield v. Sunwave Therapeutics Corp.",
+      docket_number: "4:26-cv-00633",
+      court: "U.S. District Court, Western District of Texas",
+      court_id: "txwd",
+      date_filed: todayMinus(2),
+      nature_of_suit: "365 Personal Injury — Product Liability",
+      nos_code: "365",
+      category: "Product Liability",
+      subcategory: "Pharmaceutical",
+      cause: "28:1332 Diversity",
+      parties_summary: "Marcia Whitfield, on behalf of herself and all others similarly situated; Sunwave Therapeutics Corp.",
+      courtlistener_url: "https://www.courtlistener.com/",
+      complaint_url: "https://www.courtlistener.com/",
+      snippet: "Plaintiff brings putative nationwide <mark>class action</mark> for economic losses arising from Defendant's failure to warn of cardiovascular risks associated with prescription sleep-aid SunRest XR…",
+      category_source: "rule",
+      category_confidence: 0.9,
+      docket_id: 1012,
+      law360_coverage: []
+    }
+  ]
+};
+
+function todayMinus(n){
+  const d = new Date();
+  d.setDate(d.getDate() - n);
+  return d.toISOString().slice(0,10);
+}
+
+let DATA = null;
+let STATE = { cat: 'All', court: 'All', q: '', sort: 'date_desc', mode: 'internal' };
+
+async function tryFetch(name){
+  try{
+    const r = await fetch(name, {cache:'no-store'});
+    if(!r.ok) throw new Error('no file');
+    return await r.json();
+  }catch(e){ return null; }
+}
+
+function isFileScheme(){
+  return location.protocol === 'file:';
+}
+
+async function load(){
+  // Prefer the enriched (CourtListener + Law360) dataset; fall back to
+  // CourtListener-only; finally, the built-in mock.
+  let source = 'mock';
+  let data = null;
+  if(!isFileScheme()){
+    data = await tryFetch('enriched.json');
+    if(data){ source = 'enriched.json'; }
+    else{
+      data = await tryFetch('class_actions.json');
+      if(data){ source = 'class_actions.json'; }
+    }
+  }
+  if(!data){ data = MOCK; }
+
+  // Ensure each action has a law360_coverage array even from older fetchers
+  for(const a of (data.actions||[])){
+    if(!Array.isArray(a.law360_coverage)) a.law360_coverage = [];
+  }
+  DATA = data;
+  if(source === 'mock'){
+    const banner = document.getElementById('banner');
+    banner.style.display = 'block';
+    if(isFileScheme()){
+      banner.innerHTML = 'Opened via <code>file://</code> — browsers block local JSON loads for security. Run <code>python -m http.server</code> in this folder and visit <code>http://localhost:8000/</code> to load real data.';
+    }
+  }
+  init();
+}
+
+function init(){
+  document.getElementById('ts').textContent = 'Updated ' + new Date(DATA.generated_at).toLocaleString();
+
+  // Restore view mode from localStorage
+  const saved = (function(){ try{ return localStorage.getItem('viewMode'); }catch(e){ return null; } })();
+  if(saved === 'public' || saved === 'internal') STATE.mode = saved;
+  applyMode();
+
+  renderSidebar();
+  render();
+  document.getElementById('q').addEventListener('input', e=>{STATE.q = e.target.value.toLowerCase(); render();});
+  document.getElementById('sort').addEventListener('change', e=>{STATE.sort = e.target.value; render();});
+  document.getElementById('close-drawer').addEventListener('click', closeDrawer);
+  document.getElementById('scrim').addEventListener('click', closeDrawer);
+  document.addEventListener('keydown', e=>{if(e.key==='Escape') closeDrawer();});
+
+  document.getElementById('mode-toggle').addEventListener('click', e=>{
+    const btn = e.target.closest('button[data-mode]');
+    if(!btn) return;
+    STATE.mode = btn.dataset.mode;
+    try{ localStorage.setItem('viewMode', STATE.mode); }catch(e){}
+    applyMode();
+    render(); // re-render to refresh drawer/row state if drawer is open
+  });
+}
+
+function applyMode(){
+  document.body.classList.toggle('mode-public', STATE.mode === 'public');
+  const toggle = document.getElementById('mode-toggle');
+  toggle.classList.toggle('public', STATE.mode === 'public');
+  toggle.querySelectorAll('button').forEach(b=>{
+    b.classList.toggle('on', b.dataset.mode === STATE.mode);
+  });
+}
+
+function counts(field){
+  const m = new Map();
+  DATA.actions.forEach(a=>{
+    const k = a[field] || '—';
+    m.set(k, (m.get(k)||0) + 1);
+  });
+  return [...m.entries()].sort((a,b)=>b[1]-a[1]);
+}
+
+function renderSidebar(){
+  const cats = counts('category');
+  const courts = counts('court_id');
+  const catsEl = document.getElementById('cats');
+  const courtsEl = document.getElementById('courts');
+  const total = DATA.actions.length;
+
+  catsEl.innerHTML =
+    `<li data-v="All" class="active">All categories <span class="count">${total}</span></li>` +
+    cats.map(([k,n])=>`<li data-v="${escape(k)}">${escape(k)} <span class="count">${n}</span></li>`).join('');
+  courtsEl.innerHTML =
+    `<li data-v="All" class="active">All districts <span class="count">${total}</span></li>` +
+    courts.map(([k,n])=>`<li data-v="${escape(k)}">${escape(k.toUpperCase())} <span class="count">${n}</span></li>`).join('');
+
+  catsEl.addEventListener('click', e=>{
+    const li = e.target.closest('li'); if(!li) return;
+    STATE.cat = li.dataset.v;
+    catsEl.querySelectorAll('li').forEach(x=>x.classList.toggle('active', x===li));
+    render();
+  });
+  courtsEl.addEventListener('click', e=>{
+    const li = e.target.closest('li'); if(!li) return;
+    STATE.court = li.dataset.v;
+    courtsEl.querySelectorAll('li').forEach(x=>x.classList.toggle('active', x===li));
+    render();
+  });
+}
+
+function filtered(){
+  let xs = DATA.actions.slice();
+  if(STATE.cat !== 'All') xs = xs.filter(a=>a.category===STATE.cat);
+  if(STATE.court !== 'All') xs = xs.filter(a=>a.court_id===STATE.court);
+  if(STATE.q){
+    xs = xs.filter(a=>{
+      const blob = [a.case_name,a.parties_summary,a.snippet,a.category,a.subcategory,a.cause].join(' ').toLowerCase();
+      return blob.includes(STATE.q);
+    });
+  }
+  switch(STATE.sort){
+    case 'date_desc': xs.sort((a,b)=>b.date_filed.localeCompare(a.date_filed)); break;
+    case 'date_asc': xs.sort((a,b)=>a.date_filed.localeCompare(b.date_filed)); break;
+    case 'court': xs.sort((a,b)=>a.court_id.localeCompare(b.court_id)); break;
+    case 'category': xs.sort((a,b)=>a.category.localeCompare(b.category)); break;
+  }
+  return xs;
+}
+
+function render(){
+  const xs = filtered();
+  const el = document.getElementById('filings');
+  if(xs.length === 0){
+    el.innerHTML = `<div style="padding:60px 20px;text-align:center;color:var(--ink-mute);font-family:var(--serif);font-style:italic;font-size:18px">No filings match the current filters.</div>`;
+  } else {
+    el.innerHTML = xs.map(rowHTML).join('');
+    el.querySelectorAll('.filing').forEach(node=>{
+      node.addEventListener('click', e=>{
+        if(e.target.closest('a,button.btn')) return; // let actions through
+        const id = parseInt(node.dataset.id,10);
+        openDrawer(DATA.actions.find(a=>a.docket_id===id));
+      });
+    });
+  }
+
+  // stats
+  document.getElementById('stat-total').textContent = xs.length;
+  document.getElementById('stat-cats').textContent = new Set(xs.map(a=>a.category)).size;
+  document.getElementById('stat-courts').textContent = new Set(xs.map(a=>a.court_id)).size;
+  document.getElementById('stat-l360').textContent = xs.filter(a=>(a.law360_coverage||[]).length>0).length;
+  document.getElementById('stat-window').textContent = DATA.days_back || 1;
+
+  document.getElementById('feed-title').textContent =
+    (STATE.cat==='All'?'All Categories':STATE.cat) +
+    (STATE.court==='All'?'':` · ${STATE.court.toUpperCase()}`);
+
+  document.getElementById('foot').textContent =
+    `${xs.length} of ${DATA.actions.length} filings  ·  generated ${new Date(DATA.generated_at).toLocaleString()}  ·  source: CourtListener RECAP / PACER`;
+}
+
+function rowHTML(a){
+  const d = new Date(a.date_filed + 'T00:00:00');
+  const day = d.getDate();
+  const mo = d.toLocaleString('en-US',{month:'short'}).toUpperCase();
+  const yr = d.getFullYear();
+  const hasPdf = !!a.complaint_url;
+  return `
+    <article class="filing" data-id="${a.docket_id}">
+      <div class="date"><span class="day">${day}</span>${mo} ${yr}</div>
+      <div class="case">
+        <div class="name"><em>${escape(a.case_name)}</em></div>
+        <div class="meta">
+          <span>${escape(a.docket_number)}</span>
+          <span>${escape(a.nature_of_suit || '—')}</span>
+          ${a.cause? `<span>${escape(a.cause)}</span>`:''}
+        </div>
+        <div class="snippet">${a.snippet || ''}</div>
+      </div>
+      <div class="court">
+        <span class="court-id">${escape(a.court_id || '—')}</span>
+        ${escape(shortCourt(a.court))}
+      </div>
+      <div class="cat">
+        <span class="tag acc">${escape(a.category)}</span>
+        ${a.subcategory && a.subcategory!==a.category? `<div style="margin-top:5px"><span class="tag lt">${escape(a.subcategory)}</span></div>`:''}
+        ${(a.category_confidence !== undefined && a.category_confidence < 0.5)
+          ? `<div style="margin-top:5px"><span class="conf-chip" data-source="${escape(a.category_source||'rule')}" title="Low-confidence categorization — review the complaint to confirm">${escape(a.category_source||'rule')} · low conf.</span></div>`
+          : ''}
+        ${(a.law360_coverage||[]).length>0
+          ? `<div class="l360-only" style="margin-top:5px"><span class="l360-chip" title="Law360 coverage available — internal view only"><span class="dot"></span>L360 · ${a.law360_coverage.length}</span></div>`
+          : ''}
+      </div>
+      <div class="actions">
+        ${hasPdf
+          ? `<a class="btn primary" href="${escape(a.complaint_url)}" target="_blank" rel="noopener">PDF ↗</a>`
+          : `<span class="btn" style="opacity:.4;cursor:not-allowed">No PDF</span>`}
+        <a class="btn" href="${escape(a.courtlistener_url)}" target="_blank" rel="noopener">Docket ↗</a>
+      </div>
+    </article>`;
+}
+
+function shortCourt(c){
+  if(!c) return '';
+  return c.replace('U.S. District Court, ','').replace('U.S. District Court for the ','');
+}
+
+function openDrawer(a){
+  if(!a) return;
+  const hasPdf = !!a.complaint_url;
+  document.getElementById('drawer-body').innerHTML = `
+    <h2><em>${escape(a.case_name)}</em></h2>
+    <div class="docket">${escape(a.docket_number)} &middot; ${escape(a.court_id.toUpperCase())} &middot; filed ${escape(a.date_filed)}</div>
+
+    <div style="margin-bottom:14px">
+      <span class="tag acc">${escape(a.category)}</span>
+      ${a.subcategory && a.subcategory!==a.category? `<span class="tag lt" style="margin-left:6px">${escape(a.subcategory)}</span>`:''}
+      ${(a.category_confidence !== undefined) ? `
+        <div style="margin-top:8px;font-family:var(--mono);font-size:10px;color:var(--ink-mute);letter-spacing:.04em">
+          Categorization: <strong style="color:var(--ink)">${escape(a.category_source||'rule')}</strong> ·
+          confidence <strong style="color:${a.category_confidence>=0.7?'var(--ink)':'var(--accent)'}">${(a.category_confidence*100).toFixed(0)}%</strong>
+        </div>` : ''}
+    </div>
+
+    <dl style="margin:0">
+      <div class="row"><dt>Court</dt><dd>${escape(a.court)}</dd></div>
+      <div class="row"><dt>Docket no.</dt><dd style="font-family:var(--mono)">${escape(a.docket_number)}</dd></div>
+      <div class="row"><dt>Date filed</dt><dd>${escape(a.date_filed)}</dd></div>
+      <div class="row"><dt>Nature of suit</dt><dd>${escape(a.nature_of_suit || '—')}</dd></div>
+      <div class="row"><dt>Cause</dt><dd>${escape(a.cause || '—')}</dd></div>
+      <div class="row"><dt>Parties</dt><dd>${escape(a.parties_summary || '—')}</dd></div>
+    </dl>
+
+    ${a.snippet? `<div class="snippet-full">${a.snippet}</div>`:''}
+
+    ${(a.law360_coverage||[]).length>0 ? `
+    <div class="l360-panel l360-only">
+      <h3><span class="badge">L360</span> Law360 Coverage <span style="color:var(--ink-mute);font-weight:400;letter-spacing:.04em;text-transform:none">— ${a.law360_coverage.length} article${a.law360_coverage.length>1?'s':''}</span></h3>
+      ${a.law360_coverage.map(c=>`
+        <div class="l360-item">
+          <a class="l360-title" href="${escape(c.url)}" target="_blank" rel="noopener">${escape(c.title)}</a>
+          <div class="l360-meta">
+            <span class="section">${escape(c.section||'Law360')}</span>
+            ${escape(c.pub_date||'')}
+            <span class="l360-confidence">· match: ${escape(c.confidence||'?')}</span>
+          </div>
+          <div class="l360-summary">${escape(c.summary||'')}</div>
+        </div>
+      `).join('')}
+      <div class="l360-foot">
+        Subscriber-only. Articles open in Law360 and require a valid login.
+        This enrichment is hidden when the site is set to Public view.
+      </div>
+    </div>` : ''}
+
+    <div class="drawer-actions">
+      ${hasPdf
+        ? `<a class="btn primary" href="${escape(a.complaint_url)}" target="_blank" rel="noopener">View / Download Complaint (PDF) ↗</a>`
+        : `<span class="btn" style="opacity:.4">Complaint PDF not yet in RECAP</span>`}
+      <a class="btn" href="${escape(a.courtlistener_url)}" target="_blank" rel="noopener">Open Full Docket on CourtListener ↗</a>
+    </div>
+
+    <div style="margin-top:32px;font-family:var(--mono);font-size:10.5px;color:var(--ink-mute);line-height:1.6">
+      <strong>Note.</strong> Categorization is heuristic and based on nature-of-suit codes plus complaint-text keywords. Verify against the underlying complaint before acting. PDFs are served by CourtListener / RECAP and may require a free account for high-volume use.
+    </div>
+  `;
+  document.getElementById('drawer').classList.add('open');
+  document.getElementById('drawer').setAttribute('aria-hidden','false');
+  document.getElementById('scrim').classList.add('open');
+}
+function closeDrawer(){
+  document.getElementById('drawer').classList.remove('open');
+  document.getElementById('drawer').setAttribute('aria-hidden','true');
+  document.getElementById('scrim').classList.remove('open');
+}
+function escape(s){
+  if(s==null) return '';
+  return String(s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+}
+
+load();
+</script>
+</body>
+</html>

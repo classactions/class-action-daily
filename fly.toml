@@ -1,0 +1,44 @@
+# fly.toml — Class Action Daily webhook receiver
+#
+# After cloning, run:
+#   fly launch --no-deploy   # creates the app, may overwrite this file
+#   fly secrets set DATABASE_URL='postgres://...'
+#   fly secrets set COURTLISTENER_TOKEN='...'
+#   fly secrets set WEBHOOK_PATH='/hooks/<long-random-string>/'
+#   fly deploy
+
+app = "class-action-daily"  # rename to whatever you want
+
+primary_region = "iad"      # Northern Virginia — close to CourtListener's IPs
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  ENFORCE_IP_ALLOWLIST = "1"
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines  = false   # always-on for reliable webhook delivery
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+  [http_service.concurrency]
+    type = "requests"
+    hard_limit = 100
+    soft_limit = 50
+
+[[http_service.checks]]
+  interval  = "30s"
+  timeout   = "5s"
+  grace_period = "10s"
+  method = "GET"
+  path = "/healthz"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256          # ~$2/mo always-on

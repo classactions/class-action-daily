@@ -1,0 +1,29 @@
+# Generated data
+enriched.json
+class_actions.json
+law360_items.json
+
+# Secrets
+law360_feeds.json
+.env
+.env.*
+.class-action-secrets
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Fly.io
+.fly/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.bak
