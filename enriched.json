@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-23T20:11:48.464843Z",
+  "generated_at": "2026-05-23T23:43:25.821284Z",
   "days_back": 30,
-  "count": 43,
+  "count": 44,
   "stats": {
-    "total_filings": 43,
-    "distinct_categories": 9,
+    "total_filings": 44,
+    "distinct_categories": 10,
     "distinct_courts": 22,
     "needs_llm": 25
   },
@@ -90,6 +90,27 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73381919,
+      "case_name": "Clayton v. Aon Corporation",
+      "docket_number": "1:26-cv-06026",
+      "court": "District Court, N.D. Illinois",
+      "court_id": "ilnd",
+      "date_filed": "2026-05-22",
+      "nature_of_suit": "791 Labor: E.R.I.S.A.",
+      "nos_code": "791",
+      "cause": "29:1109 Breach of Fiduciary Duties",
+      "parties_summary": "Jason Klee; Bryan Clayton; EuJune Kim; Aon Retirement Plan Governance and Investment Committee",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73381919/clayton-v-aon-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.501190/gov.uscourts.ilnd.501190.1.0.pdf",
+      "snippet": "    Case: 1:26-cv-06026 Document #: 1 Filed: 05/22/26 Page 1 of 36 PageID #:1\n\n\n\n\n                     IN THE UNITED STATES DISTRICT COURT\n                    FOR THE NORTHERN DISTRICT OF ILLINOIS\n\nBRYAN CLAYTON, EUJUNE KIM,\nJASON KLEE, DARLENE LEHMAN, AND                  Case No. 1:26-cv-6026\nSVITLANA MALENFANT Individually and\non Behalf of All Others Similarly Situated, on   CLASS ACTION COMPLAINT\nBehalf of the AON SAVINGS PLAN\n\n                      Plaintiffs,\n       v.\n\nAON CORPORATION, th",
+      "category": "ERISA",
+      "subcategory": "ERISA",
+      "category_source": "rule",
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
