@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-05-24T21:40:43.922019Z",
+  "generated_at": "2026-05-25T12:02:09.494276Z",
   "days_back": 30,
-  "count": 44,
+  "count": 45,
   "stats": {
-    "total_filings": 44,
+    "total_filings": 45,
     "distinct_categories": 10,
     "distinct_courts": 22,
-    "needs_llm": 25
+    "needs_llm": 26
   },
   "actions": [
+    {
+      "docket_id": 73387494,
+      "case_name": "Martinez v. Guzman y Gomez Corp.",
+      "docket_number": "1:26-cv-06094",
+      "court": "District Court, N.D. Illinois",
+      "court_id": "ilnd",
+      "date_filed": "2026-05-24",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Martinez; Guzman y Gomez Corp.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73387494/martinez-v-guzman-y-gomez-corp/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.501300/gov.uscourts.ilnd.501300.1.0.pdf",
+      "snippet": "      Case: 1:26-cv-06094 Document #: 1 Filed: 05/24/26 Page 1 of 13 PageID #:1\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                            NORTHERN DISTRICT OF ILLINOIS\n                                 (EASTERN DIVISION)\n\n\nMONICA MARTINEZ and YOMIRA\nGOMEZ, on behalf of themselves and all\nother persons similarly situated,                   Case No.: 1:26-cv-6094\n\n\n                       Plaintiffs,                  CLASS ACTION COMPLAINT AND\n                         ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73386103,
       "case_name": "BEHM v. VOLKSWAGEN GROUP OF AMERICA, INC., d/b/a AUDI OF AMERICA INC.",
