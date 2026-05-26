@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-05-25T22:18:37.238164Z",
+  "generated_at": "2026-05-26T19:29:38.580912Z",
   "days_back": 30,
-  "count": 45,
+  "count": 46,
   "stats": {
-    "total_filings": 45,
+    "total_filings": 46,
     "distinct_categories": 10,
     "distinct_courts": 22,
-    "needs_llm": 26
+    "needs_llm": 27
   },
   "actions": [
+    {
+      "docket_id": 73389755,
+      "case_name": "Moynihan v. Thermos LLC",
+      "docket_number": "1:26-cv-06129",
+      "court": "District Court, N.D. Illinois",
+      "court_id": "ilnd",
+      "date_filed": "2026-05-26",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Moynihan; Thermos LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73389755/moynihan-v-thermos-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.501338/gov.uscourts.ilnd.501338.1.0.pdf",
+      "snippet": "      Case: 1:26-cv-06129 Document #: 1 Filed: 05/26/26 Page 1 of 32 PageID #:1\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                           NORTHERN DISTRICT OF ILLINOIS\n\n Linda Moynihan, individually and on behalf         Case No. ____________________\n of all others similarly situated,\n\n                       Plaintiff,                       CLASS ACTION COMPLAINT\n\n v.                                                      DEMAND FOR JURY TRIAL\n Thermos, L.L.C.,\n\n      ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73387494,
       "case_name": "Martinez v. Guzman y Gomez Corp.",
