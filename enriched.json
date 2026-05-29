@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-05-28T21:04:00.096120Z",
+  "generated_at": "2026-05-29T10:56:41.144166Z",
   "days_back": 30,
-  "count": 60,
+  "count": 61,
   "stats": {
-    "total_filings": 60,
+    "total_filings": 61,
     "distinct_categories": 10,
-    "distinct_courts": 27,
-    "needs_llm": 36
+    "distinct_courts": 28,
+    "needs_llm": 37
   },
   "actions": [
+    {
+      "docket_id": 73408575,
+      "case_name": "SALLEY v. ROYO BREAD CO. INC.",
+      "docket_number": "1:26-cv-03220",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-05-28",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "SALLEY; ROYO BREAD CO. INC.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73408575/salley-v-royo-bread-co-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.546589/gov.uscourts.nyed.546589.1.0.pdf",
+      "snippet": "UNITED STATES DISTRICT COURT\nEASTERN DISTRICT OF NEW YORK\n\n                                         x\n                                         :  Case No. _______________\nCHRIS SALLEY, PAULA PAGE                 :\nTIERNEY, SUSAN FAVER, SUSAN              :\nSETTLER, LISA WESLEY, and KAREN          :\nSTINE, on behalf of themselves and all     CLASS ACTION COMPLAINT\n                                         :\nothers similarly situated,               : DEMAND FOR JURY TRIAL\n                          ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73405260,
       "case_name": "JEFFERSON v. PROEDGE INVESTORS LLC",
