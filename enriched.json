@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-01T23:59:12.599918Z",
+  "generated_at": "2026-06-02T13:00:04.733983Z",
   "days_back": 30,
-  "count": 66,
+  "count": 67,
   "stats": {
-    "total_filings": 66,
+    "total_filings": 67,
     "distinct_categories": 10,
-    "distinct_courts": 29,
-    "needs_llm": 39
+    "distinct_courts": 30,
+    "needs_llm": 40
   },
   "actions": [
+    {
+      "docket_id": 73420841,
+      "case_name": "Kent v. Charter Communications, Inc. d/b/a Spectrum",
+      "docket_number": "3:26-cv-00850",
+      "court": "District Court, D. Connecticut",
+      "court_id": "ctd",
+      "date_filed": "2026-06-01",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332 Diversity-Contract Default",
+      "parties_summary": "Mariah Kent; Charter Communications, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73420841/kent-v-charter-communications-inc-dba-spectrum/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.171190/gov.uscourts.ctd.171190.1.0.pdf",
+      "snippet": "            Case 3:26-cv-00850        Document 1        Filed 06/01/26     Page 1 of 29\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                         FOR THE DISTRICT OF CONNECTICUT\n\n\n MARIAH KENT,                                     Case No. 3:26-cv-00850\n individually, and on behalf of all others\n similarly situated,                              CLASS ACTION\n                       Plaintiff,                 COMPLAINT\n v.\n CHARTER COMMUNICATIONS, INC.\n d/b/a SPECTRUM     ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73420730,
       "case_name": "McLean v. Axle of Dearborn, Inc.",
