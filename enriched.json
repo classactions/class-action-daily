@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-02T22:13:09.727910Z",
+  "generated_at": "2026-06-03T16:03:20.881741Z",
   "days_back": 30,
-  "count": 70,
+  "count": 71,
   "stats": {
-    "total_filings": 70,
+    "total_filings": 71,
     "distinct_categories": 10,
     "distinct_courts": 31,
     "needs_llm": 43
   },
   "actions": [
+    {
+      "docket_id": 73431449,
+      "case_name": "Steamfitters Local 449 Retirement Security Fund v. Badger Meter, Inc.",
+      "docket_number": "1:26-cv-04660",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-06-02",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78j(b)ss Stockholder Suit",
+      "parties_summary": "Badger Meter, Inc.; Steamfitters Local 449 Retirement Security Fund; Robert A. Wrocklage; Daniel R. Weltzien",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73431449/steamfitters-local-449-retirement-security-fund-v-badger-meter-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.665378/gov.uscourts.nysd.665378.1.0.pdf",
+      "snippet": "            Case 1:26-cv-04660      Document 1     Filed 06/02/26   Page 1 of 29\n\n\n\n\n                         UNITED STATES DISTRICT COURT\n                        SOUTHERN DISTRICT OF NEW YORK\n\nSTEAMFITTERS LOCAL 449\nRETIREMENT SECURITY FUND,                        Case No. 24-4660\nIndividually and on Behalf of All Others\nSimilarly Situated,                              CLASS ACTION\n\n                      Plaintiff,\n                                                 COMPLAINT FOR VIOLATIONS OF\n   ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73427970,
       "case_name": "RUSSELL v. EMPOWER ADVISORY GROUP, LLC",
