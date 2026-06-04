@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-03T23:17:52.745767Z",
+  "generated_at": "2026-06-04T11:26:21.374673Z",
   "days_back": 30,
-  "count": 73,
+  "count": 75,
   "stats": {
-    "total_filings": 73,
+    "total_filings": 75,
     "distinct_categories": 10,
     "distinct_courts": 32,
-    "needs_llm": 45
+    "needs_llm": 46
   },
   "actions": [
+    {
+      "docket_id": 73438286,
+      "case_name": "v. REBUILT BROKERAGE LLC",
+      "docket_number": "2:26-cv-03827",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-06-03",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73438286/v-rebuilt-brokerage-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.655773/gov.uscourts.paed.655773.1.0.pdf",
+      "snippet": "            Case 2:26-cv-03827       Document 1        Filed 06/03/26     Page 1 of 13\n\n\n\n\n                     IN THE UNITED STATES DISTRICT COURT\n                  FOR THE EASTERN DISTRICT OF PENNSYLVANIA\n\n  BOBBY GIRIFALCO, individually and on                 Case No.\n  behalf of all others similarly situated,\n\n                 Plaintiff,                            CLASS ACTION\n\n  v.                                                   JURY TRIAL DEMANDED\n\n  REBUILT BROKERAGE LLC,\n\n             ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73435249,
       "case_name": "MCCLAIN v. MANAGEMENT SERVICES NETWORK, LLC",
@@ -27,6 +48,27 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73432717,
+      "case_name": "Pacheco v. Service Finance Company, LLC",
+      "docket_number": "8:26-cv-01641",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-06-03",
+      "nature_of_suit": "480 Consumer Credit",
+      "nos_code": "480",
+      "cause": "15:1692 Fair Debt Collection Act",
+      "parties_summary": "Pedro V Pacheco; Service Finance Company, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73432717/pacheco-v-service-finance-company-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.460893/gov.uscourts.flmd.460893.1.0.pdf",
+      "snippet": "     Case 8:26-cv-01641           Document 1             Filed 06/03/26           Page 1 of 12 PageID 1\n\n\n\n\n                         UNITED STATES DISTRICT COURT\n                          MIDDLE DISTRICT OF FLORIDA\n\n\nPEDRO V PACHECO,\nindividually and on behalf of\nall those similarly situated,\n\n      Plaintiff,\nv.\n\nSERVICE FINANCE COMPANY,\nLLC,\n\n     Defendant.\n_______________________________________/\n\n                               CLASS ACTION COMPLAINT\n\n      Plaintiff Pedro V Pacheco (\u201cPlaint",
+      "category": "Consumer",
+      "subcategory": "Consumer Credit",
+      "category_source": "rule",
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
