@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-04T23:56:49.304305Z",
+  "generated_at": "2026-06-05T11:51:18.231424Z",
   "days_back": 30,
-  "count": 80,
+  "count": 81,
   "stats": {
-    "total_filings": 80,
+    "total_filings": 81,
     "distinct_categories": 10,
     "distinct_courts": 32,
     "needs_llm": 47
   },
   "actions": [
+    {
+      "docket_id": 73444563,
+      "case_name": "Joseph v. Fruit Dynamics LLC",
+      "docket_number": "2:26-cv-01874",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-06-04",
+      "nature_of_suit": "790 Labor: Other",
+      "nos_code": "790",
+      "cause": "05:0704 Labor Litigation",
+      "parties_summary": "Fruit Dynamics LLC; Marie Nicole Joseph",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73444563/joseph-v-fruit-dynamics-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.461031/gov.uscourts.flmd.461031.1.0.pdf",
+      "snippet": "     Case 2:26-cv-01874     Document 1     Filed 06/04/26   Page 1 of 10 PageID 1\n\n\n\n\n                          UNITED STATES DISTRICT COURT\n                           MIDDLE DISTRICT OF FLORIDA\n                              FORT MYERS DIVISION\n\nMarie Nicole Joseph,\nindividually and on behalf of all\nothers similarly situated,\n       Plaintiff,\n\nv.                                             Case No.:\n\nFruit Dynamics LLC,\n      Defendant.\n\n\n       CLASS ACTION COMPLAINT AND DEMAND FOR JURY TRIAL\n",
+      "category": "Labor",
+      "subcategory": "Other Labor Litigation",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73443083,
       "case_name": "Spoon v. Fast Response Heating & Cooling, LLC",
@@ -61,7 +82,7 @@
       "nature_of_suit": "850 Securities/Commodities",
       "nos_code": "850",
       "cause": "15:78m(a) Securities Exchange Act",
-      "parties_summary": "Katherine Stueland; Kevin Feeley; Taher Basma; GeneDx Holdings Corp.",
+      "parties_summary": "Katherine Stueland; Kevin Feeley; GeneDx Holdings Corp.; Taher Basma",
       "courtlistener_url": "https://www.courtlistener.com/docket/73439743/basma-v-genedx-holdings-corp/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.171288/gov.uscourts.ctd.171288.1.0.pdf",
       "snippet": "        Case 3:26-cv-00880       Document 1   Filed 06/04/26   Page 1 of 20\n\n\n\n\n                       UNITED STATES DISTRICT COURT\n                         DISTRICT OF CONNECTICUT\n\nTAHER BASMA, individually and on behalf   Case No. 3:26-cv-00880\nof all others similarly situated,\n\n                   Plaintiffs,            PROPOSED CLASS ACTION\n\n            v.                            COMPLAINT FOR VIOLATIONS OF\n                                          FEDERAL SECURITIES LAWS\nGENEDX HOLDINGS C",
