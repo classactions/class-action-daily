@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-05T18:29:56.300670Z",
+  "generated_at": "2026-06-05T22:45:40.473964Z",
   "days_back": 30,
-  "count": 81,
+  "count": 82,
   "stats": {
-    "total_filings": 81,
+    "total_filings": 82,
     "distinct_categories": 10,
     "distinct_courts": 32,
     "needs_llm": 47
   },
   "actions": [
+    {
+      "docket_id": 73447111,
+      "case_name": "Yun v. JetBlue Airways Corporation",
+      "docket_number": "1:26-cv-03382",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-06-05",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "APPLICATION FOR INTERCEPTION OF WIRE OR ORAL COMMUNICATIONS",
+      "parties_summary": "Yun; JetBlue Airways Corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73447111/yun-v-jetblue-airways-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.546938/gov.uscourts.nyed.546938.1.0_2.pdf",
+      "snippet": "Case 1:26-cv-03382-NGG-MMH     Document 1     Filed 06/05/26   Page 1 of 36 PageID #: 1\n\n\n\n\n  UNITED STATES DISTRICT COURT\n  EASTERN DISTRICT OF NEW YORK\n                                          x\n                                          :      Case No.\n  CHRISTIAN YUN and ARUNA                 :\n  VISWESWARA, on behalf of themselves and :      CLASS ACTION COMPLAINT\n  all others similarly situated,          :\n                                          :      DEMAND FOR JURY TRIAL\n             ",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73444563,
       "case_name": "Joseph v. Fruit Dynamics LLC",
