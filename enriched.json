@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-11T12:30:21.188969Z",
+  "generated_at": "2026-06-11T21:28:26.900566Z",
   "days_back": 30,
-  "count": 92,
+  "count": 94,
   "stats": {
-    "total_filings": 92,
+    "total_filings": 94,
     "distinct_categories": 10,
-    "distinct_courts": 35,
-    "needs_llm": 53
+    "distinct_courts": 36,
+    "needs_llm": 55
   },
   "actions": [
     {
@@ -69,6 +69,48 @@
       "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73468607,
+      "case_name": "Trammell v. CSX Transportation, Inc.",
+      "docket_number": "5:26-cv-00419",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-06-10",
+      "nature_of_suit": "240 Torts to Land",
+      "nos_code": "240",
+      "cause": "Notice of Removal - class actions",
+      "parties_summary": "David Demott; Archie Parsley; Rainbow River Kayak Adventures, LLC; Christopher Bryant Crabtree",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73468607/trammell-v-csx-transportation-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.461363/gov.uscourts.flmd.461363.1.0.pdf",
+      "snippet": "    Case 5:26-cv-00419    Document 1    Filed 06/10/26   Page 1 of 22 PageID 1\n\n\n\n\n               IN THE UNITED STATES DISTRICT COURT\n                    MIDDLE DISTRICT OF FLORIDA\n                          OCALA DIVISION\n\n\nCURTIS TRAMMELL,\nCHRISTOPHER BRYANT\nCRABTREE, CYNTHIA DEMOTT,\nDAVID DEMOTT, ARCHIE PARSLEY,\nCHRISTOPHER ANDERSON,                     Case No. ________________\nRAINBOW RIVER KAYAK                       State Case No. 26-CA-00407-AX\nADVENTURES, LLC, on behalf of\nthemselves and",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73468535,
+      "case_name": "Chaplin v. United Mommas LLC",
+      "docket_number": "1:26-cv-12649",
+      "court": "District Court, D. Massachusetts",
+      "court_id": "mad",
+      "date_filed": "2026-06-10",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Chaplin; United Mommas LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73468535/chaplin-v-united-mommas-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.302038/gov.uscourts.mad.302038.1.0.pdf",
+      "snippet": "               Case 1:26-cv-12649-MPK            Document 1        Filed 06/10/26       Page 1 of 19\n\n\n\n                                UNITED STATES DISTRICT COURT\n                              FOR THE DISTRICT OF MASSACHUSETTS\n\n\n TARA CHAPLIN, individually and on behalf of all                           CLASS ACTION\n others similarly situated,\n                                                                                Case No.\n       Plaintiff,\n                                              ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
