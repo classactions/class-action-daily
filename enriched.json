@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-16T18:14:00.161010Z",
+  "generated_at": "2026-06-16T23:54:14.671104Z",
   "days_back": 30,
-  "count": 77,
+  "count": 78,
   "stats": {
-    "total_filings": 77,
+    "total_filings": 78,
     "distinct_categories": 10,
     "distinct_courts": 35,
-    "needs_llm": 47
+    "needs_llm": 48
   },
   "actions": [
+    {
+      "docket_id": 73492053,
+      "case_name": "Pagan v. Lu",
+      "docket_number": "1:26-cv-03608",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-06-16",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Pagan; Lu",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73492053/pagan-v-lu/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.547437/gov.uscourts.nyed.547437.1.0.pdf",
+      "snippet": "                             UNITED STATES DISTRICT COURT\n\n\n                             EASTERN DISTRICT OF NEW YORK\n\n\nJAIME PAGAN, ARIEL RUANO, and CHRIS\n\nSADOWSKI, individually and on behalf of all\n\nothers similarly situated,\n\n\n                    Plaintiffs,\n                                                  Case No. 1:26-cv-3608\n                        v.\n\n\nJACK LU, ZHUOXUN YIN, SIDNEY\n                                                  CLASS ACTION COMPLAINT\nZHANG, ZHUOJIE ZHOU, EUCLID LABS,\n",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73489785,
       "case_name": "Lupea v. Gymshark USA, Inc.",
