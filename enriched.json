@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-16T23:54:14.671104Z",
+  "generated_at": "2026-06-17T13:02:00.673313Z",
   "days_back": 30,
-  "count": 78,
+  "count": 79,
   "stats": {
-    "total_filings": 78,
+    "total_filings": 79,
     "distinct_categories": 10,
     "distinct_courts": 35,
-    "needs_llm": 48
+    "needs_llm": 49
   },
   "actions": [
+    {
+      "docket_id": 73493757,
+      "case_name": "Avalos v. Madison Square Garden Entertainment Corporation",
+      "docket_number": "1:26-cv-05095",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-06-16",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332oc Diversity-Other Contract",
+      "parties_summary": "Carlos Avalos; Madison Square Garden Entertainment Corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73493757/avalos-v-madison-square-garden-entertainment-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.666463/gov.uscourts.nysd.666463.1.0.pdf",
+      "snippet": "        Case 1:26-cv-05095   Document 1     Filed 06/16/26   Page 1 of 33\n\n\n\n\n                     UNITED STATES DISTRICT COURT\n                    SOUTHERN DISTRICT OF NEW YORK\n\n                                        x\n                                        :      Case No. _________________\nCARLOS AVALOS, on behalf of himself and :\nall others similarly situated,          :\n                                        :\n             Plaintiff,                 :       CLASS ACTION COMPLAINT\n        ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73492053,
       "case_name": "Pagan v. Lu",
