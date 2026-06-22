@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T21:56:07.476896Z",
+  "generated_at": "2026-06-22T23:15:07.637152Z",
   "days_back": 30,
   "count": 74,
   "stats": {
@@ -16,10 +16,10 @@
       "court": "District Court, M.D. Tennessee",
       "court_id": "tnmd",
       "date_filed": "2026-06-22",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "Mathews; Xsolis, Inc.",
+      "nature_of_suit": "190 Contract: Other",
+      "nos_code": "190",
+      "cause": "28:1332 Diversity-Breach of Contract",
+      "parties_summary": "Holly Mathews; Xsolis, Inc.",
       "courtlistener_url": "https://www.courtlistener.com/docket/73513676/mathews-v-xsolis-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.tnmd.109854/gov.uscourts.tnmd.109854.1.0.pdf",
       "snippet": "                              UNITED STATES DISTRICT COURT\n                          FOR THE MIDDLE DISTRICT OF TENNESSEE\n                                   NASHVILLE DIVISION\n\n\n    HOLLY MATHEWS, individually and on               Case No.:\n    behalf of all others similarly situated,\n                   Plaintiff,\n    v.                                               CLASS ACTION COMPLAINT\n    XSOLIS, INC.,\n                                                     JURY TRIAL DEMANDED\n                 ",
