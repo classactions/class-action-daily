@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-22T16:14:20.360471Z",
+  "generated_at": "2026-06-22T19:52:36.434872Z",
   "days_back": 30,
-  "count": 73,
+  "count": 74,
   "stats": {
-    "total_filings": 73,
+    "total_filings": 74,
     "distinct_categories": 9,
     "distinct_courts": 28,
-    "needs_llm": 44
+    "needs_llm": 45
   },
   "actions": [
+    {
+      "docket_id": 73513676,
+      "case_name": "Mathews v. Xsolis, Inc.",
+      "docket_number": "3:26-cv-00839",
+      "court": "District Court, M.D. Tennessee",
+      "court_id": "tnmd",
+      "date_filed": "2026-06-22",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Mathews; Xsolis, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73513676/mathews-v-xsolis-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.tnmd.109854/gov.uscourts.tnmd.109854.1.0.pdf",
+      "snippet": "                              UNITED STATES DISTRICT COURT\n                          FOR THE MIDDLE DISTRICT OF TENNESSEE\n                                   NASHVILLE DIVISION\n\n\n    HOLLY MATHEWS, individually and on               Case No.:\n    behalf of all others similarly situated,\n                   Plaintiff,\n    v.                                               CLASS ACTION COMPLAINT\n    XSOLIS, INC.,\n                                                     JURY TRIAL DEMANDED\n                 ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73510278,
       "case_name": "B. v. Planned Parenthood Federation of America, Inc.",
