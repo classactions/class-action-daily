@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-22T23:15:07.637152Z",
+  "generated_at": "2026-06-23T01:28:49.964922Z",
   "days_back": 30,
-  "count": 74,
+  "count": 75,
   "stats": {
-    "total_filings": 74,
+    "total_filings": 75,
     "distinct_categories": 9,
     "distinct_courts": 28,
     "needs_llm": 45
   },
   "actions": [
+    {
+      "docket_id": 73516713,
+      "case_name": "Hudson v. Thryv, Inc.",
+      "docket_number": "1:26-cv-02801",
+      "court": "District Court, D. Colorado",
+      "court_id": "cod",
+      "date_filed": "2026-06-22",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1453 - Class Action Fairness Act",
+      "parties_summary": "Thryv, Inc.; Hunter Hudson",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73516713/hudson-v-thryv-inc/",
+      "complaint_url": null,
+      "snippet": "",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73513676,
       "case_name": "Mathews v. Xsolis, Inc.",
