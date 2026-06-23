@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-23T22:44:06.295749Z",
+  "generated_at": "2026-06-23T23:49:31.837395Z",
   "days_back": 30,
-  "count": 75,
+  "count": 76,
   "stats": {
-    "total_filings": 75,
+    "total_filings": 76,
     "distinct_categories": 9,
     "distinct_courts": 28,
-    "needs_llm": 45
+    "needs_llm": 46
   },
   "actions": [
+    {
+      "docket_id": 73518336,
+      "case_name": "Walenga v. Milwaukee Electric Tool Corporation",
+      "docket_number": "2:26-cv-01115",
+      "court": "District Court, E.D. Wisconsin",
+      "court_id": "wied",
+      "date_filed": "2026-06-23",
+      "nature_of_suit": "190 Contract: Other",
+      "nos_code": "190",
+      "cause": "28:1332 Diversity-Breach of Contract",
+      "parties_summary": "Matthew Walenga; Milwaukee Electric Tool Corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73518336/walenga-v-milwaukee-electric-tool-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wied.117269/gov.uscourts.wied.117269.1.0.pdf",
+      "snippet": "                      IN THE UNITED STATES DISTRICT COURT\n                     FOR THE EASTERN DISTRICT OF WISCONSIN\n\n\n MATTHEW WALENGA, individually and                   Case No.\n on behalf of all others similarly situated,\n                                                     CLASS ACTION COMPLAINT FOR\n                             Plaintiff,              DAMAGES\n\n                       vs.                           DEMAND FOR JURY TRIAL\n\n MILWAUKEE ELECTRIC TOOL\n CORPORATION,\n\n                ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73516713,
       "case_name": "Hudson v. Thryv, Inc.",
