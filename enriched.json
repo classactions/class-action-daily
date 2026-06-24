@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-24T19:10:52.810325Z",
+  "generated_at": "2026-06-24T22:44:18.433036Z",
   "days_back": 30,
-  "count": 76,
+  "count": 77,
   "stats": {
-    "total_filings": 76,
+    "total_filings": 77,
     "distinct_categories": 9,
     "distinct_courts": 28,
-    "needs_llm": 45
+    "needs_llm": 46
   },
   "actions": [
     {
@@ -27,6 +27,27 @@
       "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73523073,
+      "case_name": "GRAZIOLI v. FIVE BELOW, INC.",
+      "docket_number": "2:26-cv-04322",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-06-23",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332 Diversity-(Citizenship)",
+      "parties_summary": "FIVE BELOW, INC.; BARBARA GRAZIOLI",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73523073/grazioli-v-five-below-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.656826/gov.uscourts.paed.656826.1.0.pdf",
+      "snippet": "       Case 2:26-cv-04322-MMB             Document 1        Filed 06/23/26       Page 1 of 22\n\n\n\n\n                      IN THE UNITED STATES DISTRICT COURT\n                   FOR THE EASTERN DISTRICT OF PENNSYLVANIA\n\n BARBARA GRAZIOLI,\n individually and on behalf of all others\n similarly situated,\n\n                 Plaintiff,\n\n         v.                                                           2:26-cv-04322\n                                                     Civil Action No. _________________",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
