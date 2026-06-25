@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-25T00:01:29.508058Z",
+  "generated_at": "2026-06-25T04:40:30.866289Z",
   "days_back": 30,
-  "count": 77,
+  "count": 78,
   "stats": {
-    "total_filings": 77,
+    "total_filings": 78,
     "distinct_categories": 9,
     "distinct_courts": 28,
     "needs_llm": 46
   },
   "actions": [
+    {
+      "docket_id": 73527207,
+      "case_name": "Goyette v. Equifax Information Services, LLC",
+      "docket_number": "8:26-cv-01838",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-06-24",
+      "nature_of_suit": "480 Consumer Credit",
+      "nos_code": "480",
+      "cause": "15:1681 Fair Credit Reporting Act",
+      "parties_summary": "Dennis Goyette; Equifax Information Services, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73527207/goyette-v-equifax-information-services-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.462089/gov.uscourts.flmd.462089.1.0.pdf",
+      "snippet": "    Case 8:26-cv-01838      Document 1     Filed 06/24/26   Page 1 of 13 PageID 1\n\n\n\n\n                    IN THE UNITED STATES DISTRICT COURT\n                    FOR THE MIDDLE DISTRICT OF FLORIDA\n                               TAMPA DIVISION\n\n\n  DENNIS GOYETTE, individually                        Civil Case Number:\n and on behalf of all others similarly\n situated,\n                                                        CIVIL ACTION\n                      Plaintiff,\n                              ",
+      "category": "Consumer",
+      "subcategory": "Consumer Credit",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73523188,
       "case_name": "Day v. First Solar, Inc.",
