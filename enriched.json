@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-25T18:29:54.538698Z",
+  "generated_at": "2026-06-25T20:32:29.992661Z",
   "days_back": 30,
-  "count": 78,
+  "count": 79,
   "stats": {
-    "total_filings": 78,
+    "total_filings": 79,
     "distinct_categories": 9,
-    "distinct_courts": 28,
+    "distinct_courts": 29,
     "needs_llm": 46
   },
   "actions": [
+    {
+      "docket_id": 73531293,
+      "case_name": "IN RE SUBPOENA TO HEIDARPOUR LAW FIRM, PLLC",
+      "docket_number": "1:26-mc-00099",
+      "court": "District Court, District of Columbia",
+      "court_id": "dcd",
+      "date_filed": "2026-06-24",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "Motion to Quash Subpoenas",
+      "parties_summary": "FREEWAY INSURANCE SERVICES OF AMERICA, LLC; HEIDARPOUR LAW FIRM, PLLC; SUBPOENA TO HEIDARPOUR LAW FIRM, PLLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73531293/in-re-subpoena-to-heidarpour-law-firm-pllc/",
+      "complaint_url": null,
+      "snippet": "Case 1:26-mc-00099-RJL Document1 Filed 06/24/26 Page1of 35\n\nUNITED STATES DISTRICT COURT\n\nFOR THE DISTRICT O\nCase: 1:26-mc-00099\nAssigned To : Leon, Richard J.\n\nIn re SUBPOENA TO HEIDARPOUR LAW Assign. Date : 6/24/2026\nFIRM, PLLC. Description: Misc.\n\nORAL ARGUMENT REQUESTED\n\nUnderlying action:\n\nCHET MICHAEL WILSON, individually United States District Court for the\nand on behalf of all others similarly District of Oregon Eugene Division\nsituated,\n\nCase No. 6:25-cv-01869-MC\nPlaintiff,\n\nVv.\n\nFREEWA",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73527207,
       "case_name": "Goyette v. Equifax Information Services, LLC",
