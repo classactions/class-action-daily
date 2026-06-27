@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-27T02:49:40.265862Z",
+  "generated_at": "2026-06-27T06:23:56.563247Z",
   "days_back": 30,
   "count": 72,
   "stats": {
     "total_filings": 72,
     "distinct_categories": 9,
     "distinct_courts": 27,
-    "needs_llm": 39
+    "needs_llm": 38
   },
   "actions": [
     {
@@ -16,17 +16,17 @@
       "court": "District Court, S.D. New York",
       "court_id": "nysd",
       "date_filed": "2026-06-26",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "Tang; Futu Holdings Limited",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Yong Hong Tang; Arthur Yu Chen; Futu Holdings Limited; Leaf Hua Li",
       "courtlistener_url": "https://www.courtlistener.com/docket/73542574/tang-v-futu-holdings-limited/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.667193/gov.uscourts.nysd.667193.1.0.pdf",
       "snippet": "           Case 1:26-cv-05453     Document 1   Filed 06/26/26   Page 1 of 41\n\n\n\n\n                        UNITED STATES DISTRICT COURT\n                       SOUTHERN DISTRICT OF NEW YORK\n\nYONG HONG TANG, Individually and on        Case No.\nBehalf of All Others Similarly Situated,\n                                           CLASS ACTION COMPLAINT FOR\n                    Plaintiff,             VIOLATIONS OF THE FEDERAL\n                                           SECURITIES LAWS\n      v.\n            ",
-      "category": "Other",
-      "subcategory": "Other",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
-      "category_confidence": 0.2,
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
