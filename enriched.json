@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-29T21:05:23.451020Z",
+  "generated_at": "2026-06-29T22:34:54.529712Z",
   "days_back": 30,
-  "count": 64,
+  "count": 65,
   "stats": {
-    "total_filings": 64,
+    "total_filings": 65,
     "distinct_categories": 8,
-    "distinct_courts": 23,
-    "needs_llm": 33
+    "distinct_courts": 24,
+    "needs_llm": 34
   },
   "actions": [
+    {
+      "docket_id": 73548007,
+      "case_name": "Reynolds v. Citadel Securities LLC",
+      "docket_number": "1:26-cv-24485",
+      "court": "District Court, S.D. Florida",
+      "court_id": "flsd",
+      "date_filed": "2026-06-29",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Reynolds; Citadel Securities LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73548007/reynolds-v-citadel-securities-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.717696/gov.uscourts.flsd.717696.1.0.pdf",
+      "snippet": "Case 1:26-cv-24485-XXXX Document 1 Entered on FLSD Docket 06/29/2026 Page 1 of 37\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                            SOUTHERN DISTRICT OF FLORIDA\n\n\n   ARON REYNOLDS, individual and on            Case No.\n   behalf of all others similarly situated,\n\n                                 Plaintiff,    CLASS ACTION\n\n                      v.\n                                               JURY TRIAL DEMANDED\n   CITADEL SECURITIES LLC and VIRTU\n   AMERI",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73542574,
       "case_name": "Tang v. Futu Holdings Limited",
