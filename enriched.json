@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-29T22:34:54.529712Z",
+  "generated_at": "2026-06-29T23:55:54.866021Z",
   "days_back": 30,
-  "count": 65,
+  "count": 66,
   "stats": {
-    "total_filings": 65,
+    "total_filings": 66,
     "distinct_categories": 8,
     "distinct_courts": 24,
-    "needs_llm": 34
+    "needs_llm": 35
   },
   "actions": [
+    {
+      "docket_id": 73549249,
+      "case_name": "Lawler v. HUB GROUP, INC., a Delaware corporation",
+      "docket_number": "1:26-cv-07596",
+      "court": "District Court, N.D. Illinois",
+      "court_id": "ilnd",
+      "date_filed": "2026-06-29",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Lawler; HUB GROUP, INC., a Delaware corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73549249/lawler-v-hub-group-inc-a-delaware-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.503274/gov.uscourts.ilnd.503274.1.0.pdf",
+      "snippet": "    Case: 1:26-cv-07596 Document #: 1 Filed: 06/29/26 Page 1 of 33 PageID #:1\n\n\n\n\n                         UNITED STATES DISTRICT COURT\n                         NORTHERN DISTRICT OF ILLINOIS\n\nDANIEL LAWLER, Individually and on         Case No.\nBehalf of All Others Similarly Situated,\n                                           CLASS ACTION\n\n                      Plaintiff,           COMPLAINT FOR VIOLATIONS OF\n                                           THE FEDERAL SECURITIES LAWS\n             v.\n",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73548007,
       "case_name": "Reynolds v. Citadel Securities LLC",
