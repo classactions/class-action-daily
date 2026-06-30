@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-29T23:55:54.866021Z",
+  "generated_at": "2026-06-30T02:44:42.324234Z",
   "days_back": 30,
   "count": 66,
   "stats": {
     "total_filings": 66,
     "distinct_categories": 8,
     "distinct_courts": 24,
-    "needs_llm": 35
+    "needs_llm": 34
   },
   "actions": [
     {
@@ -37,17 +37,17 @@
       "court": "District Court, S.D. Florida",
       "court_id": "flsd",
       "date_filed": "2026-06-29",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "Reynolds; Citadel Securities LLC",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:0078 Securities Exchange Act",
+      "parties_summary": "Aron Reynolds; Virtu Americas LLC; Citadel Securities LLC",
       "courtlistener_url": "https://www.courtlistener.com/docket/73548007/reynolds-v-citadel-securities-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.717696/gov.uscourts.flsd.717696.1.0.pdf",
       "snippet": "Case 1:26-cv-24485-XXXX Document 1 Entered on FLSD Docket 06/29/2026 Page 1 of 37\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                            SOUTHERN DISTRICT OF FLORIDA\n\n\n   ARON REYNOLDS, individual and on            Case No.\n   behalf of all others similarly situated,\n\n                                 Plaintiff,    CLASS ACTION\n\n                      v.\n                                               JURY TRIAL DEMANDED\n   CITADEL SECURITIES LLC and VIRTU\n   AMERI",
-      "category": "Other",
-      "subcategory": "Other",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
-      "category_confidence": 0.2,
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
