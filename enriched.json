@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-06-30T19:15:16.671472Z",
+  "generated_at": "2026-06-30T22:48:28.164610Z",
   "days_back": 30,
-  "count": 67,
+  "count": 68,
   "stats": {
-    "total_filings": 67,
+    "total_filings": 68,
     "distinct_categories": 8,
     "distinct_courts": 24,
-    "needs_llm": 33
+    "needs_llm": 34
   },
   "actions": [
+    {
+      "docket_id": 73553402,
+      "case_name": "Moore v. Associated Newspapers Ltd.",
+      "docket_number": "1:26-cv-05536",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-06-30",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Moore; Associated Newspapers Ltd.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73553402/moore-v-associated-newspapers-ltd/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.667385/gov.uscourts.nysd.667385.1.0.pdf",
+      "snippet": "              Case 1:26-cv-05536        Document 1       Filed 06/30/26      Page 1 of 44\n\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n\n\nMATTHEW MOORE, individually and on\nbehalf of all others similarly situated,                Case No. 1:26-cv-5536\n\n                      Plaintiff,\n\n             v.                                         CLASS ACTION COMPLAINT\n\nASSOCIATED NEWSPAPERS LTD. and                          JURY TRIAL DEMANDED\nMAIL MEDIA, INC.,\n\n                      ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73549249,
       "case_name": "Lawler v. HUB GROUP, INC., a Delaware corporation",
