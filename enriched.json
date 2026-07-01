@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-01T16:42:59.184808Z",
+  "generated_at": "2026-07-01T18:55:41.377169Z",
   "days_back": 30,
-  "count": 70,
+  "count": 71,
   "stats": {
-    "total_filings": 70,
+    "total_filings": 71,
     "distinct_categories": 8,
     "distinct_courts": 24,
     "needs_llm": 36
   },
   "actions": [
+    {
+      "docket_id": 73560830,
+      "case_name": "MOGHAL v. STUBHUB INC.",
+      "docket_number": "1:26-cv-05569",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-06-30",
+      "nature_of_suit": "370 Other Fraud",
+      "nos_code": "370",
+      "cause": "15:2301 Magnuson-Moss Warranty Act",
+      "parties_summary": "STUBHUB INC.; JULIE MOGHAL; REUBEN RENTERIA",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73560830/moghal-v-stubhub-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.667473/gov.uscourts.nysd.667473.1.0.pdf",
+      "snippet": "         Case 1:26-cv-05569      Document 1      Filed 06/30/26   Page 1 of 25\n\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n                                            x\n                                             :       Case No. _________________\nJULIE REEKER MOGHAL and REUBEN               :\nRENTERIA, on behalf of themselves and all    :\nothers similarly situated,                   :\n                                             :       CLASS ACTION COMPLAINT\n          Plain",
+      "category": "Consumer",
+      "subcategory": "Other Fraud",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73554888,
       "case_name": "CAUSION v. TOWER ADMINISTRATIVE SERVICES, INC.",
