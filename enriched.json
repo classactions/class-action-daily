@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-01T22:13:40.075906Z",
+  "generated_at": "2026-07-01T23:50:21.662514Z",
   "days_back": 30,
-  "count": 74,
+  "count": 75,
   "stats": {
-    "total_filings": 74,
+    "total_filings": 75,
     "distinct_categories": 8,
     "distinct_courts": 25,
-    "needs_llm": 38
+    "needs_llm": 39
   },
   "actions": [
+    {
+      "docket_id": 73566375,
+      "case_name": "Ostergaard v. Microsoft Corporation",
+      "docket_number": "2:26-cv-01169",
+      "court": "District Court, E.D. Wisconsin",
+      "court_id": "wied",
+      "date_filed": "2026-07-01",
+      "nature_of_suit": "240 Torts to Land",
+      "nos_code": "240",
+      "cause": "28:1332 Diversity-Contract Dispute",
+      "parties_summary": "Garret Ostergaard; Microsoft Corporation; David Wade; Joy Wade",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73566375/ostergaard-v-microsoft-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wied.117424/gov.uscourts.wied.117424.1.0.pdf",
+      "snippet": "                       IN THE UNITED STATES DISTRICT COURT\n                      FOR THE EASTERN DISTRICT OF WISCONSIN\n\n\nGARRET OSTERGAARD, DAVID             )\nWADE, and JOY WADE, individually,    )\nand on behalf of all others similarly)\nsituated,                            )\n                                     )\n            Plaintiffs,              )                Case No.: 2:26-cv-1169\n                                     )\n      vs.                            )\n                             ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73564924,
       "case_name": "SHETLEY v. TOWER ADMINISTRATIVE SERVICES, INC.",
