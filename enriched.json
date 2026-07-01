@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-01T20:46:26.630703Z",
+  "generated_at": "2026-07-01T22:13:40.075906Z",
   "days_back": 30,
-  "count": 73,
+  "count": 74,
   "stats": {
-    "total_filings": 73,
+    "total_filings": 74,
     "distinct_categories": 8,
     "distinct_courts": 25,
-    "needs_llm": 37
+    "needs_llm": 38
   },
   "actions": [
+    {
+      "docket_id": 73564924,
+      "case_name": "SHETLEY v. TOWER ADMINISTRATIVE SERVICES, INC.",
+      "docket_number": "5:26-cv-04567",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-07-01",
+      "nature_of_suit": "190 Contract: Other",
+      "nos_code": "190",
+      "cause": "28:1332 Diversity-Contract Dispute",
+      "parties_summary": "TOWER ADMINISTRATIVE SERVICES, INC.; BROCK SHETLEY",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73564924/shetley-v-tower-administrative-services-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.657299/gov.uscourts.paed.657299.1.0.pdf",
+      "snippet": "        Case 5:26-cv-04567-JLS            Document 1       Filed 07/01/26      Page 1 of 52\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                          EASTERN DISTRICT OF PENNSYLVANIA\n\n\n BROCK SHETLEY, individually and on\n behalf of all others similarly situated,                      Case No. 2:26-cv-04567\n\n    Plaintiff,                                                 CLASS ACTION COMPLAINT\n\n           v.                                                  JURY TRIAL DE",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73563887,
       "case_name": "Fritsch v. Lansing Community College",
