@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-02T12:04:02.392243Z",
+  "generated_at": "2026-07-02T14:36:15.052983Z",
   "days_back": 30,
-  "count": 72,
+  "count": 73,
   "stats": {
-    "total_filings": 72,
+    "total_filings": 73,
     "distinct_categories": 8,
-    "distinct_courts": 25,
+    "distinct_courts": 26,
     "needs_llm": 37
   },
   "actions": [
+    {
+      "docket_id": 73566955,
+      "case_name": "Lafountain v. United Wholesale Mortgage, LLC",
+      "docket_number": "2:26-cv-12237",
+      "court": "District Court, E.D. Michigan",
+      "court_id": "mied",
+      "date_filed": "2026-07-01",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1332 Diversity-Non-Motor Vehicle",
+      "parties_summary": "United Wholesale Mortgage, LLC; Ricky Lafountain",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73566955/lafountain-v-united-wholesale-mortgage-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.395701/gov.uscourts.mied.395701.1.0.pdf",
+      "snippet": "    Case 2:26-cv-12237-LVP-KGA ECF No. 1, PageID.1 Filed 07/01/26 Page 1 of 39\n\n\n\n\n                             UNITED STATES DISTRICT COURT\n                             EASTERN DISTRICT OF MICHIGAN\n\nRICKY LAFOUNTAIN, on behalf of himself                 No.\nand all others similarly situated,\n                                                        CLASS ACTION COMPLAINT\n                               Plaintiff,\n\nv.                                                      DEMAND FOR JURY TRIAL\n\nUNITE",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73566375,
       "case_name": "Ostergaard v. Microsoft Corporation",
