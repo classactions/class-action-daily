@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T23:59:15.715574Z",
+  "generated_at": "2026-07-06T03:49:39.905025Z",
   "days_back": 30,
-  "count": 60,
+  "count": 59,
   "stats": {
-    "total_filings": 60,
+    "total_filings": 59,
     "distinct_categories": 7,
     "distinct_courts": 21,
     "needs_llm": 31
@@ -1245,27 +1245,6 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 73447111,
-      "case_name": "Yun v. JetBlue Airways Corporation",
-      "docket_number": "1:26-cv-03382",
-      "court": "District Court, E.D. New York",
-      "court_id": "nyed",
-      "date_filed": "2026-06-05",
-      "nature_of_suit": "890 Other Statutory Actions",
-      "nos_code": "890",
-      "cause": "APPLICATION FOR INTERCEPTION OF WIRE OR ORAL COMMUNICATIONS",
-      "parties_summary": "Yun; JetBlue Airways Corporation",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73447111/yun-v-jetblue-airways-corporation/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.546938/gov.uscourts.nyed.546938.1.0_2.pdf",
-      "snippet": "Case 1:26-cv-03382-NGG-MMH     Document 1     Filed 06/05/26   Page 1 of 36 PageID #: 1\n\n\n\n\n  UNITED STATES DISTRICT COURT\n  EASTERN DISTRICT OF NEW YORK\n                                          x\n                                          :      Case No.\n  CHRISTIAN YUN and ARUNA                 :\n  VISWESWARA, on behalf of themselves and :      CLASS ACTION COMPLAINT\n  all others similarly situated,          :\n                                          :      DEMAND FOR JURY TRIAL\n             ",
-      "category": "Privacy/TCPA/Data",
-      "subcategory": "Other Statutory Actions",
-      "category_source": "rule",
-      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     }
