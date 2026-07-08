@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-08T14:53:24.570066Z",
+  "generated_at": "2026-07-08T16:25:23.626449Z",
   "days_back": 30,
-  "count": 74,
+  "count": 75,
   "stats": {
-    "total_filings": 74,
+    "total_filings": 75,
     "distinct_categories": 7,
-    "distinct_courts": 22,
-    "needs_llm": 43
+    "distinct_courts": 23,
+    "needs_llm": 44
   },
   "actions": [
+    {
+      "docket_id": 73587316,
+      "case_name": "Anthony v. Peoples Cartage, Inc.",
+      "docket_number": "2:26-cv-00447",
+      "court": "District Court, S.D. West Virginia",
+      "court_id": "wvsd",
+      "date_filed": "2026-07-07",
+      "nature_of_suit": "950 Constitutional - State Statute",
+      "nos_code": "950",
+      "cause": "28:1332 Diversity - Class Action Fairness Act of 2005",
+      "parties_summary": "Total Distribution, Inc.; James Leonard Anthony; Doris Jean Anthony; Peoples Cartage, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73587316/anthony-v-peoples-cartage-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wvsd.243793/gov.uscourts.wvsd.243793.1.5.pdf",
+      "snippet": "JS 44 (Rev. 03/24)    Case 2:26-cv-00447                              Document\n                                                                        CIVIL1-5  FiledSHEET\n                                                                               COVER    07/07/26                                      Page 1 of 1 PageID #: 49\nThe JS 44 civil cover sheet and the information contained herein neither replace nor supplement the filing and service of pleadings or other papers as required by law, e",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73586179,
       "case_name": "Pitre v. Chobani, LLC",
@@ -116,7 +137,7 @@
     },
     {
       "docket_id": 73583304,
-      "case_name": "STASIUM v. STUBHUB, INC.",
+      "case_name": "Stasium v. StubHub, Inc.",
       "docket_number": "1:26-cv-05744",
       "court": "District Court, S.D. New York",
       "court_id": "nysd",
