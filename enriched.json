@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-08T21:59:33.925149Z",
+  "generated_at": "2026-07-08T23:11:04.338134Z",
   "days_back": 30,
-  "count": 75,
+  "count": 76,
   "stats": {
-    "total_filings": 75,
+    "total_filings": 76,
     "distinct_categories": 7,
     "distinct_courts": 23,
-    "needs_llm": 44
+    "needs_llm": 45
   },
   "actions": [
+    {
+      "docket_id": 73587685,
+      "case_name": "Morey v. AdaptHealth Corp.",
+      "docket_number": "2:26-cv-04743",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-07-08",
+      "nature_of_suit": "190 Contract: Other",
+      "nos_code": "190",
+      "cause": "28:1332 Diversity-Tort/Non-Motor Vehicle",
+      "parties_summary": "Pamela Morey; AdaptHealth Corp.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73587685/morey-v-adapthealth-corp/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.657572/gov.uscourts.paed.657572.1.0.pdf",
+      "snippet": "       Case 2:26-cv-04743-CMR           Document 1         Filed 07/08/26    Page 1 of 39\n\n\n\n\n                          UNITED STATES DISTRICT COURT FOR THE\n                           EASTERN DISTRICT OF PENNSYLVANIA\n\n\n    PAMELA MOREY, individually and on            Case No.:\n    behalf of all others similarly situated,\n\n             Plaintiff,                          CLASS ACTION COMPLAINT\n       v.\n\n    ADAPTHEALTH CORP.,                           JURY TRIAL DEMANDED\n\n             Defendant.",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73587316,
       "case_name": "Anthony v. Peoples Cartage, Inc.",
