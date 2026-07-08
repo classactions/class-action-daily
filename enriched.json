@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-08T01:53:58.223398Z",
+  "generated_at": "2026-07-08T05:14:15.747026Z",
   "days_back": 30,
-  "count": 73,
+  "count": 74,
   "stats": {
-    "total_filings": 73,
+    "total_filings": 74,
     "distinct_categories": 7,
-    "distinct_courts": 21,
+    "distinct_courts": 22,
     "needs_llm": 43
   },
   "actions": [
@@ -61,7 +61,7 @@
       "nature_of_suit": "850 Securities/Commodities",
       "nos_code": "850",
       "cause": "15:78m(a) Securities Exchange Act",
-      "parties_summary": "Mundy; Megan Holdings Limited",
+      "parties_summary": "Megan Holdings Limited; Wade Mundy; Darren Hoo; WWC, P.C.",
       "courtlistener_url": "https://www.courtlistener.com/docket/73584927/mundy-v-megan-holdings-limited/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.667867/gov.uscourts.nysd.667867.1.0.pdf",
       "snippet": "         Case 1:26-cv-05754   Document 1    Filed 07/07/26   Page 1 of 60\n\n\n\n\n                      UNITED STATES DISTRICT COURT\n                     SOUTHERN DISTRICT OF NEW YORK\n\n\nWADE MUNDY, Individually and on Behalf of          Case No: 1:26-cv-05754\nAll Others Similarly Situated,\n                                                      CLASS ACTION\nPlaintiff,\n                                                DEMAND FOR JURY TRIAL\nv.\n\nMEGAN HOLDINGS LIMITED, DARREN\nHOO AKA HOO WEI SERN, NG KAI T",
@@ -90,6 +90,27 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73583593,
+      "case_name": "Barton v. Costco Wholesale Corporation",
+      "docket_number": "2:26-cv-02364",
+      "court": "District Court, W.D. Washington",
+      "court_id": "wawd",
+      "date_filed": "2026-07-07",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1332 Diversity",
+      "parties_summary": "Claire Schmitt; Sandi Morgan; Stephen Barton; Daniel Levine",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73583593/barton-v-costco-wholesale-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.365310/gov.uscourts.wawd.365310.1.0.pdf",
+      "snippet": "                   Case 2:26-cv-02364     Document 1     Filed 07/07/26     Page 1 of 87\n\n\n\n\n 1\n\n 2\n\n 3\n\n 4\n\n 5\n\n 6\n                                  UNITED STATES DISTRICT COURT\n 7\n                            FOR THE WESTERN DISTRICT OF WASHINGTON\n 8                                         AT SEATTLE\n\n 9   STEPHEN BARTON, DANIEL LEVINE,                    Case No. 2:26-cv-2364\n     SANDI MORGAN, TUCKER JAROLL,\n10   CLAIRE SCHMITT, ANNA BALTZER, and                 CLASS ACTION COMPLAINT\n     RA",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
