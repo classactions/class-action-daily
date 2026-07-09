@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-09T19:06:00.633699Z",
+  "generated_at": "2026-07-09T21:00:32.043105Z",
   "days_back": 30,
-  "count": 76,
+  "count": 77,
   "stats": {
-    "total_filings": 76,
+    "total_filings": 77,
     "distinct_categories": 7,
     "distinct_courts": 22,
-    "needs_llm": 46
+    "needs_llm": 47
   },
   "actions": [
+    {
+      "docket_id": 73592400,
+      "case_name": "Tolentino v. Lisa Says Gah Inc.",
+      "docket_number": "2:26-cv-02387",
+      "court": "District Court, W.D. Washington",
+      "court_id": "wawd",
+      "date_filed": "2026-07-08",
+      "nature_of_suit": "195 Contract Product Liability",
+      "nos_code": "195",
+      "cause": "28:1332 Diversity-Product Liability",
+      "parties_summary": "Mary Ann Tolentino; Lisa Says Gah Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73592400/tolentino-v-lisa-says-gah-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.365373/gov.uscourts.wawd.365373.1.1.pdf",
+      "snippet": "10\n11\n13\n14\n15\n16\n7\n18\n19\n20\n21\n\n24\n25\n\nCase 2:26-cv-02387 Documenti-1 Filed 07/08/26 Page 1 of 16\n\nFILED\n2026 JUN 09 03:11 PM\nKING COUNTY\nSUPERIOR COURT CLERK\nE-FILED\n\nCASE # 26-2-18694-4 SEA\n\nIN THE SUPERIOR COURT OF THE STATE OF WASHINGTON\nFOR THE COUNTY OF KING\n\nMARY ANN TOLENTINO, on her own\nbehalf and on behalf of others similarly Case No.: SEA\nsituated,\nPlaintiff, CLASS ACTION COMPLAINT\nv, JURY TRIAL DEMANDED\nLISA SAYS GAH INC,\nDefendant.\n\nMary Ann Tolentino (\u201cPlaintiff _), on her own beh",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73589341,
       "case_name": "Harvey v. Boley-Par, Inc",
