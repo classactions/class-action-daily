@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-09T08:56:27.372085Z",
+  "generated_at": "2026-07-09T11:47:12.601817Z",
   "days_back": 30,
-  "count": 75,
+  "count": 76,
   "stats": {
-    "total_filings": 75,
+    "total_filings": 76,
     "distinct_categories": 7,
     "distinct_courts": 22,
-    "needs_llm": 45
+    "needs_llm": 46
   },
   "actions": [
     {
@@ -23,6 +23,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/73589341/harvey-v-boley-par-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.462682/gov.uscourts.flmd.462682.1.0.pdf",
       "snippet": "     Case 8:26-cv-01951         Document 1        Filed 07/08/26       Page 1 of 38 PageID 1\n\n\n\n                        IN THE UNITED STATES DISTRICT COURT\n                        FOR THE MIDDLE DISTRICT OF FLORIDA\n                                   TAMPA DIVISION\n\nWALTER HARVEY, JR. and TORRIE                        Case No.\nRITCHIE, individually and on behalf of all\nothers similarly situated,                           CLASS ACTION COMPLAINT\n\n               Plaintiffs,                          ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73589193,
+      "case_name": "Arnet v. Catalyst Mortgage",
+      "docket_number": "2:26-cv-02388",
+      "court": "District Court, E.D. California",
+      "court_id": "caed",
+      "date_filed": "2026-07-08",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Arnet; Catalyst Mortgage",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73589193/arnet-v-catalyst-mortgage/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.caed.494436/gov.uscourts.caed.494436.1.0.pdf",
+      "snippet": "         Case 2:26-cv-02388-JAM-SCR              Document 1       Filed 07/08/26     Page 1 of 12\n\n\n     Carly M. Roman (SBN #349895)\n 1   STRAUSS BORRELLI PLLC\n 2   980 N Michigan Avenue, Suite 1610\n     Chicago, IL, 60611\n 3   Telephone: (872) 263-1100\n     Facsimile: (872) 263-1109\n 4   croman@straussborrelli.com\n 5   Counsel for Plaintiff and Putative Class\n 6\n                                 UNITED STATES DISTRICT COURT\n 7                              EASTERN DISTRICT OF CALIFORNIA\n        ",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
