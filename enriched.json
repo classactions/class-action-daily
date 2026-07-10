@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-10T15:43:02.616619Z",
+  "generated_at": "2026-07-10T17:41:13.919607Z",
   "days_back": 30,
-  "count": 73,
+  "count": 74,
   "stats": {
-    "total_filings": 73,
+    "total_filings": 74,
     "distinct_categories": 7,
     "distinct_courts": 22,
-    "needs_llm": 44
+    "needs_llm": 45
   },
   "actions": [
+    {
+      "docket_id": 73598862,
+      "case_name": "MCCALL v. ADAPTHEALTH CORP.",
+      "docket_number": "2:26-cv-04795",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-07-10",
+      "nature_of_suit": "190 Contract: Other",
+      "nos_code": "190",
+      "cause": "28:1332(d)(5)(B) Diversity of Citizenship under CAFA",
+      "parties_summary": "ADAPTHEALTH CORP.; SHARI MCCALL",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73598862/mccall-v-adapthealth-corp/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.657701/gov.uscourts.paed.657701.1.0.pdf",
+      "snippet": "       Case 2:26-cv-04795-CMR               Document 1      Filed 07/10/26     Page 1 of 30\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                         EASTERN DISTRICT OF PENNSYLVANIA\n\nSHARI MCCALL, individually and on behalf              No.\nof all others similarly situated,\n\n                               Plaintiff,             COMPLAINT - CLASS ACTION\n\nv.\n\nADAPTHEALTH CORP.,                                    JURY TRIAL DEMANDED\n\n                               Defend",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73598332,
       "case_name": "McDermott v. Evolute Inc.",
