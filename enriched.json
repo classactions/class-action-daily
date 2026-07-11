@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-11T01:52:34.147416Z",
+  "generated_at": "2026-07-11T04:57:10.444521Z",
   "days_back": 30,
-  "count": 69,
+  "count": 70,
   "stats": {
-    "total_filings": 69,
-    "distinct_categories": 7,
+    "total_filings": 70,
+    "distinct_categories": 8,
     "distinct_courts": 21,
     "needs_llm": 42
   },
   "actions": [
+    {
+      "docket_id": 73603888,
+      "case_name": "Hachette Book Group, Inc. v. Google LLC",
+      "docket_number": "1:26-cv-05870",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-07-10",
+      "nature_of_suit": "820 Copyright",
+      "nos_code": "820",
+      "cause": "17:101 Copyright Infringement",
+      "parties_summary": "S.C.R.I.B.E., Inc.; Google LLC; Hachette Book Group, Inc.; Cengage Learning, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73603888/hachette-book-group-inc-v-google-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.668114/gov.uscourts.nysd.668114.1.0.pdf",
+      "snippet": "          Case 1:26-cv-05870         Document 1        Filed 07/10/26      Page 1 of 57\n\n\n\n\n                        IN THE UNITED STATES DISTRICT COURT\n                      FOR THE SOUTHERN DISTRICT OF NEW YORK\n\n\n                                                       Case No.: 26-cv-5870\n HACHETTE BOOK GROUP, INC.,\n CENGAGE LEARNING, INC., ELSEVIER                      CLASS ACTION COMPLAINT FOR:\n INC., SCOTT TUROW, AND S.C.R.I.B.E.,\n INC., individually and on behalf of others               (1)",
+      "category": "Copyright",
+      "subcategory": "Copyright",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73598862,
       "case_name": "MCCALL v. ADAPTHEALTH CORP.",
