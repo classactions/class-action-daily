@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-11T23:44:59.703441Z",
+  "generated_at": "2026-07-12T01:55:14.244686Z",
   "days_back": 30,
-  "count": 70,
+  "count": 69,
   "stats": {
-    "total_filings": 70,
+    "total_filings": 69,
     "distinct_categories": 8,
     "distinct_courts": 21,
-    "needs_llm": 42
+    "needs_llm": 41
   },
   "actions": [
     {
@@ -1451,27 +1451,6 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/73479222/aquino-v-evertec-group-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.prd.193210/gov.uscourts.prd.193210.1.0.pdf",
       "snippet": "                Case 3:26-cv-01372         Document 1        Filed 06/12/26      Page 1 of 47\n\n\n\n\n                                  UNITED STATES DISTRICT COURT\n                                    DISTRICT OF PUERTO RICO\n\n\n    MARIA AQUINO, on behalf of herself and all\n    others similarly situated,                             Case No.: 3:26-cv-1372\n\n                Plaintiff,                                 CLASS ACTION COMPLAINT\n\n      v.                                                   DEMAN",
-      "category": "Other",
-      "subcategory": "Other",
-      "category_source": "rule",
-      "category_confidence": 0.2,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 73474322,
-      "case_name": "Todd v. Xsolis, Inc.",
-      "docket_number": "3:26-cv-00800",
-      "court": "District Court, M.D. Tennessee",
-      "court_id": "tnmd",
-      "date_filed": "2026-06-11",
-      "nature_of_suit": "360 P.I.: Other",
-      "nos_code": "360",
-      "cause": "28:1332 Diversity-Breach of Contract",
-      "parties_summary": "Deborah Todd; Xsolis, Inc.",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73474322/todd-v-xsolis-inc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.tnmd.109692/gov.uscourts.tnmd.109692.1.0.pdf",
-      "snippet": "                              UNITED STATES DISTRICT COURT\n                              MIDDLE DISTRICT OF TENNESSEE\n\n    DEBORAH TODD, on behalf of herself                  Case No. 3:26-cv-00\n    and all other similarly situated,\n\n                                    Plaintiff,\n\n             v.\n\n    XSOLIS, INC.,                                       CLASS ACTION COMPLAINT\n\n                                    Defendant.          JURY TRIAL DEMANDED\n\n\n        Plaintiff Deborah Todd (\u201cPlaintiff\u201d",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
