@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-14T12:45:00.951660Z",
+  "generated_at": "2026-07-14T14:42:54.901174Z",
   "days_back": 30,
-  "count": 68,
+  "count": 69,
   "stats": {
-    "total_filings": 68,
+    "total_filings": 69,
     "distinct_categories": 8,
-    "distinct_courts": 19,
-    "needs_llm": 39
+    "distinct_courts": 20,
+    "needs_llm": 40
   },
   "actions": [
+    {
+      "docket_id": 73611884,
+      "case_name": "Retirement System for the General Employees of the Utility Board of the City of Key West, Florida v. Phreesia, Inc.",
+      "docket_number": "1:26-cv-00846",
+      "court": "District Court, D. Delaware",
+      "court_id": "ded",
+      "date_filed": "2026-07-13",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Retirement System for the General Employees of the Utility Board of the City of Key West, Florida; Phreesia, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73611884/retirement-system-for-the-general-employees-of-the-utility-board-of-the/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ded.93855/gov.uscourts.ded.93855.1.0.pdf",
+      "snippet": "Case 1:26-cv-00846-UNA             Document 1       Filed 07/13/26     Page 1 of 34 PageID #: 1\n\n\n\n\n                                UNITED STATES DISTRICT COURT\n                                   DISTRICT OF DELAWARE\n\n\n RETIREMENT SYSTEM FOR THE\n GENERAL EMPLOYEES OF THE UTILITY\n BOARD OF THE CITY OF KEY WEST,                        Case No.\n FLORIDA, Individually and on Behalf of All\n Others Similarly Situated,                            CLASS ACTION\n                                            ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73610285,
       "case_name": "Police & Fire Retirement System of the City of Detroit, Individually and On Behalf of All Others Similarly Situated v. Roblox Corporation",
