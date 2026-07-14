@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-14T01:44:43.684525Z",
+  "generated_at": "2026-07-14T04:43:16.085820Z",
   "days_back": 30,
-  "count": 67,
+  "count": 68,
   "stats": {
-    "total_filings": 67,
+    "total_filings": 68,
     "distinct_categories": 8,
     "distinct_courts": 19,
     "needs_llm": 39
   },
   "actions": [
+    {
+      "docket_id": 73610285,
+      "case_name": "Police & Fire Retirement System of the City of Detroit, Individually and On Behalf of All Others Similarly Situated v. Roblox Corporation",
+      "docket_number": "3:26-cv-07160",
+      "court": "District Court, N.D. California",
+      "court_id": "cand",
+      "date_filed": "2026-07-13",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:77 Securities Fraud",
+      "parties_summary": "Police & Fire Retirement System of the City of Detroit, Individually and On Behalf of All Others Similarly Situated; Naveen K. Chopra; Roblox Corporation; Michael Guthrie",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73610285/police-fire-retirement-system-of-the-city-of-detroit-individually-and-on/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474208/gov.uscourts.cand.474208.1.0.pdf",
+      "snippet": "        Case 3:26-cv-07160        Document 1    Filed 07/13/26   Page 1 of 32\n\n\n\n 1   M. Elizabeth Graham (SBN 143085)\n     GRANT & EISENHOFER P.A.\n 2   2325 Third Street, Suite 329\n     San Francisco, CA 94107\n 3\n     Tel.: (415) 229-9720\n 4   Fax: (415) 789-4367\n     Email: egraham@gelaw.com\n 5\n     Counsel for Plaintiff Police and Fire\n 6   Retirement System of the City of Detroit\n 7\n     [Additional Counsel on Signature Page]\n 8\n                               UNITED STATES DISTRICT COURT\n 9 ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73605852,
       "case_name": "Sanquini v. StubHub Holdings, Inc.",
