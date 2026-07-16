@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T22:30:07.928318Z",
+  "generated_at": "2026-07-16T23:26:41.957746Z",
   "days_back": 30,
-  "count": 68,
+  "count": 69,
   "stats": {
-    "total_filings": 68,
+    "total_filings": 69,
     "distinct_categories": 8,
     "distinct_courts": 20,
     "needs_llm": 38
@@ -27,6 +27,27 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73627974,
+      "case_name": "Schrank v. Cleveland Pub, Inc.",
+      "docket_number": "2:26-cv-01247",
+      "court": "District Court, E.D. Wisconsin",
+      "court_id": "wied",
+      "date_filed": "2026-07-16",
+      "nature_of_suit": "710 Labor: Fair Standards",
+      "nos_code": "710",
+      "cause": "29:201 Fair Labor Standards Act",
+      "parties_summary": "Tori Schrank; Cleveland Pub, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73627974/schrank-v-cleveland-pub-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wied.117596/gov.uscourts.wied.117596.1.0.pdf",
+      "snippet": "UNITED STATES DISTRICT COURT\nFOR THE EASTERN DISTRICT OF WISCONSIN\n\nTori Schrank\n\nOn behalf of herself and\nall others similarly situated\n\nPlaintiffs\n\n26-cv-1247\n\u00a5. Case No.\n\nCleveland Pub, Ine.\n\nDefendant.\n\nCOMPLAINT\n\nPlaintiff, by her attorneys, for her Complaint against Defendant states as follows:\n\n1. This is an individual and collective action under the Fair Labor Standards Act, and\nan individual and class action undet Wisconsin law by Plaintiff Schrank, on behalf of herself and\nother curren",
+      "category": "Wage & Hour",
+      "subcategory": "Fair Labor Standards Act",
+      "category_source": "rule",
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
