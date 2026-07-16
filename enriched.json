@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-16T18:58:11.031055Z",
+  "generated_at": "2026-07-16T20:02:28.006030Z",
   "days_back": 30,
-  "count": 67,
+  "count": 68,
   "stats": {
-    "total_filings": 67,
+    "total_filings": 68,
     "distinct_categories": 8,
     "distinct_courts": 20,
-    "needs_llm": 37
+    "needs_llm": 38
   },
   "actions": [
+    {
+      "docket_id": 73629114,
+      "case_name": "JOHNS v. FIVE BELOW, INC.",
+      "docket_number": "2:26-cv-04954",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-07-16",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332 Diversity-(Citizenship)",
+      "parties_summary": "TYASIA JOHNS; FIVE BELOW, INC.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73629114/johns-v-five-below-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.658042/gov.uscourts.paed.658042.1.0.pdf",
+      "snippet": "       Case 2:26-cv-04954-MMB            Document 1        Filed 07/16/26    Page 1 of 16\n\n\n\n\n                      IN THE UNITED STATES DISTRICT COURT\n                   FOR THE EASTERN DISTRICT OF PENNSYLVANIA\n\n TYASIA JOHNS, individually and on behalf of\n all others similarly situated,\n                                                        Case No. 2:26-cv-04954\n                    Plaintiff,\n\n        v.\n                                                        COMPLAINT \u2013 CLASS ACTION\n FIVE B",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73616971,
       "case_name": "PERRY v. WILMER CUTLER PICKERING HALE & DORR LLP",
