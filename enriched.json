@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-17T22:42:49.159717Z",
+  "generated_at": "2026-07-17T23:44:23.156982Z",
   "days_back": 30,
-  "count": 72,
+  "count": 73,
   "stats": {
-    "total_filings": 72,
+    "total_filings": 73,
     "distinct_categories": 8,
     "distinct_courts": 22,
-    "needs_llm": 39
+    "needs_llm": 40
   },
   "actions": [
     {
@@ -86,6 +86,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/73633507/bieber-v-adapthealth-corp/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.658086/gov.uscourts.paed.658086.1.0.pdf",
       "snippet": "            Case 2:26-cv-04974       Document 1       Filed 07/17/26     Page 1 of 31\n\n\n\n\n                        UNITED STATES DISTRICT COURT\n                  FOR THE EASTERN DISTRICT OF PENNSYLVANIA\n\n\n DOROTHY BIEBER, individually and on                     Case No.:\n behalf of all others similarly situated,\n                                                         CLASS ACTION COMPLAINT\n                        Plaintiff,\n                                                         JURY TRIAL DEMA",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73633048,
+      "case_name": "Meyer v. WellDyneRx, LLC",
+      "docket_number": "8:26-cv-02044",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-07-17",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1711 Class Action Fairness Act of 2005",
+      "parties_summary": "Gina Meyer; WellDyneRx, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73633048/meyer-v-welldynerx-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.463136/gov.uscourts.flmd.463136.1.0.pdf",
+      "snippet": "     Case 8:26-cv-02044          Document 1       Filed 07/17/26      Page 1 of 29 PageID 1\n\n\n\n\n                       IN THE UNITED STATES DISTRICT COURT\n                            MIDDLE DISTRICT OF FLORIDA\n                                  TAMPA DIVISION\n\n\nGENA MEYER, on behalf of herself and all\nothers similarly situated,\n                                                       Civil Action No.:\n\n                                 Plaintiff,\n                                                     ",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
