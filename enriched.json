@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-17T20:59:49.546872Z",
+  "generated_at": "2026-07-17T21:56:39.975626Z",
   "days_back": 30,
-  "count": 71,
+  "count": 72,
   "stats": {
-    "total_filings": 71,
+    "total_filings": 72,
     "distinct_categories": 8,
     "distinct_courts": 22,
     "needs_llm": 39
   },
   "actions": [
+    {
+      "docket_id": 73636815,
+      "case_name": "Naqi v. Blacklane North America, Inc.",
+      "docket_number": "2:26-cv-04994",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-07-17",
+      "nature_of_suit": "710 Labor: Fair Standards",
+      "nos_code": "710",
+      "cause": "29:201 Fair Labor Standards Act",
+      "parties_summary": "Syed Naqi; Blacklane North America, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73636815/naqi-v-blacklane-north-america-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.658147/gov.uscourts.paed.658147.1.0.pdf",
+      "snippet": "            Case 2:26-cv-04994       Document 1        Filed 07/17/26      Page 1 of 29\n\n\n\n\n                     IN THE UNITED STATES DISTRICT COURT\n                  FOR THE EASTERN DISTRICT OF PENNSYLVANIA\n\n\nSYED NAQI, individually and on behalf of all         Case No.\nothers similarly situated,\n                                                     COLLECTIVE AND CLASS ACTION\n               Plaintiff,\n                                                     JURY TRIAL DEMANDED\n       v.\n\nBLACKLANE ",
+      "category": "Wage & Hour",
+      "subcategory": "Fair Labor Standards Act",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73635637,
       "case_name": "Turner v. Flexible Finance Inc.",
