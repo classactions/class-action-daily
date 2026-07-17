@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-17T15:53:28.501567Z",
+  "generated_at": "2026-07-17T17:02:15.980194Z",
   "days_back": 30,
-  "count": 68,
+  "count": 69,
   "stats": {
-    "total_filings": 68,
+    "total_filings": 69,
     "distinct_categories": 8,
     "distinct_courts": 21,
     "needs_llm": 37
   },
   "actions": [
+    {
+      "docket_id": 73634263,
+      "case_name": "City Pension Fund for Firefighters and Police Officers in the City of Miami Beach v. AeroVironment, Inc.",
+      "docket_number": "1:26-cv-00875",
+      "court": "District Court, D. Delaware",
+      "court_id": "ded",
+      "date_filed": "2026-07-17",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "City Pension Fund for Firefighters and Police Officers in the City of Miami Beach; AeroVironment, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73634263/city-pension-fund-for-firefighters-and-police-officers-in-the-city-of-miami/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ded.93896/gov.uscourts.ded.93896.1.0.pdf",
+      "snippet": "Case 1:26-cv-00875-UNA               Document 1   Filed 07/17/26      Page 1 of 21 PageID #: 1\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                               DISTRICT OF DELAWARE\n\n\n CITY PENSION FUND FOR                              Case No.\n FIREFIGHTERS AND POLICE\n OFFICERS IN THE CITY OF MIAMI\n BEACH, on behalf of itself and all others\n similarly situated,                               CLASS ACTION\n\n                        Plaintiff,                 JURY TRIAL DEM",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73633507,
       "case_name": "Bieber v. ADAPTHEALTH CORP.",
