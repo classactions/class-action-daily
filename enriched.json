@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-18T17:48:56.552301Z",
+  "generated_at": "2026-07-18T18:51:04.982453Z",
   "days_back": 30,
-  "count": 67,
+  "count": 68,
   "stats": {
-    "total_filings": 67,
+    "total_filings": 68,
     "distinct_categories": 8,
     "distinct_courts": 22,
-    "needs_llm": 39
+    "needs_llm": 40
   },
   "actions": [
+    {
+      "docket_id": 73637225,
+      "case_name": "BLANCO BONILLA v. CSI AVIATION, INC.",
+      "docket_number": "1:26-cv-02511",
+      "court": "District Court, District of Columbia",
+      "court_id": "dcd",
+      "date_filed": "2026-07-17",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "BLANCO BONILLA; CSI AVIATION, INC.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73637225/blanco-bonilla-v-csi-aviation-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.294587/gov.uscourts.dcd.294587.1.0.pdf",
+      "snippet": "           Case 1:26-cv-02511     Document 1   Filed 07/17/26     Page 1 of 65\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                            FOR THE DISTRICT OF COLUMBIA\n\n\nANDRY OMAR BLANCO BONILLA,                     Case No. 1:26-cv-02511\nWILD YAHARE CHIRINOS ROMERO,\nand JERCE EGBUNIK REYES                        CLASS ACTION COMPLAINT\nBARRIOS, on behalf of themselves and all\nothers similarly situated,                     JURY TRIAL DEMANDED\n\n              Plaintiff",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73636815,
       "case_name": "Naqi v. Blacklane North America, Inc.",
