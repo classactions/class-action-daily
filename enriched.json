@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-19T23:25:20.862824Z",
+  "generated_at": "2026-07-20T01:01:23.732953Z",
   "days_back": 30,
-  "count": 64,
+  "count": 63,
   "stats": {
-    "total_filings": 64,
+    "total_filings": 63,
     "distinct_categories": 8,
     "distinct_courts": 22,
     "needs_llm": 38
@@ -1329,27 +1329,6 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 73510278,
-      "case_name": "B. v. Planned Parenthood Federation of America, Inc.",
-      "docket_number": "1:26-cv-05201",
-      "court": "District Court, S.D. New York",
-      "court_id": "nysd",
-      "date_filed": "2026-06-19",
-      "nature_of_suit": "890 Other Statutory Actions",
-      "nos_code": "890",
-      "cause": "28:1332 Diversity Action",
-      "parties_summary": "B.; Planned Parenthood Federation of America, Inc.",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73510278/b-v-planned-parenthood-federation-of-america-inc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.666698/gov.uscourts.nysd.666698.1.0.pdf",
-      "snippet": "           Case 1:26-cv-05201          Document 1       Filed 06/19/26      Page 1 of 48\n\n\n\n\n                          IN THE UNITED STATES DISTRICT COURT\n                            SOUTHERN DISTRICT OF NEW YORK\n\n\nC.B., L.M., and D.D., on behalf of themselves\nand all others similarly situated,                   Case No.________________________\n\n            Plaintiffs,                              CLASS ACTION\n\nv.\n\nPLANNED PARENTHOOD FEDERATION                        JURY TRIAL DEMANDED\nOF AMERI",
-      "category": "Privacy/TCPA/Data",
-      "subcategory": "Other Statutory Actions",
-      "category_source": "rule",
-      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     }
