@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-20T23:49:06.463360Z",
+  "generated_at": "2026-07-21T01:52:39.890361Z",
   "days_back": 30,
-  "count": 66,
+  "count": 67,
   "stats": {
-    "total_filings": 66,
+    "total_filings": 67,
     "distinct_categories": 8,
     "distinct_courts": 22,
     "needs_llm": 41
   },
   "actions": [
+    {
+      "docket_id": 73643294,
+      "case_name": "Pearson v. Google LLC",
+      "docket_number": "5:26-cv-07495",
+      "court": "District Court, N.D. California",
+      "court_id": "cand",
+      "date_filed": "2026-07-20",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1331 Fed. Question",
+      "parties_summary": "Melenie Crutcher; Google LLC; Corinne Pearson",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73643294/pearson-v-google-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474657/gov.uscourts.cand.474657.1.0.pdf",
+      "snippet": "            Case 5:26-cv-07495-EKL         Document 1          Filed 07/20/26     Page 1 of 34\n\n\n\n\n 1 Brandt Silverkorn (SBN 323530)\n   bsilverkorn@edelson.com\n 2 EDELSON PC\n\n 3 150 California Street, 18th Floor\n   San Francisco, California 94111\n 4 Tel: 415.212.9300\n   Fax: 415.373.9435\n 5\n   Counsel for Plaintiffs and the Putative Classes\n 6\n                                 UNITED STATES DISTRICT COURT\n 7                            NORTHERN DISTRICT OF CALIFORNIA\n                              ",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73639388,
       "case_name": "Wyatt v. Ernst & Young LLP",
