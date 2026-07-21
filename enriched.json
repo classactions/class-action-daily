@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T12:06:27.836667Z",
+  "generated_at": "2026-07-21T16:16:50.700874Z",
   "days_back": 30,
   "count": 68,
   "stats": {
@@ -19,7 +19,7 @@
       "nature_of_suit": "890 Other Statutory Actions",
       "nos_code": "890",
       "cause": "28:1331 Fed. Question",
-      "parties_summary": "Melenie Crutcher; Google LLC; Corinne Pearson",
+      "parties_summary": "Melenie Crutcher; Corinne Pearson; Google LLC",
       "courtlistener_url": "https://www.courtlistener.com/docket/73643294/pearson-v-google-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474657/gov.uscourts.cand.474657.1.0.pdf",
       "snippet": "            Case 5:26-cv-07495-EKL         Document 1          Filed 07/20/26     Page 1 of 34\n\n\n\n\n 1 Brandt Silverkorn (SBN 323530)\n   bsilverkorn@edelson.com\n 2 EDELSON PC\n\n 3 150 California Street, 18th Floor\n   San Francisco, California 94111\n 4 Tel: 415.212.9300\n   Fax: 415.373.9435\n 5\n   Counsel for Plaintiffs and the Putative Classes\n 6\n                                 UNITED STATES DISTRICT COURT\n 7                            NORTHERN DISTRICT OF CALIFORNIA\n                              ",
@@ -32,7 +32,7 @@
     },
     {
       "docket_id": 73641353,
-      "case_name": "MERSHON v. LAKELAND REGIONAL MEDICAL CENTER, INC.",
+      "case_name": "Mershon v. Lakeland Regional Medical Center, Inc.",
       "docket_number": "8:26-cv-02071",
       "court": "District Court, M.D. Florida",
       "court_id": "flmd",
@@ -61,7 +61,7 @@
       "nature_of_suit": "190 Contract: Other",
       "nos_code": "190",
       "cause": "28:1332fr Diversity-Fraud",
-      "parties_summary": "Ernst & Young LLP; Markishi Wyatt",
+      "parties_summary": "Markishi Wyatt; Ernst & Young LLP",
       "courtlistener_url": "https://www.courtlistener.com/docket/73639388/wyatt-v-ernst-young-llp/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.668651/gov.uscourts.nysd.668651.1.0.pdf",
       "snippet": "            Case 1:26-cv-06108       Document 1        Filed 07/20/26      Page 1 of 28\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                          SOUTHERN DISTRICT OF NEW YORK\n\n\n MARKISHI WYATT, individually and on\n behalf of all others similarly situated,          Case No.\n\n        Plaintiff,                                 CLASS ACTION COMPLAINT\n\n v.                                                JURY DEMAND\n\n ERNST & YOUNG LLP,\n\n\n        Defendant.\n\n\n\n       Plaint",
