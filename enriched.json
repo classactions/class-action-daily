@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-22T21:34:46.055712Z",
+  "generated_at": "2026-07-22T22:54:27.909988Z",
   "days_back": 30,
-  "count": 72,
+  "count": 73,
   "stats": {
-    "total_filings": 72,
+    "total_filings": 73,
     "distinct_categories": 8,
-    "distinct_courts": 23,
-    "needs_llm": 45
+    "distinct_courts": 24,
+    "needs_llm": 46
   },
   "actions": [
     {
@@ -23,6 +23,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/73650199/boston-retirement-system-v-primoris-services-corporation/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.txnd.423511/gov.uscourts.txnd.423511.1.0.pdf",
       "snippet": " Case 3:26-cv-02416-B        Document 1    Filed 07/21/26     Page 1 of 29    PageID 1\n\n\n\n                          UNITED STATES DISTRICT COURT\n                          NORTHERN DISTRICT OF TEXAS\n                                DALLAS DIVISION\n\nBOSTON RETIREMENT SYSTEM and NS                   Civil Action No. 3:26-cv-02416\nPENSION PUBLIC EQUITY FUND, Individually\nand on behalf of all others similarly situated,\n                                                  DEMAND FOR JURY TRIAL\n           ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73650178,
+      "case_name": "Estrada v. Hope Baking Company, Inc.",
+      "docket_number": "4:26-cv-04058",
+      "court": "District Court, W.D. Arkansas",
+      "court_id": "arwd",
+      "date_filed": "2026-07-21",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Estrada; Hope Baking Company, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73650178/estrada-v-hope-baking-company-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.arwd.77745/gov.uscourts.arwd.77745.2.0.pdf",
+      "snippet": "Case 4:26-cv-04058-JTS Document2 Filed 07/22/26 Page1of9PagelID# 2\n\nIN THE UNITED STATES DISTRICT COURT\nFOR THE WESTERN DISTRICT OF ARKANSAS\n\nCHRISTOPHER ESTRADA\non behalf of himself and all others similarly situated,\n\nPlaintiff,\n\nCase No.:\nv.\n\nHOPE BAKING COMPANY, INC. and CLASS ACTION COMPLAINT\nEAST BAKING COMPANY, INC. AND\n\nDefendants, DEMAND FOR JURY TRIAL\n\nCLASS ACTION COMPLAINT AND DEMAND FOR JURY TRIAL\n\nNow Comes, Christopher Estrada (\u201cPlaintiff\u201d) on behalf of himself and a class of those",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
