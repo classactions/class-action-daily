@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T22:55:24.709324Z",
+  "generated_at": "2026-07-23T23:53:53.732857Z",
   "days_back": 30,
-  "count": 74,
+  "count": 75,
   "stats": {
-    "total_filings": 74,
+    "total_filings": 75,
     "distinct_categories": 8,
     "distinct_courts": 22,
-    "needs_llm": 46
+    "needs_llm": 47
   },
   "actions": [
     {
@@ -27,6 +27,27 @@
       "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73663675,
+      "case_name": "Sanchez, Ashley v. Exact Sciences Corporation",
+      "docket_number": "3:26-cv-00674",
+      "court": "District Court, W.D. Wisconsin",
+      "court_id": "wiwd",
+      "date_filed": "2026-07-23",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity-Personal Injury",
+      "parties_summary": "Ashley  Sanchez; Exact Sciences Corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73663675/sanchez-ashley-v-exact-sciences-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wiwd.56999/gov.uscourts.wiwd.56999.1.0.pdf",
+      "snippet": "         Case: 3:26-cv-00674        Document #: 1        Filed: 07/23/26     Page 1 of 31\n\n\n\n\n                      IN THE UNITED STATES DISTRICT COURT\n                     FOR THE WESTERN DISTRICT OF WISCONSIN\n\n\nASHLEY SANCHEZ, individually and on\nbehalf of all others similarly situated,              Civil Action No.: 26-cv-674\n\n                               Plaintiff,             CLASS ACTION\n        v.                                            COMPLAINT\n\n                                    ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
