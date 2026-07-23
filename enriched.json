@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-23T21:58:03.197773Z",
+  "generated_at": "2026-07-23T22:55:24.709324Z",
   "days_back": 30,
-  "count": 73,
+  "count": 74,
   "stats": {
-    "total_filings": 73,
+    "total_filings": 74,
     "distinct_categories": 8,
     "distinct_courts": 22,
     "needs_llm": 46
   },
   "actions": [
+    {
+      "docket_id": 73663886,
+      "case_name": "Parra v. Equipmentshare.Com Inc.",
+      "docket_number": "1:26-cv-06288",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-07-23",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Parra; Equipmentshare.Com Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73663886/parra-v-equipmentsharecom-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.669068/gov.uscourts.nysd.669068.1.0.pdf",
+      "snippet": "            Case 1:26-cv-06288      Document 1   Filed 07/23/26   Page 1 of 54\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                          SOUTHERN DISTRICT OF NEW YORK\n\nJUPITER PARRA, Individually and on           Case No.\nBehalf of All Others Similarly Situated,\n                                             CLASS ACTION COMPLAINT FOR\n                      Plaintiff,             VIOLATIONS OF THE FEDERAL\n                                             SECURITIES LAWS\n     ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73660856,
       "case_name": "Paquin` v. Capital One Financial Corporation",
