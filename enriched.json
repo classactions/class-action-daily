@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-23T19:01:19.643579Z",
+  "generated_at": "2026-07-23T21:58:03.197773Z",
   "days_back": 30,
-  "count": 72,
+  "count": 73,
   "stats": {
-    "total_filings": 72,
+    "total_filings": 73,
     "distinct_categories": 8,
     "distinct_courts": 22,
     "needs_llm": 46
   },
   "actions": [
+    {
+      "docket_id": 73660856,
+      "case_name": "Paquin` v. Capital One Financial Corporation",
+      "docket_number": "8:26-cv-02118",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-07-23",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "Civil Miscellaneous Case",
+      "parties_summary": "David Paquin`; Capital One Financial Corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73660856/paquin-v-capital-one-financial-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.463484/gov.uscourts.flmd.463484.1.0.pdf",
+      "snippet": "    Case 8:26-cv-02118      Document 1       Filed 07/23/26   Page 1 of 10 PageID 1\n\n\n\n\n                  IN THE UNITED STATES DISTRICT COURT\n                  FOR THE MIDDLE DISTRICT OF FLORIDA\n\nDAVID PAQUIN, individually               )\nand on behalf of all others similarly    )\nsituated,                                )\n                     Plaintiff,          )       Case No.\n                                         )\n      v.                                 )\n                               ",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73654296,
       "case_name": "Hayes v. Welldynerx, LLC",
