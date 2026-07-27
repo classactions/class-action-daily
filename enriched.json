@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T22:53:31.124010Z",
+  "generated_at": "2026-07-27T23:56:29.100306Z",
   "days_back": 30,
-  "count": 70,
+  "count": 72,
   "stats": {
-    "total_filings": 70,
+    "total_filings": 72,
     "distinct_categories": 7,
     "distinct_courts": 22,
-    "needs_llm": 47
+    "needs_llm": 49
   },
   "actions": [
     {
@@ -31,6 +31,27 @@
       "law360_coverage": []
     },
     {
+      "docket_id": 73674425,
+      "case_name": "Blackmon, Hannah v. TruStage Financial Group, Inc.",
+      "docket_number": "3:26-cv-00683",
+      "court": "District Court, W.D. Wisconsin",
+      "court_id": "wiwd",
+      "date_filed": "2026-07-27",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity-Other Contract",
+      "parties_summary": "Hannah Blackmon; TruStage Financial Group, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73674425/blackmon-hannah-v-trustage-financial-group-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wiwd.57010/gov.uscourts.wiwd.57010.1.0.pdf",
+      "snippet": "       Case: 3:26-cv-00683-amb         Document #: 1        Filed: 07/27/26      Page 1 of 25\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                      FOR THE WESTERN DISTRICT OF WISCONSIN\n\nHANNAH BLACKMON, on behalf of herself\nand all others similarly situated,\n                                                              Case No. ________________\n                               Plaintiff,\n                                                            CLASS ACTION COMPLAINT",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
       "docket_id": 73674199,
       "case_name": "Million v. Consumer Safety Technology, LLC",
       "docket_number": "4:26-cv-00302",
@@ -44,6 +65,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/73674199/million-v-consumer-safety-technology-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.iasd.94825/gov.uscourts.iasd.94825.1.0.pdf",
       "snippet": "         Case 4:26-cv-00302-RGE-HCA              Document 1       Filed 07/27/26      Page 1 of 20\n\n\n\n\n                                 UNITED STATES DISTRICT COURT\n                                  SOUTHERN DISTRICT OF IOWA\n\n\n    ROBERT MILLION, on behalf of himself              Case No.\n    and all others similarly situated,\n\n                Plaintiff,                            CLASS ACTION COMPLAINT\n\n    v.\n\n    CONSUMER SAFETY TECHNOLOGY,                       JURY TRIAL DEMANDED\n    LLC d/",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73674006,
+      "case_name": "Lyle-Douville, Nina v. TruStage Financial Group, Inc.",
+      "docket_number": "3:26-cv-00681",
+      "court": "District Court, W.D. Wisconsin",
+      "court_id": "wiwd",
+      "date_filed": "2026-07-27",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity-Other Contract",
+      "parties_summary": "Nina Lyle-Douville; TruStage Financial Group, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73674006/lyle-douville-nina-v-trustage-financial-group-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wiwd.57008/gov.uscourts.wiwd.57008.1.0.pdf",
+      "snippet": "     Case: 3:26-cv-00681-amb            Document #: 1        Filed: 07/27/26      Page 1 of 54\n\n\n\n\n                        IN THE UNITED STATES DISTRICT COURT\n                      FOR THE WESTERN DISTRICT OF WISCONSIN\n\n\n NINA LYLE-DOUVILLE, individually and\n on behalf of all others similarly situated,                   Case No.\n\n    Plaintiff,\n                                                               JURY TRIAL DEMANDED\n           v.\n\n TRUSTAGE FINANCIAL GROUP, INC.\n\n    Defendant.\n\n\n     ",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
