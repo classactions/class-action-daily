@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T16:56:13.906509Z",
+  "generated_at": "2026-07-28T18:07:56.020013Z",
   "days_back": 30,
   "count": 75,
   "stats": {
@@ -16,10 +16,10 @@
       "court": "District Court, E.D. Pennsylvania",
       "court_id": "paed",
       "date_filed": "2026-07-27",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "GIRIFALCO; EMPIRE TODAY, LLC",
+      "nature_of_suit": "485 Telephone Consumer Protection Act (TCPA)",
+      "nos_code": "485",
+      "cause": "47:227 Restrictions of Use of Telephone Equipment",
+      "parties_summary": "EMPIRE TODAY, LLC; BOBBY GIRIFALCO; KAREN CLOSKEY",
       "courtlistener_url": "https://www.courtlistener.com/docket/73678816/girifalco-v-empire-today-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.658653/gov.uscourts.paed.658653.1.0.pdf",
       "snippet": "            Case 2:26-cv-05272       Document 1        Filed 07/27/26     Page 1 of 15\n\n\n\n\n                        IN THE UNITED STATES DISTRICT COURT\n                     FOR THE EASTERN DISTRICT OF PENNSYLVANIA\n\n  BOBBY GIRIFALCO and KAREN                            Case No.\n  CLOSKEY, individually and on behalf of all                      2:26-cv-5272\n  others similarly situated,\n                                                       CLASS ACTION\n                 Plaintiffs,\n                 ",
