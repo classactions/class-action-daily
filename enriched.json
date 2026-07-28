@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-28T18:07:56.020013Z",
+  "generated_at": "2026-07-28T19:58:30.293281Z",
   "days_back": 30,
-  "count": 75,
+  "count": 76,
   "stats": {
-    "total_filings": 75,
+    "total_filings": 76,
     "distinct_categories": 7,
-    "distinct_courts": 23,
+    "distinct_courts": 24,
     "needs_llm": 52
   },
   "actions": [
@@ -27,6 +27,27 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73678438,
+      "case_name": "BECKWITH v. SUMMIT ACCESS SOLUTIONS, LLC",
+      "docket_number": "2:26-cv-01600",
+      "court": "District Court, W.D. Pennsylvania",
+      "court_id": "pawd",
+      "date_filed": "2026-07-27",
+      "nature_of_suit": "710 Labor: Fair Standards",
+      "nos_code": "710",
+      "cause": "29:201 Fair Labor Standards Act",
+      "parties_summary": "SUMMIT ACCESS SOLUTIONS, LLC; MICHELLE BECKWITH",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73678438/beckwith-v-summit-access-solutions-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.333953/gov.uscourts.pawd.333953.1.0.pdf",
+      "snippet": "       Case 2:26-cv-01600-MJH           Document 1       Filed 07/27/26      Page 1 of 31\n\n\n\n\n                       IN THE UNITED STATES DISTRICT COURT\n                        WESTERN DISTRICT OF PENNSYLVANIA\n\n MICHELLE BECKWITH, individually, and             Case No. 2:26-cv-1600\n on behalf of others similarly situated,\n                                                  CLASS ACTION\n                        Plaintiff,\n                                                  JURY TRIAL DEMANDED\n        ",
+      "category": "Wage & Hour",
+      "subcategory": "Fair Labor Standards Act",
+      "category_source": "rule",
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
