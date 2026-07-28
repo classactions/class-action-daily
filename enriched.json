@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-28T19:58:30.293281Z",
+  "generated_at": "2026-07-28T21:06:52.953715Z",
   "days_back": 30,
-  "count": 76,
+  "count": 77,
   "stats": {
-    "total_filings": 76,
-    "distinct_categories": 7,
+    "total_filings": 77,
+    "distinct_categories": 8,
     "distinct_courts": 24,
     "needs_llm": 52
   },
@@ -69,6 +69,27 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73677632,
+      "case_name": "Edgerton v. Avenue5 Residential LLC",
+      "docket_number": "2:26-cv-02650",
+      "court": "District Court, W.D. Washington",
+      "court_id": "wawd",
+      "date_filed": "2026-07-27",
+      "nature_of_suit": "790 Labor: Other",
+      "nos_code": "790",
+      "cause": "28:1441 Notice of Removal",
+      "parties_summary": "Edgerton; Avenue5 Residential LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73677632/edgerton-v-avenue5-residential-llc/",
+      "complaint_url": null,
+      "snippet": "                  Case 2:26-cv-02650        Document 8   Filed 07/28/26      Page 1 of 18\n\n\n\n\n 1\n\n 2\n\n 3\n\n 4\n\n 5\n\n 6\n\n 7\n\n 8                                 UNITED STATES DISTRICT COURT\n 9                                WESTERN DISTRICT OF WASHINGTON\n10\n\n11   ETHAN EDGERTON, individually and on             Case No. 2:26-cv-02650\n     behalf of all others similarly situated,\n12                                                   CLASS ACTION\n                     Plaintiff,\n13                       ",
+      "category": "Labor",
+      "subcategory": "Other Labor Litigation",
+      "category_source": "rule",
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
