@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-29T15:25:35.529439Z",
+  "generated_at": "2026-07-29T18:01:45.291944Z",
   "days_back": 30,
-  "count": 82,
+  "count": 83,
   "stats": {
-    "total_filings": 82,
+    "total_filings": 83,
     "distinct_categories": 8,
-    "distinct_courts": 27,
+    "distinct_courts": 28,
     "needs_llm": 56
   },
   "actions": [
+    {
+      "docket_id": 73685938,
+      "case_name": "Waters v. The Guthrie Clinic",
+      "docket_number": "4:26-cv-02117",
+      "court": "District Court, M.D. Pennsylvania",
+      "court_id": "pamd",
+      "date_filed": "2026-07-28",
+      "nature_of_suit": "710 Labor: Fair Standards",
+      "nos_code": "710",
+      "cause": "29:201 Fair Labor Standards Act",
+      "parties_summary": "Jessica Waters; The Guthrie Clinic",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73685938/waters-v-the-guthrie-clinic/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.pamd.153112/gov.uscourts.pamd.153112.1.0.pdf",
+      "snippet": "      Case 4:26-cv-02117-MWB       Document 1     Filed 07/28/26      Page 1 of 26\n\n\n\n\n                    UNITED STATES DISTRICT COURT\n                   MIDDLE DISTRICT OF PENNSYLVANIA\n\n\n JESSICA WATERS, Individually and For Case No. ________________\n                                                   4:26-CV-2117\n Others Similarly Situated\n\n v.                                          Jury Trial Demanded\n\n THE GUTHRIE CLINIC f/k/a                    FLSA Collective Action\n GUTHRIE HEALTH      ",
+      "category": "Wage & Hour",
+      "subcategory": "Wage & Hour",
+      "category_source": "rule",
+      "category_confidence": 0.9,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73684983,
       "case_name": "Kanungo v. GeneDx Holdings Corp.",
