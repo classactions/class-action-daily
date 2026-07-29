@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-29T18:01:45.291944Z",
+  "generated_at": "2026-07-29T19:50:27.139636Z",
   "days_back": 30,
-  "count": 83,
+  "count": 84,
   "stats": {
-    "total_filings": 83,
+    "total_filings": 84,
     "distinct_categories": 8,
     "distinct_courts": 28,
-    "needs_llm": 56
+    "needs_llm": 57
   },
   "actions": [
+    {
+      "docket_id": 73688304,
+      "case_name": "CONELLY v. LGI HOMES, INC",
+      "docket_number": "5:26-cv-00539",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-07-29",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "CONELLY; LGI HOMES, INC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73688304/conelly-v-lgi-homes-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.463736/gov.uscourts.flmd.463736.1.0.pdf",
+      "snippet": "    Case 5:26-cv-00539     Document 1   Filed 07/29/26   Page 1 of 70 PageID 1\n\n\n\n\n                      UNITED STATES DISTRICT COURT\n                       MIDDLE DISTRICT OF FLORIDA\n                            OCALA DIVISION\n\nMARA CONNELLY and RICHARD\nBRYAN WILSON, on behalf of Civil Action No.: _____________\nthemselves and all others similarly\nsituated,                           CLASS ACTION\n\n       Plaintiffs,                          DEMAND FOR JURY TRIAL\n\n                      v.\n\nLGI HOME",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73685938,
       "case_name": "Waters v. The Guthrie Clinic",
