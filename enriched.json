@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-29T20:43:25.334859Z",
+  "generated_at": "2026-07-29T21:52:10.914614Z",
   "days_back": 30,
-  "count": 84,
+  "count": 85,
   "stats": {
-    "total_filings": 84,
+    "total_filings": 85,
     "distinct_categories": 8,
-    "distinct_courts": 28,
+    "distinct_courts": 29,
     "needs_llm": 57
   },
   "actions": [
+    {
+      "docket_id": 73690889,
+      "case_name": "SANGHA, Individually and on Behalf of All Others Similarly Situated v. Amazon.com Inc",
+      "docket_number": "1:26-cv-01777",
+      "court": "District Court, N.D. Ohio",
+      "court_id": "ohnd",
+      "date_filed": "2026-07-29",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1332 Diversity-(Citizenship)",
+      "parties_summary": "Amazon.com Inc; PARVEEN SANGHA, Individually and on Behalf of All Others Similarly Situated; Amazon.com Services LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73690889/sangha-individually-and-on-behalf-of-all-others-similarly-situated-v/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.329741/gov.uscourts.ohnd.329741.1.0.pdf",
+      "snippet": "             Case: 1:26-cv-01777 Doc #: 1 Filed: 07/29/26 1 of 21. PageID #: 1\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                             NORTHERN DISTRICT OF OHIO\n                                  EASTERN DIVISION\n\n                                                 x\nPARVEEN SANGHA, Individually and on              :     Civil Action No. __________\nBehalf of All Others Similarly Situated,         :\n                                                 :     CLASS ACTION ",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73688304,
       "case_name": "CONELLY v. LGI HOMES, INC",
