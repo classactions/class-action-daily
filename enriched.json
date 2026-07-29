@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-29T13:03:22.104452Z",
+  "generated_at": "2026-07-29T15:25:35.529439Z",
   "days_back": 30,
-  "count": 81,
+  "count": 82,
   "stats": {
-    "total_filings": 81,
+    "total_filings": 82,
     "distinct_categories": 8,
     "distinct_courts": 27,
     "needs_llm": 56
@@ -90,6 +90,27 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73684670,
+      "case_name": "Price v. WeWork Inc.",
+      "docket_number": "1:26-cv-06436",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-07-28",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1331 Fed. Question",
+      "parties_summary": "Does 1 through 10, inclusive; Carol Price; WeWork Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73684670/price-v-wework-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.669414/gov.uscourts.nysd.669414.1.0.pdf",
+      "snippet": "            Case 1:26-cv-06436          Document 1        Filed 07/28/26      Page 1 of 20\n\n\n\n\n                                  UNITED STATES DISTRICT COURT\n\n                              SOUTHERN DISTRICT OF NEW YORK\n\n\n   CAROL PRICE, individually and on behalf              Case No.\n   of all others similarly situated,\n                                                        CLASS ACTION COMPLAINT FOR\n                     Plaintiff,                         (1) USE OF A TRAP AND TRACE\n          ",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
