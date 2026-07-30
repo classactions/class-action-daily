@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-30T11:52:17.263530Z",
+  "generated_at": "2026-07-30T13:30:09.298339Z",
   "days_back": 30,
-  "count": 86,
+  "count": 87,
   "stats": {
-    "total_filings": 86,
+    "total_filings": 87,
     "distinct_categories": 8,
     "distinct_courts": 28,
-    "needs_llm": 59
+    "needs_llm": 60
   },
   "actions": [
     {
@@ -23,6 +23,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/73691783/hussain-v-mortgagepros-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.396438/gov.uscourts.mied.396438.1.0.pdf",
       "snippet": " Case 2:26-cv-12618-MAG-APP ECF No. 1, PageID.1 Filed 07/29/26 Page 1 of 14\n\n\n\n\n                              UNITED STATES DISTRICT COURT\n                              EASTERN DISTRICT OF MICHIGAN\n\nAMEENA HUSSAIN,                                        )\non behalf of herself and                               )       Civil Action No.:\nothers similarly situated,                             )\n                                                       )       Class Action\n                              ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73691420,
+      "case_name": "Chandra v. Cornick, Garber & Sandler, LLC",
+      "docket_number": "1:26-cv-06493",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-07-29",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332tn Diversity-Tort/Non-Motor Vehicle",
+      "parties_summary": "Bailey A. Chandra; Cornick, Garber & Sandler, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73691420/chandra-v-cornick-garber-sandler-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.669528/gov.uscourts.nysd.669528.1.0.pdf",
+      "snippet": "             Case 1:26-cv-06493            Document 1        Filed 07/29/26       Page 1 of 28\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n--------------------------------------------------------X\nBAILEY A. CHANDRA, individually, and\non behalf of all others similarly situated,\n                          Plaintiff,                   Civil Action No. 26-6493\nv.\nCORNICK, GARBER & SANDLER, LLC\n                          Defendant.                   [JURY TRIAL DEMANDED]\n\n\n\n----------",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
@@ -74,7 +95,7 @@
     },
     {
       "docket_id": 73690889,
-      "case_name": "SANGHA, Individually and on Behalf of All Others Similarly Situated v. Amazon.com Inc",
+      "case_name": "Sangha v. Amazon.com Inc.",
       "docket_number": "1:26-cv-01777",
       "court": "District Court, N.D. Ohio",
       "court_id": "ohnd",
@@ -83,7 +104,7 @@
       "nos_code": "890",
       "cause": "28:1332 Diversity-(Citizenship)",
       "parties_summary": "Amazon.com Services LLC; Amazon.com Inc; PARVEEN SANGHA, Individually and on Behalf of All Others Similarly Situated",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73690889/sangha-individually-and-on-behalf-of-all-others-similarly-situated-v/",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73690889/sangha-v-amazoncom-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.329741/gov.uscourts.ohnd.329741.1.0.pdf",
       "snippet": "             Case: 1:26-cv-01777 Doc #: 1 Filed: 07/29/26 1 of 21. PageID #: 1\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                             NORTHERN DISTRICT OF OHIO\n                                  EASTERN DIVISION\n\n                                                 x\nPARVEEN SANGHA, Individually and on              :     Civil Action No. __________\nBehalf of All Others Similarly Situated,         :\n                                                 :     CLASS ACTION ",
       "category": "Privacy/TCPA/Data",
@@ -116,7 +137,7 @@
     },
     {
       "docket_id": 73688304,
-      "case_name": "CONELLY v. LGI HOMES, INC",
+      "case_name": "Connelly v. LGI Homes, Inc.",
       "docket_number": "5:26-cv-00539",
       "court": "District Court, M.D. Florida",
       "court_id": "flmd",
@@ -124,8 +145,8 @@
       "nature_of_suit": "",
       "nos_code": "",
       "cause": "",
-      "parties_summary": "CONELLY; LGI HOMES, INC",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73688304/conelly-v-lgi-homes-inc/",
+      "parties_summary": "Connelly; LGI Homes, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73688304/connelly-v-lgi-homes-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.463736/gov.uscourts.flmd.463736.1.0.pdf",
       "snippet": "    Case 5:26-cv-00539     Document 1   Filed 07/29/26   Page 1 of 70 PageID 1\n\n\n\n\n                      UNITED STATES DISTRICT COURT\n                       MIDDLE DISTRICT OF FLORIDA\n                            OCALA DIVISION\n\nMARA CONNELLY and RICHARD\nBRYAN WILSON, on behalf of Civil Action No.: _____________\nthemselves and all others similarly\nsituated,                           CLASS ACTION\n\n       Plaintiffs,                          DEMAND FOR JURY TRIAL\n\n                      v.\n\nLGI HOME",
       "category": "Other",
