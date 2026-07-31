@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-07-31T17:21:15.352934Z",
+  "generated_at": "2026-07-31T18:50:09.327773Z",
   "days_back": 30,
-  "count": 88,
+  "count": 89,
   "stats": {
-    "total_filings": 88,
+    "total_filings": 89,
     "distinct_categories": 9,
     "distinct_courts": 28,
     "needs_llm": 60
   },
   "actions": [
+    {
+      "docket_id": 73700543,
+      "case_name": "Smith v. Waypoint Resource Group, LLC",
+      "docket_number": "4:26-cv-03109",
+      "court": "District Court, D. South Carolina",
+      "court_id": "scd",
+      "date_filed": "2026-07-30",
+      "nature_of_suit": "480 Consumer Credit",
+      "nos_code": "480",
+      "cause": "15:1692 Fair Debt Collection Act",
+      "parties_summary": "Waypoint Resource Group, LLC; Traci Smith",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73700543/smith-v-waypoint-resource-group-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.scd.322782/gov.uscourts.scd.322782.1.0.pdf",
+      "snippet": "4:26-cv-03109-JD Date Filed 07/30/26 = Entry Number 1 Page 1 of 13\n\nUNITED STATES DISTRICT COURT\nDISTRICT OF SOUTH CAROLINA\n\nTRACI SMITH, individually and on behalf of all\nothers similarly situated,\nCLASS ACTION\nPlaintiff,\nCase No.\nVS.\nJURY TRIAL DEMANDED\nWAYPOINT RESOURCE GROUP, LLC,\n\nDefendant.\n\nCLASS ACTION COMPLAINT\n\n1. Plaintiff Traci Smith brings this class action against Defendant Waypoint Resource\nGroup, LLC, and alleges as follows upon personal knowledge as to Plaintiff and Plaintiff's ",
+      "category": "Consumer",
+      "subcategory": "Consumer Credit",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73698836,
       "case_name": "Gutierrez Family LLC v. Cal-Maine Foods, Inc.",
