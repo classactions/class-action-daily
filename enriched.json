@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-03T16:54:23.675622Z",
+  "generated_at": "2026-08-03T18:43:34.324231Z",
   "days_back": 30,
-  "count": 90,
+  "count": 91,
   "stats": {
-    "total_filings": 90,
-    "distinct_categories": 8,
+    "total_filings": 91,
+    "distinct_categories": 9,
     "distinct_courts": 27,
     "needs_llm": 59
   },
   "actions": [
+    {
+      "docket_id": 73710660,
+      "case_name": "Puroll v. EPOCH Hospitality, LLC",
+      "docket_number": "2:26-cv-12670",
+      "court": "District Court, E.D. Michigan",
+      "court_id": "mied",
+      "date_filed": "2026-08-03",
+      "nature_of_suit": "442 Civil Rights: Jobs",
+      "nos_code": "442",
+      "cause": "28:1331 Fed. Question: Fair Labor Standards",
+      "parties_summary": "Carolyn Puroll; EPOCH Hospitality, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73710660/puroll-v-epoch-hospitality-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.396544/gov.uscourts.mied.396544.1.0.pdf",
+      "snippet": " Case 2:26-cv-12670-BRM-EAS ECF No. 1, PageID.1 Filed 08/03/26 Page 1 of 16\n\n\n\n\n                     UNITED STATES DISTRICT COURT\n                     EASTERN DISTRICT OF MICHIGAN\n                          SOUTHERN DIVISION\nCAROLYN PUROLL,\nIndividually and on behalf of all\nSimilarly Situated Employees,                 Case No.\n                                              Hon.\n             Plaintiffs,\n\nv.                                  COLLECTIVE ACTION\n                                    FAIR",
+      "category": "Civil Rights",
+      "subcategory": "Civil Rights \u2014 Employment",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73705054,
       "case_name": "Hakimian v. Pentwater Capital Management LP",
