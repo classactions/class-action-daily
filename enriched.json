@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-03T18:43:34.324231Z",
+  "generated_at": "2026-08-03T20:20:33.363885Z",
   "days_back": 30,
-  "count": 91,
+  "count": 92,
   "stats": {
-    "total_filings": 91,
+    "total_filings": 92,
     "distinct_categories": 9,
-    "distinct_courts": 27,
+    "distinct_courts": 28,
     "needs_llm": 59
   },
   "actions": [
+    {
+      "docket_id": 73711200,
+      "case_name": "Gordon v. DraftKings, Inc.",
+      "docket_number": "1:26-cv-13525",
+      "court": "District Court, D. Massachusetts",
+      "court_id": "mad",
+      "date_filed": "2026-08-03",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1332 Diversity-(Citizenship)",
+      "parties_summary": "Johnny  Harris; Gus III, LLC; Jason Gordon; DraftKings, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73711200/gordon-v-draftkings-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.304333/gov.uscourts.mad.304333.1.0.pdf",
+      "snippet": "       Case 1:26-cv-13525-DLC           Document 1       Filed 08/03/26    Page 1 of 53\n\n\n\n\n                               UNITED STATES DISTRICT COURT\n                                DISTRICT OF MASSACHUSETTS\n\n JASON GORDON, ARIE WEISSMANN,\n and JOHNNY HARRIS, individually, on\n behalf of themselves and all others similarly\n situated,\n                                                     CLASS ACTION COMPLAINT\n                 Plaintiffs,\n                                                     JURY ",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73710660,
       "case_name": "Puroll v. EPOCH Hospitality, LLC",
