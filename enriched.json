@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-04T20:07:01.671608Z",
+  "generated_at": "2026-08-04T21:45:33.894316Z",
   "days_back": 30,
-  "count": 96,
+  "count": 97,
   "stats": {
-    "total_filings": 96,
+    "total_filings": 97,
     "distinct_categories": 9,
     "distinct_courts": 28,
     "needs_llm": 60
   },
   "actions": [
+    {
+      "docket_id": 73714478,
+      "case_name": "Styron v. Edgewell Personal Care Company",
+      "docket_number": "1:26-cv-06639",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-08-03",
+      "nature_of_suit": "370 Other Fraud",
+      "nos_code": "370",
+      "cause": "28:1332 Diversity Action",
+      "parties_summary": "Edgewell Personal Care, LLC; Edgewell Personal Care Brands, LLC; Tahisha  Styron; Edgewell Personal Care Company",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73714478/styron-v-edgewell-personal-care-company/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.669802/gov.uscourts.nysd.669802.1.0.pdf",
+      "snippet": "         Case 1:26-cv-06639-CM                 Document 1          Filed 08/03/26         Page 1 of 37\n\n\n\n\n                                     UNITED STATES DISTRICT COURT\n                                    SOUTHERN DISTRICT OF NEW YORK\n\n\n    TAHISHA STYRON, individually and on\n    behalf of all others similarly situated,                   CASE NO: 1:26-cv-6639\n\n                          Plaintiff,                           CLASS ACTION COMPLAINT\n    v.\n                                        ",
+      "category": "Consumer",
+      "subcategory": "Other Fraud",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73714133,
       "case_name": "Walters v. Pentair PLC",
@@ -103,7 +124,7 @@
       "nature_of_suit": "890 Other Statutory Actions",
       "nos_code": "890",
       "cause": "28:1332 Diversity-(Citizenship)",
-      "parties_summary": "Johnny  Harris; Gus III, LLC; Jason Gordon; DraftKings, Inc.",
+      "parties_summary": "Jason Gordon; Arie  Weissmann; DraftKings, Inc.; Gus III, LLC",
       "courtlistener_url": "https://www.courtlistener.com/docket/73711200/gordon-v-draftkings-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.304333/gov.uscourts.mad.304333.1.0.pdf",
       "snippet": "       Case 1:26-cv-13525-DLC           Document 1       Filed 08/03/26    Page 1 of 53\n\n\n\n\n                               UNITED STATES DISTRICT COURT\n                                DISTRICT OF MASSACHUSETTS\n\n JASON GORDON, ARIE WEISSMANN,\n and JOHNNY HARRIS, individually, on\n behalf of themselves and all others similarly\n situated,\n                                                     CLASS ACTION COMPLAINT\n                 Plaintiffs,\n                                                     JURY ",
