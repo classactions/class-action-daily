@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-04T03:45:35.737937Z",
+  "generated_at": "2026-08-04T06:20:27.792875Z",
   "days_back": 30,
   "count": 95,
   "stats": {
     "total_filings": 95,
     "distinct_categories": 9,
     "distinct_courts": 28,
-    "needs_llm": 61
+    "needs_llm": 60
   },
   "actions": [
     {
@@ -19,7 +19,7 @@
       "nature_of_suit": "850 Securities/Commodities",
       "nos_code": "850",
       "cause": "15:78m(a) Securities Exchange Act",
-      "parties_summary": "Walters; Pentair PLC",
+      "parties_summary": "Nicholas J. Brazis; Pentair PLC; John L. Stauch; Aaron Walters",
       "courtlistener_url": "https://www.courtlistener.com/docket/73714133/walters-v-pentair-plc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.669795/gov.uscourts.nysd.669795.1.0.pdf",
       "snippet": "           Case 1:26-cv-06632     Document 1   Filed 08/03/26   Page 1 of 22\n\n\n\n\n                        UNITED STATES DISTRICT COURT\n                       SOUTHERN DISTRICT OF NEW YORK\n\nAARON WALTERS, Individually and on         Case No.\nBehalf of All Others Similarly Situated,\n                                           CLASS ACTION COMPLAINT FOR\n                    Plaintiff,             VIOLATIONS OF THE FEDERAL\n                                           SECURITIES LAWS\n      v.\n            ",
@@ -58,17 +58,17 @@
       "court": "District Court, S.D. Texas",
       "court_id": "txsd",
       "date_filed": "2026-08-03",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "Ferraioli; DNOW Inc.",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Paul Coppinger; David A. Cherechinsky; Karen David-Green; Rodney Eads",
       "courtlistener_url": "https://www.courtlistener.com/docket/73713616/ferraioli-v-dnow-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.txsd.2101222/gov.uscourts.txsd.2101222.1.0.pdf",
       "snippet": "        Case 4:26-cv-06261        Document 1          Filed 08/03/26 in TXSD     Page 1 of 18\n\n\n\n\n                         IN THE UNITED STATES DISTRICT COURT\n                         FOR THE SOUTHERN DISTRICT OF TEXAS\n                                   HOUSTON DIVISION\n\n    BRENDAN FERRAIOLI, Individually and on              Case No:\n    behalf of all others similarly situated,\n                                                        CLASS ACTION COMPLAINT FOR\n           Plaintiff,              ",
-      "category": "Other",
-      "subcategory": "Other",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
-      "category_confidence": 0.2,
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
