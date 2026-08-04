@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-03T22:53:35.578980Z",
+  "generated_at": "2026-08-04T00:00:46.228981Z",
   "days_back": 30,
-  "count": 94,
+  "count": 95,
   "stats": {
-    "total_filings": 94,
+    "total_filings": 95,
     "distinct_categories": 9,
     "distinct_courts": 28,
     "needs_llm": 61
   },
   "actions": [
+    {
+      "docket_id": 73714133,
+      "case_name": "Walters v. Pentair PLC",
+      "docket_number": "1:26-cv-06632",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-08-03",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Walters; Pentair PLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73714133/walters-v-pentair-plc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.669795/gov.uscourts.nysd.669795.1.0.pdf",
+      "snippet": "           Case 1:26-cv-06632     Document 1   Filed 08/03/26   Page 1 of 22\n\n\n\n\n                        UNITED STATES DISTRICT COURT\n                       SOUTHERN DISTRICT OF NEW YORK\n\nAARON WALTERS, Individually and on         Case No.\nBehalf of All Others Similarly Situated,\n                                           CLASS ACTION COMPLAINT FOR\n                    Plaintiff,             VIOLATIONS OF THE FEDERAL\n                                           SECURITIES LAWS\n      v.\n            ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73713777,
       "case_name": "Kennedy v. PowerSchool Group LLC",
