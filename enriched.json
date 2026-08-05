@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-05T20:03:24.447174Z",
+  "generated_at": "2026-08-05T21:40:57.522753Z",
   "days_back": 30,
-  "count": 106,
+  "count": 107,
   "stats": {
-    "total_filings": 106,
+    "total_filings": 107,
     "distinct_categories": 11,
     "distinct_courts": 31,
-    "needs_llm": 62
+    "needs_llm": 63
   },
   "actions": [
+    {
+      "docket_id": 73724306,
+      "case_name": "Baldwin v. Health Payment Systems, Inc.",
+      "docket_number": "2:26-cv-01342",
+      "court": "District Court, E.D. Wisconsin",
+      "court_id": "wied",
+      "date_filed": "2026-08-05",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332 Diversity-Property Damage",
+      "parties_summary": "Dawn Baldwin; Health Payment Systems, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73724306/baldwin-v-health-payment-systems-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wied.117773/gov.uscourts.wied.117773.1.0.pdf",
+      "snippet": "                        IN THE UNITED STATES DISTRICT COURT\n                       FOR THE EASTERN DISTRICT OF WISCONSIN\n\n\n    DAWN BALDWIN, individually and on\n    behalf of all others similarly situated,          Civil Action No. ________________\n                         Plaintiff,\n\n                                                      JURY TRIAL DEMANDED\n           v.\n\n    HEALTH PAYMENT SYSTEMS, INC.,\n\n                         Defendant.\n\n                                 CLASS ACTION COMPLAI",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73723986,
       "case_name": "Linquanti-Guisto v. All Children's Health System, Inc.",
