@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-07T03:24:20.243656Z",
+  "generated_at": "2026-08-07T05:10:34.516963Z",
   "days_back": 30,
   "count": 95,
   "stats": {
     "total_filings": 95,
     "distinct_categories": 11,
     "distinct_courts": 30,
-    "needs_llm": 54
+    "needs_llm": 53
   },
   "actions": [
     {
@@ -37,17 +37,17 @@
       "court": "District Court, D. Massachusetts",
       "court_id": "mad",
       "date_filed": "2026-08-06",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "Toor; Replimune Group, Inc.",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Sushil Patel; Ramn Toor; Emily Hill; Replimune Group, Inc.",
       "courtlistener_url": "https://www.courtlistener.com/docket/73732071/toor-v-replimune-group-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.304589/gov.uscourts.mad.304589.1.0.pdf",
       "snippet": "           Case 1:26-cv-13612     Document 1   Filed 08/06/26   Page 1 of 24\n\n\n\n\n                       UNITED STATES DISTRICT COURT\n                     FOR THE DISTRICT OF MASSACHUSETTS\n\nRAMN TOOR, Individually and on Behalf of   Case No. 1:26-cv-13612\nAll Others Similarly Situated,\n                                           CLASS ACTION COMPLAINT FOR\n                    Plaintiff,             VIOLATIONS OF THE FEDERAL\n                                           SECURITIES LAWS\n      v.\n       ",
-      "category": "Other",
-      "subcategory": "Other",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
-      "category_confidence": 0.2,
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
