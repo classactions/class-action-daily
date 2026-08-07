@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-07T00:21:31.268921Z",
+  "generated_at": "2026-08-07T03:24:20.243656Z",
   "days_back": 30,
-  "count": 94,
+  "count": 95,
   "stats": {
-    "total_filings": 94,
+    "total_filings": 95,
     "distinct_categories": 11,
     "distinct_courts": 30,
-    "needs_llm": 53
+    "needs_llm": 54
   },
   "actions": [
     {
@@ -44,6 +44,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/73732071/toor-v-replimune-group-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.304589/gov.uscourts.mad.304589.1.0.pdf",
       "snippet": "           Case 1:26-cv-13612     Document 1   Filed 08/06/26   Page 1 of 24\n\n\n\n\n                       UNITED STATES DISTRICT COURT\n                     FOR THE DISTRICT OF MASSACHUSETTS\n\nRAMN TOOR, Individually and on Behalf of   Case No. 1:26-cv-13612\nAll Others Similarly Situated,\n                                           CLASS ACTION COMPLAINT FOR\n                    Plaintiff,             VIOLATIONS OF THE FEDERAL\n                                           SECURITIES LAWS\n      v.\n       ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 73730426,
+      "case_name": "Hanson v. Miles Partnership, LLLP",
+      "docket_number": "8:26-cv-02280",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-08-06",
+      "nature_of_suit": "190 Contract: Other",
+      "nos_code": "190",
+      "cause": "28:1332 Diversity-Tort/Non-Motor Vehicle",
+      "parties_summary": "Thomas Hanson; Miles Partnership, LLLP",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73730426/hanson-v-miles-partnership-lllp/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.464182/gov.uscourts.flmd.464182.1.0.pdf",
+      "snippet": "     Case 8:26-cv-02280    Document 1     Filed 08/06/26   Page 1 of 58 PageID 1\n\n\n\n\n                   UNITED STATES DISTRICT COURT\n                 FOR THE MIDDLE DISTRICT OF FLORIDA\n                          TAMPA DIVISION\n\nTHOMAS HANSON, individually\nand on behalf of all others similarly         Case No. _____________________\nsituated,\n\n                           Plaintiff,\n                                                 JURY TRIAL DEMANDED\nv.\n\nMILES PARTNERSHIP, LLLP,\n\n                    ",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
