@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-08T23:51:48.538893Z",
+  "generated_at": "2026-08-09T01:02:56.286017Z",
   "days_back": 30,
-  "count": 93,
+  "count": 92,
   "stats": {
-    "total_filings": 93,
+    "total_filings": 92,
     "distinct_categories": 11,
     "distinct_courts": 30,
-    "needs_llm": 49
+    "needs_llm": 48
   },
   "actions": [
     {
@@ -1934,27 +1934,6 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/73598862/mccall-v-adapthealth-corp/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.657701/gov.uscourts.paed.657701.1.0.pdf",
       "snippet": "       Case 2:26-cv-04795-CMR               Document 1      Filed 07/10/26     Page 1 of 30\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                         EASTERN DISTRICT OF PENNSYLVANIA\n\nSHARI MCCALL, individually and on behalf              No.\nof all others similarly situated,\n\n                               Plaintiff,             COMPLAINT - CLASS ACTION\n\nv.\n\nADAPTHEALTH CORP.,                                    JURY TRIAL DEMANDED\n\n                               Defend",
-      "category": "Other",
-      "subcategory": "Other",
-      "category_source": "rule",
-      "category_confidence": 0.2,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 73598332,
-      "case_name": "McDermott v. Evolute Inc.",
-      "docket_number": "4:26-cv-00841",
-      "court": "District Court, N.D. Texas",
-      "court_id": "txnd",
-      "date_filed": "2026-07-09",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "McDermott; Evolute Inc.",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73598332/mcdermott-v-evolute-inc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.txnd.422993/gov.uscourts.txnd.422993.1.0.pdf",
-      "snippet": " Case 4:26-cv-00841-O           Document 1       Filed 07/09/26       Page 1 of 12      PageID 1\n\n\n\n                        IN THE UNITED STATES DISTRICT COURT\n                            NORTHERN DISTRICT OF TEXAS\n\n  ANGELA MCDERMOTT, individually                      Case No.\n  and on behalf of all others similarly\n  situated,\n\n                                                      JURY TRIAL DEMANDED\n                          Plaintiff,\n            v.\n\n  EVOLUTE INC.,\n\n                        ",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
