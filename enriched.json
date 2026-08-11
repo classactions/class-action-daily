@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-11T14:50:38.093495Z",
+  "generated_at": "2026-08-11T16:48:36.682479Z",
   "days_back": 30,
-  "count": 90,
+  "count": 91,
   "stats": {
-    "total_filings": 90,
+    "total_filings": 91,
     "distinct_categories": 10,
     "distinct_courts": 30,
     "needs_llm": 47
   },
   "actions": [
+    {
+      "docket_id": 73742669,
+      "case_name": "Wright v. McCormick & Company, Inc.",
+      "docket_number": "1:26-cv-04870",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-08-10",
+      "nature_of_suit": "370 Fraud or Truth-In-Lending",
+      "nos_code": "370",
+      "cause": "28:1332 Diversity-Fraud",
+      "parties_summary": "McCormick & Company, Inc.; LaTonya Wright",
+      "courtlistener_url": "https://www.courtlistener.com/docket/73742669/wright-v-mccormick-company-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.549733/gov.uscourts.nyed.549733.1.0.pdf",
+      "snippet": "    Case 1:26-cv-04870           Document 1    Filed 08/10/26     Page 1 of 17 PageID #: 1\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                           EASTERN DISTRICT OF NEW YORK\n\n\nLaTonya Wright, individually and on behalf\nof all others similarly situated,\n                                  Plaintiff     Case No.\n\n                 - against -                    Class Action Complaint\n\nMcCormick & Company, Inc.,                      Jury Trial Demanded\n                ",
+      "category": "Consumer",
+      "subcategory": "Other Fraud",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 73736373,
       "case_name": "Miller, Salem v. InDebted USA, Inc.",
