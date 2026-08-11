@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-11T19:55:51.324899Z",
+  "generated_at": "2026-08-11T20:35:55.525666Z",
   "days_back": 30,
-  "count": 92,
+  "count": 93,
   "stats": {
-    "total_filings": 92,
+    "total_filings": 93,
     "distinct_categories": 10,
     "distinct_courts": 30,
     "needs_llm": 47
   },
   "actions": [
+    {
+      "docket_id": 74220093,
+      "case_name": "EILEN v. JBS SOUDERTON, INC.",
+      "docket_number": "2:26-cv-05748",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-08-11",
+      "nature_of_suit": "790 Labor Litigations",
+      "nos_code": "790",
+      "cause": "28:1331 Fed. Question: Fair Labor Standards",
+      "parties_summary": "JBS PACKERLAND, INC.; NADEGE EILEN; JBS SOUDERTON, INC.; JBS USA FOOD COMPANY HOLDINGS",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74220093/eilen-v-jbs-souderton-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.659572/gov.uscourts.paed.659572.1.0.pdf",
+      "snippet": "         Case 2:26-cv-05748-JP           Document 1      Filed 08/11/26      Page 1 of 24\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                         EASTERN DISTRICT OF PENNSYLVANIA\n\n NADEGE EILEN, on Behalf of Herself                \u00a7\n and on Behalf of All Others Similarly             \u00a7\n Situated,                                         \u00a7     CIVIL ACTION NO.: ______________\n                                                   \u00a7\n         Plaintiff,                       ",
+      "category": "Labor",
+      "subcategory": "Other Labor Litigation",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74112001,
       "case_name": "MCCORMICK v. THE CAMPBELL'S COMPANY",
