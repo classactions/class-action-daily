@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-12T18:14:16.547193Z",
+  "generated_at": "2026-08-12T20:34:23.581158Z",
   "days_back": 30,
-  "count": 95,
+  "count": 96,
   "stats": {
-    "total_filings": 95,
+    "total_filings": 96,
     "distinct_categories": 10,
-    "distinct_courts": 30,
+    "distinct_courts": 31,
     "needs_llm": 47
   },
   "actions": [
+    {
+      "docket_id": 74639971,
+      "case_name": "City of Warren General Retirement Health, Life and Disability Benefits Plan and Trust v. Pentair plc",
+      "docket_number": "0:26-cv-03597",
+      "court": "District Court, D. Minnesota",
+      "court_id": "mnd",
+      "date_filed": "2026-08-12",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "City of Warren General Retirement Health, Life and Disability Benefits Plan and Trust; Pentair plc",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74639971/city-of-warren-general-retirement-health-life-and-disability-benefits-plan/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.235526/gov.uscourts.mnd.235526.1.0.pdf",
+      "snippet": "      CASE 0:26-cv-03597-KMM-DTS        Doc. 1    Filed 08/12/26   Page 1 of 45\n\n\n\n\n                       UNITED STATES DISTRICT COURT\n\n                            DISTRICT OF MINNESOTA\n\n\nCITY OF WARREN GENERAL                    )   Civ. No.\nRETIREMENT HEALTH, LIFE AND               )\nDISABILITY BENEFITS PLAN AND              )   CLASS ACTION\nTRUST, on Behalf of Itself and All Others )\n                                              COMPLAINT FOR VIOLATIONS OF\nSimilarly Situated,                ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74221565,
       "case_name": "Jones v. Spar Inc.",
