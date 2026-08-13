@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-13T14:17:07.161780Z",
+  "generated_at": "2026-08-13T15:28:48.605519Z",
   "days_back": 30,
-  "count": 98,
+  "count": 99,
   "stats": {
-    "total_filings": 98,
+    "total_filings": 99,
     "distinct_categories": 10,
     "distinct_courts": 31,
     "needs_llm": 47
   },
   "actions": [
+    {
+      "docket_id": 74642979,
+      "case_name": "Poniente v. Snipes USA LLC",
+      "docket_number": "2:26-cv-05804",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-08-12",
+      "nature_of_suit": "890 Other Statutes: Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1331 Fed. Question",
+      "parties_summary": "Snipes USA LLC; Gezille Poniente",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74642979/poniente-v-snipes-usa-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.659675/gov.uscourts.paed.659675.1.0.pdf",
+      "snippet": "       Case 2:26-cv-05804-JHS          Document 1       Filed 08/12/26        Page 1 of 41\n\n\n\n\n                     IN THE UNITED STATES DISTRICT COURT\n                  FOR THE EASTERN DISTRICT OF PENNSYLVANIA\n\n\nGEZILLE PONIENTE, individually and on behalf\nof all others similarly situated,                     Civil Action No.\n\n                       Plaintiff,                     CLASS ACTION COMPLAINT\n\nv.                                                    JURY TRIAL DEMANDED\n\nSNIPES USA LLC,\n\n",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74642895,
       "case_name": "Chiaravalloti v. Proctor & Gamble Company",
