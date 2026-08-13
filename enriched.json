@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-13T20:32:22.187492Z",
+  "generated_at": "2026-08-13T21:36:15.100712Z",
   "days_back": 30,
-  "count": 99,
+  "count": 100,
   "stats": {
-    "total_filings": 99,
+    "total_filings": 100,
     "distinct_categories": 10,
     "distinct_courts": 31,
     "needs_llm": 47
   },
   "actions": [
+    {
+      "docket_id": 74645901,
+      "case_name": "Kahn v. L.L.Bean, Inc.",
+      "docket_number": "1:26-cv-03200",
+      "court": "District Court, D. Maryland",
+      "court_id": "mdd",
+      "date_filed": "2026-08-13",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1453 Class Action Fairness Act",
+      "parties_summary": "John Fitzpatrick; L.L.Bean, Inc.; Zachary Kahn",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74645901/kahn-v-llbean-inc/",
+      "complaint_url": null,
+      "snippet": "Case 1:26-cv-03200-GLR   Document 1-1   Filed 08/13/26   Page 1 of 26\n\n\n\n\n                    EXHIBIT A\n\f                          Case 1:26-cv-03200-GLR                    Document 1-1                Filed 08/13/26              Page 2 of 26\n\n    Couls                                                                                         $18.69 US POSTAGE\n    Vaygt \u2022    _ _                                                                                FIRST-CLASS IMI\na   301( RIVER PLACE DR STE",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74642979,
       "case_name": "Poniente v. Snipes USA LLC",
