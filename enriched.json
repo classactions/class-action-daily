@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T18:24:47.828156Z",
+  "generated_at": "2026-08-13T19:32:36.383006Z",
   "days_back": 30,
   "count": 99,
   "stats": {
@@ -32,7 +32,7 @@
     },
     {
       "docket_id": 74642895,
-      "case_name": "Chiaravalloti v. Proctor & Gamble Company",
+      "case_name": "Chiaravalloti v. Procter & Gamble Company",
       "docket_number": "1:26-cv-06902",
       "court": "District Court, S.D. New York",
       "court_id": "nysd",
@@ -41,7 +41,7 @@
       "nos_code": "370",
       "cause": "28:1332 Diversity Action",
       "parties_summary": "Proctor & Gamble Company; Maria Chiaravalloti",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74642895/chiaravalloti-v-proctor-gamble-company/",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74642895/chiaravalloti-v-procter-gamble-company/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.670442/gov.uscourts.nysd.670442.1.0.pdf",
       "snippet": "             Case 1:26-cv-06902       Document 1        Filed 08/12/26      Page 1 of 14\n\n\n\n UNITED STATES DISTRICT COURT\n SOUTHERN DISTRICT OF NEW YORK                         x\n                                                       :\n MARIA CHIARAVALLOTI, individually and                 :\n on behalf of all others similarly situated,           :\n                                                       :    Case No. 26-cv-6902\n                                          Plaintiff,   :\n             ",
       "category": "Consumer",
