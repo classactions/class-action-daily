@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-14T22:14:07.220079Z",
+  "generated_at": "2026-08-14T22:46:36.666028Z",
   "days_back": 30,
-  "count": 101,
+  "count": 102,
   "stats": {
-    "total_filings": 101,
+    "total_filings": 102,
     "distinct_categories": 10,
     "distinct_courts": 31,
-    "needs_llm": 47
+    "needs_llm": 48
   },
   "actions": [
+    {
+      "docket_id": 74652896,
+      "case_name": "Sullivan v. OpenAI Foundation (f/k/a OpenAI Inc.)",
+      "docket_number": "1:26-cv-06966",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-08-14",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Sullivan; OpenAI Foundation (f/k/a OpenAI Inc.)",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74652896/sullivan-v-openai-foundation-fka-openai-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.670598/gov.uscourts.nysd.670598.1.0.pdf",
+      "snippet": "          Case 1:26-cv-06966         Document 1       Filed 08/14/26     Page 1 of 26\n\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n--------------------------------------- x\n                                                   :\nMICHAEL SULLIVAN, KENNETH S. SALADIN,              :\nZVI BODIE, ALAN J. MARCUS, KEVIN T.                : Case No. __________\nPATTON, LION DEN INC., and DANA LOEWY              :\nindividually and on behalf of all others similarly : CLASS ACTION COMPLAINT\ns",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74648785,
       "case_name": "Soneji v. HDFC Bank Limited",
