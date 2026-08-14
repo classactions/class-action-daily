@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14T03:34:08.642104Z",
+  "generated_at": "2026-08-14T05:25:46.975825Z",
   "days_back": 30,
   "count": 100,
   "stats": {
     "total_filings": 100,
     "distinct_categories": 10,
     "distinct_courts": 31,
-    "needs_llm": 47
+    "needs_llm": 46
   },
   "actions": [
     {
@@ -19,7 +19,7 @@
       "nature_of_suit": "850 Securities/Commodities",
       "nos_code": "850",
       "cause": "15:78m(a) Securities Exchange Act",
-      "parties_summary": "Soneji; HDFC Bank Limited",
+      "parties_summary": "HDFC Bank Limited; Sashidhar Jagdishan; Jwalant Natvarlal Soneji; Srinivasan Vaidyanathan",
       "courtlistener_url": "https://www.courtlistener.com/docket/74648785/soneji-v-hdfc-bank-limited/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.670536/gov.uscourts.nysd.670536.1.0.pdf",
       "snippet": "            Case 1:26-cv-06943      Document 1   Filed 08/13/26   Page 1 of 34\n\n\n\n\n                          UNITED STATES DISTRICT COURT\n                         SOUTHERN DISTRICT OF NEW YORK\n\nJWALANT NATVARLAL SONEJI,                    Case No.\nIndividually and on Behalf of All Others\nSimilarly Situated,                          CLASS ACTION COMPLAINT FOR\n                                             VIOLATIONS OF THE FEDERAL\n                      Plaintiff,             SECURITIES LAWS\n\n      ",
@@ -37,17 +37,17 @@
       "court": "District Court, E.D. Michigan",
       "court_id": "mied",
       "date_filed": "2026-08-13",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "Bond; UWM Holdings Corporation",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Mathew Randall Ishbia; Doug Bond; UWM Holdings Corporation; Rami Hasani",
       "courtlistener_url": "https://www.courtlistener.com/docket/74648345/bond-v-uwm-holdings-corporation/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.396929/gov.uscourts.mied.396929.1.0.pdf",
       "snippet": " Case 2:26-cv-12862-BRM-APP ECF No. 1, PageID.1 Filed 08/13/26 Page 1 of 25\n\n\n\n\n                        UNITED STATES DISTRICT COURT\n                        EASTERN DISTRICT OF MICHIGAN\n\nDOUG BOND, Individually and on Behalf of   Case No.\nAll Others Similarly Situated,\n                                           CLASS ACTION COMPLAINT FOR\n                   Plaintiff,              VIOLATIONS OF THE FEDERAL\n                                           SECURITIES LAWS\n      v.\n                       ",
-      "category": "Other",
-      "subcategory": "Other",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
-      "category_confidence": 0.2,
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
