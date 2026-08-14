@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14T11:37:47.109020Z",
+  "generated_at": "2026-08-14T12:44:22.945663Z",
   "days_back": 30,
-  "count": 100,
+  "count": 101,
   "stats": {
-    "total_filings": 100,
+    "total_filings": 101,
     "distinct_categories": 10,
     "distinct_courts": 31,
-    "needs_llm": 46
+    "needs_llm": 47
   },
   "actions": [
     {
@@ -40,7 +40,7 @@
       "nature_of_suit": "850 Securities/Commodities",
       "nos_code": "850",
       "cause": "15:78m(a) Securities Exchange Act",
-      "parties_summary": "Mathew Randall Ishbia; Doug Bond; UWM Holdings Corporation; Rami Hasani",
+      "parties_summary": "Doug Bond; UWM Holdings Corporation; Mathew Randall Ishbia; Rami Hasani",
       "courtlistener_url": "https://www.courtlistener.com/docket/74648345/bond-v-uwm-holdings-corporation/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.396929/gov.uscourts.mied.396929.1.0.pdf",
       "snippet": " Case 2:26-cv-12862-BRM-APP ECF No. 1, PageID.1 Filed 08/13/26 Page 1 of 25\n\n\n\n\n                        UNITED STATES DISTRICT COURT\n                        EASTERN DISTRICT OF MICHIGAN\n\nDOUG BOND, Individually and on Behalf of   Case No.\nAll Others Similarly Situated,\n                                           CLASS ACTION COMPLAINT FOR\n                   Plaintiff,              VIOLATIONS OF THE FEDERAL\n                                           SECURITIES LAWS\n      v.\n                       ",
@@ -69,6 +69,27 @@
       "subcategory": "Other Statutory Actions",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74643755,
+      "case_name": "Nolen v. Canon U.S.A., Inc.",
+      "docket_number": "2:26-cv-04939",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-08-13",
+      "nature_of_suit": "190 Contract: Other",
+      "nos_code": "190",
+      "cause": "28:1332 Diversity-Other Contract",
+      "parties_summary": "Michael Nolen; Marlon Vera; Canon U.S.A., Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74643755/nolen-v-canon-usa-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.549854/gov.uscourts.nyed.549854.1.0.pdf",
+      "snippet": "  Case 2:26-cv-04939-AYS          Document 1          Filed 08/13/26     Page 1 of 25 PageID #: 1\n\n\n\n\n                       IN THE UNITED STATES DISTRICT COURT\n                       FOR THE EASTERN DISTRICT OF NEW YORK\n\n\nMICHAEL NOLEN and MARLON VERA,\nindividually and on behalf of all others\nsimilarly situated,\n                                                             COMPLAINT \u2013 CLASS ACTION\n\n                  v.\n                                                             Case No.:\n CANON",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
