@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-15T04:00:48.097249Z",
+  "generated_at": "2026-08-15T04:53:58.833149Z",
   "days_back": 30,
-  "count": 102,
+  "count": 103,
   "stats": {
-    "total_filings": 102,
+    "total_filings": 103,
     "distinct_categories": 10,
     "distinct_courts": 31,
     "needs_llm": 48
   },
   "actions": [
+    {
+      "docket_id": 74653828,
+      "case_name": "Monroe County Employees' Retirement System v. Simply Good Foods Company",
+      "docket_number": "1:26-cv-06971",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-08-14",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78j(b)ss Stockholder Suit",
+      "parties_summary": "Geoff E. Tanner; Monroe County Employees' Retirement System; Shaun P. Mara; Simply Good Foods Company",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74653828/monroe-county-employees-retirement-system-v-simply-good-foods-company/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.670620/gov.uscourts.nysd.670620.1.0.pdf",
+      "snippet": "         Case 1:26-cv-06971    Document 1      Filed 08/14/26     Page 1 of 32\n\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n\n\n                                          x\nMONROE COUNTY EMPLOYEES\u2019                  :   Civil Action No. 1:26-cv-6971\nRETIREMENT SYSTEM, on Behalf of Itself :\nand All Others Similarly Situated,        :   CLASS ACTION\n                                          :\n                              Plaintiff,  :   COMPLAINT FOR VIOLATIONS OF THE\n              ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74652896,
       "case_name": "Sullivan v. OpenAI Foundation (f/k/a OpenAI Inc.)",
