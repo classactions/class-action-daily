@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-18T20:46:14.631471Z",
+  "generated_at": "2026-08-18T21:15:03.427920Z",
   "days_back": 30,
-  "count": 92,
+  "count": 93,
   "stats": {
-    "total_filings": 92,
+    "total_filings": 93,
     "distinct_categories": 10,
     "distinct_courts": 30,
     "needs_llm": 40
   },
   "actions": [
+    {
+      "docket_id": 74665377,
+      "case_name": "BUHRKE v. ASSOCIATION OF AMERICAN MEDICAL COLLEGES",
+      "docket_number": "1:26-cv-02907",
+      "court": "District Court, District of Columbia",
+      "court_id": "dcd",
+      "date_filed": "2026-08-18",
+      "nature_of_suit": "410 Anti-Trust",
+      "nos_code": "410",
+      "cause": "15:1 Antitrust Litigation",
+      "parties_summary": "ASSOCIATION OF AMERICAN MEDICAL COLLEGES; KAITLIN BUHRKE",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74665377/buhrke-v-association-of-american-medical-colleges/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295682/gov.uscourts.dcd.295682.1.0.pdf",
+      "snippet": "           Case 1:26-cv-02907   Document 1       Filed 08/18/26   Page 1 of 45\n\n\n\n\n                       UNITED STATES DISTRICT COURT\n                           DISTRICT OF COLUMBIA\n\nKAITLIN BUHRKE, on behalf of                    Case No. 1:26-cv-2907\nherself and those similarly situated,\n                                                CLASS ACTION COMPLAINT\nAddress to be filed in notice under seal,\n\n                 Plaintiff,\n\n      v.\n\nASSOCIATION OF AMERICAN\nMEDICAL COLLEGES,\n655 K Street ",
+      "category": "Antitrust",
+      "subcategory": "Antitrust",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74653828,
       "case_name": "Monroe County Employees' Retirement System v. Simply Good Foods Company",
