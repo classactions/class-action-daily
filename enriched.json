@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-19T19:00:27.765733Z",
+  "generated_at": "2026-08-19T19:46:46.886031Z",
   "days_back": 30,
-  "count": 91,
+  "count": 92,
   "stats": {
-    "total_filings": 91,
+    "total_filings": 92,
     "distinct_categories": 10,
     "distinct_courts": 30,
     "needs_llm": 38
@@ -27,6 +27,27 @@
       "subcategory": "Antitrust",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74663345,
+      "case_name": "Leon v. Drive Rite Academy, Inc.",
+      "docket_number": "1:26-cv-05035",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-08-18",
+      "nature_of_suit": "710 Labor: Fair Standards",
+      "nos_code": "710",
+      "cause": "29:201 Denial of Overtime Compensation",
+      "parties_summary": "Nelson Leon; Drive Rite Academy, Inc.; Simon Miyerov",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74663345/leon-v-drive-rite-academy-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.550054/gov.uscourts.nyed.550054.1.0.pdf",
+      "snippet": "Justin Cilenti (GC 2321)\n\nPeter Hans Cooper (PHC 4714)\nCILENTI & COOPER, PLLC\n60 East 42nd Street \u2014 40\" Floor\nNew York, NY 10165\n\nT. (212) 209-3933\n\nF, (212) 209-7102\npcooper@jcpclaw.com\nAttorneys for Plaintiff,\nCollective Action Members,\n\nand Class\nUNITED STATES DISTRICT COURT\nEASTERN DISTRICT OF NEW YORK\nNELSON LEON, on behalf of himself Case No.: 26 cv 5035\nand other employees similarly situated,\nFLSA COLLECTIVE\nPlaintiff, ACTION COMPLAINT\nAND CLASS ACTION\n-against-\nECF CASE\n\nDRIVE RITE ACADE",
+      "category": "Wage & Hour",
+      "subcategory": "Wage & Hour",
+      "category_source": "rule",
+      "category_confidence": 0.9,
       "ingest_source": "poll",
       "law360_coverage": []
     },
