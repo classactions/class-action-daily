@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:02:20.080803Z",
+  "generated_at": "2026-08-20T15:56:51.249502Z",
   "days_back": 30,
   "count": 90,
   "stats": {
@@ -11,7 +11,7 @@
   "actions": [
     {
       "docket_id": 74673919,
-      "case_name": "Castaneda v. Compass, Inc. d/b/a Compass International Holdings",
+      "case_name": "Castaneda v. Compass, Inc.",
       "docket_number": "1:26-cv-07077",
       "court": "District Court, S.D. New York",
       "court_id": "nysd",
@@ -20,7 +20,7 @@
       "nos_code": "410",
       "cause": "15:15 Antitrust Litigation",
       "parties_summary": "Compass, Inc. d/b/a Compass International Holdings; Peter Castaneda; Haley Gelfand",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74673919/castaneda-v-compass-inc-dba-compass-international-holdings/",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74673919/castaneda-v-compass-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.670933/gov.uscourts.nysd.670933.1.0.pdf",
       "snippet": "            Case 1:26-cv-07077      Document 1     Filed 08/19/26   Page 1 of 33\n\n\n\n\n                          UNITED STATES DISTRICT COURT\n                         SOUTHERN DISTRICT OF NEW YORK\n                              MANHATTAN DIVISION\n\n\nPETER CASTANEDA and HALEY GELFAND,                 Case No.\non behalf of themselves and all others similarly\nsituated,\n                                                   CLASS ACTION COMPLAINT\n\n                             Plaintiffs,           DEMAND FO",
       "category": "Antitrust",
