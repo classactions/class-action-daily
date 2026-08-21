@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-21T13:26:10.864242Z",
+  "generated_at": "2026-08-21T14:04:54.409464Z",
   "days_back": 30,
-  "count": 86,
+  "count": 87,
   "stats": {
-    "total_filings": 86,
+    "total_filings": 87,
     "distinct_categories": 10,
     "distinct_courts": 27,
     "needs_llm": 32
   },
   "actions": [
+    {
+      "docket_id": 74676359,
+      "case_name": "Rivera v. Bop, LLC",
+      "docket_number": "1:26-cv-07097",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-08-20",
+      "nature_of_suit": "446 Civil Rights: Americans with Disabilities - Other",
+      "nos_code": "446",
+      "cause": "42:12188 Americans With Disabilities Act - Civil Enforcement Actions",
+      "parties_summary": "Bop, LLC; Ysmarie Rivera",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74676359/rivera-v-bop-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.670961/gov.uscourts.nysd.670961.1.0.pdf",
+      "snippet": "             Case 1:26-cv-07097             Document 1             Filed 08/20/26   Page 1 of 25\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n---------------------------------------------------------------x\nYSMARIE RIVERA, on behalf of herself and all\nothers similarly situated,\n\n                          Plaintiff,                                    CLASS ACTION COMPLAINT\n-v.-                                                                    & DEMAND FOR JURY TRIAL\n\nBOP LLC d/b",
+      "category": "Civil Rights",
+      "subcategory": "Amer. w/ Disabilities \u2014 Other",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74673919,
       "case_name": "Castaneda v. Compass, Inc.",
