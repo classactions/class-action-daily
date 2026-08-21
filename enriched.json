@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-21T16:58:58.721416Z",
+  "generated_at": "2026-08-21T17:30:10.474704Z",
   "days_back": 30,
-  "count": 87,
+  "count": 88,
   "stats": {
-    "total_filings": 87,
+    "total_filings": 88,
     "distinct_categories": 10,
     "distinct_courts": 27,
     "needs_llm": 32
   },
   "actions": [
+    {
+      "docket_id": 74683252,
+      "case_name": "Reyes v. Mario's Pizzeria of E. Northport Corp.",
+      "docket_number": "2:26-cv-05144",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-08-21",
+      "nature_of_suit": "710 Labor: Fair Standards",
+      "nos_code": "710",
+      "cause": "29:206 Collect Unpaid Wages",
+      "parties_summary": "Christopher Spanos; Ulises Reyes; Mario's Pizzeria of E. Northport Corp.; East Northport Holdings Corp.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74683252/reyes-v-marios-pizzeria-of-e-northport-corp/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.550227/gov.uscourts.nyed.550227.1.0.pdf",
+      "snippet": "   Case 2:26-cv-05144         Document 1       Filed 08/21/26      Page 1 of 21 PageID #: 1\n\n\n\n\nUNITED STATES DISTRICT COURT\nEASTERN DISTRICT OF NEW YORK\n\n ULISES REYES, on behalf of himself, individually,\n and on behalf of all others similarly-situated,\n                                                               COMPLAINT\n                         Plaintiff,\n                                                               Docket No.: 2:26-cv-5144\n            -against-\n                          ",
+      "category": "Wage & Hour",
+      "subcategory": "Fair Labor Standards Act",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74676359,
       "case_name": "Rivera v. Bop, LLC",
