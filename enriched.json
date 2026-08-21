@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-21T23:15:16.750800Z",
+  "generated_at": "2026-08-21T23:45:27.160506Z",
   "days_back": 30,
-  "count": 88,
+  "count": 89,
   "stats": {
-    "total_filings": 88,
+    "total_filings": 89,
     "distinct_categories": 10,
     "distinct_courts": 27,
     "needs_llm": 32
   },
   "actions": [
+    {
+      "docket_id": 74686771,
+      "case_name": "Fortin v. Taboola.Com Ltd.",
+      "docket_number": "1:26-cv-07170",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-08-21",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Fortin; Taboola.Com Ltd.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74686771/fortin-v-taboolacom-ltd/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.671142/gov.uscourts.nysd.671142.1.0.pdf",
+      "snippet": "           Case 1:26-cv-07170     Document 1   Filed 08/21/26   Page 1 of 24\n\n\n\n\n                        UNITED STATES DISTRICT COURT\n                       SOUTHERN DISTRICT OF NEW YORK\n\nBRUNO FORTIN, Individually and on Behalf   Case No.\nof All Others Similarly Situated,\n                                           CLASS ACTION COMPLAINT FOR\n                    Plaintiff,             VIOLATIONS OF THE FEDERAL\n                                           SECURITIES LAWS\n      v.\n                   ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74683252,
       "case_name": "Reyes v. Mario's Pizzeria of E. Northport Corp.",
