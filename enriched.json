@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T23:45:27.160506Z",
+  "generated_at": "2026-08-22T00:43:53.346055Z",
   "days_back": 30,
-  "count": 89,
+  "count": 88,
   "stats": {
-    "total_filings": 89,
+    "total_filings": 88,
     "distinct_categories": 10,
     "distinct_courts": 27,
-    "needs_llm": 32
+    "needs_llm": 31
   },
   "actions": [
     {
@@ -1854,27 +1854,6 @@
       "subcategory": "Other Statutory Actions",
       "category_source": "rule",
       "category_confidence": 0.6,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 73654296,
-      "case_name": "Hayes v. Welldynerx, LLC",
-      "docket_number": "8:26-cv-02101",
-      "court": "District Court, M.D. Florida",
-      "court_id": "flmd",
-      "date_filed": "2026-07-22",
-      "nature_of_suit": "190 Contract: Other",
-      "nos_code": "190",
-      "cause": "28:1332 Diversity-Contract Dispute",
-      "parties_summary": "Rochelle Hayes; d/b/a Welldyne   Welldynerx, LLC",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73654296/hayes-v-welldynerx-llc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.463372/gov.uscourts.flmd.463372.1.0.pdf",
-      "snippet": "     Case 8:26-cv-02101    Document 1     Filed 07/22/26   Page 1 of 63 PageID 1\n\n\n\n\n                      UNITED STATES DISTRICT COURT\n                       MIDDLE DISTRICT OF FLORIDA\n\n\nROCHELLE HAYES, individually and\non behalf of all others similarly           Case No.\nsituated,\n                                           CLASS ACTION COMPLAINT\n             Plaintiff,\n                                           JURY TRIAL DEMANDED\nv.\n\nWELLDYNERX, LLC d/b/a\nWELLDYNE,\n\n             Defendant.\n\n\n",
-      "category": "Other",
-      "subcategory": "Other",
-      "category_source": "rule",
-      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     }
