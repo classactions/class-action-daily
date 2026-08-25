@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T17:03:59.129425Z",
+  "generated_at": "2026-08-25T17:52:29.211571Z",
   "days_back": 30,
-  "count": 89,
+  "count": 90,
   "stats": {
-    "total_filings": 89,
+    "total_filings": 90,
     "distinct_categories": 10,
     "distinct_courts": 27,
-    "needs_llm": 34
+    "needs_llm": 35
   },
   "actions": [
     {
@@ -65,6 +65,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/74690736/conner-v-liberty-healthcare-corporation/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.660441/gov.uscourts.paed.660441.1.0.pdf",
       "snippet": "        Case 2:26-cv-06193-GJP              Document 1      Filed 08/24/26       Page 1 of 49\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                         EASTERN DISTRICT OF PENNSYLVANIA\n\n\n VICTORIA CONNER, individually and on                  Case No.\n behalf of all others similarly situated,\n\n                                 Plaintiff,\n\n v.\n\n LIBERTY HEALTHCARE\n CORPORATION,\n\n                                 Defendant.\n\n\n\n                                 CLASS ACTION C",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74690505,
+      "case_name": "Daniels v. Apple American Group, LLC",
+      "docket_number": "1:26-cv-02023",
+      "court": "District Court, N.D. Ohio",
+      "court_id": "ohnd",
+      "date_filed": "2026-08-24",
+      "nature_of_suit": "190 Contract: Other",
+      "nos_code": "190",
+      "cause": "28:1332 Diversity-Other Contract",
+      "parties_summary": "Apple American Group II, LLC; Apple American Group, LLC; Shilo Daniels",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74690505/daniels-v-apple-american-group-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.330433/gov.uscourts.ohnd.330433.1.0.pdf",
+      "snippet": "          Case: 1:26-cv-02023-DAR Doc #: 1 Filed: 08/24/26 1 of 51. PageID #: 1\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                         FOR THE NORTHERN DISTRICT OF OHIO\n\nSHILO DANIELS, individually, and on behalf            Case No. ______________\nof all others similarly situated,\n                                                      CLASS ACTION COMPLAINT\n                               Plaintiff,\n\nv.                                                    JURY DEMAND\n\nA",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
