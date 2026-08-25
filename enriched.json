@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-25T14:35:33.839693Z",
+  "generated_at": "2026-08-25T15:34:33.510710Z",
   "days_back": 30,
-  "count": 87,
+  "count": 88,
   "stats": {
-    "total_filings": 87,
+    "total_filings": 88,
     "distinct_categories": 10,
     "distinct_courts": 27,
     "needs_llm": 33
   },
   "actions": [
+    {
+      "docket_id": 74694998,
+      "case_name": "Diaz v. Mush Foods, Inc.",
+      "docket_number": "1:26-cv-07231",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-08-25",
+      "nature_of_suit": "446 Civil Rights: Americans with Disabilities - Other",
+      "nos_code": "446",
+      "cause": "42:12188 Americans With Disabilities Act - Civil Enforcement Actions",
+      "parties_summary": "Mush Foods, Inc.; Ashante Diaz",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74694998/diaz-v-mush-foods-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.671233/gov.uscourts.nysd.671233.1.0.pdf",
+      "snippet": "              Case 1:26-cv-07231            Document 1          Filed 08/25/26   Page 1 of 28\n\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n------------------------------------------------------------------\nASHANTE DIAZ on behalf of herself and                                     Docket No.\n all others similarly situated,\n                                                                          CLASS ACTION\n                             Plaintiff,                                 ",
+      "category": "Civil Rights",
+      "subcategory": "Amer. w/ Disabilities \u2014 Other",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74690736,
       "case_name": "CONNER v. LIBERTY HEALTHCARE CORPORATION",
