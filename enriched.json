@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-25T16:26:05.672506Z",
+  "generated_at": "2026-08-25T17:03:59.129425Z",
   "days_back": 30,
-  "count": 88,
+  "count": 89,
   "stats": {
-    "total_filings": 88,
+    "total_filings": 89,
     "distinct_categories": 10,
     "distinct_courts": 27,
-    "needs_llm": 33
+    "needs_llm": 34
   },
   "actions": [
+    {
+      "docket_id": 74695855,
+      "case_name": "PARIS v. APOLLO GLOBAL MANAGEMENT, INC.",
+      "docket_number": "1:26-cv-07238",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-08-25",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332tn Diversity-Tort/Non-Motor Vehicle",
+      "parties_summary": "APOLLO MANAGEMENT HOLDINGS, L.P.; DONNA PARIS; APOLLO GLOBAL MANAGEMENT, INC.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74695855/paris-v-apollo-global-management-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.671242/gov.uscourts.nysd.671242.1.0.pdf",
+      "snippet": "             Case 1:26-cv-07238      Document 1       Filed 08/25/26     Page 1 of 50\n\n\n\n\n                       IN THE UNITED STATES DISTRICT COURT\n                     FOR THE SOUTHERN DISTRICT OF NEW YORK\n\nDONNA PARIS, individually, and on behalf             Case No. ______________\nof all others similarly situated,\n                                                     CLASS ACTION COMPLAINT\n                Plaintiff,\n\n        v.                                           JURY DEMAND\n\nAPOLLO GLO",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74694998,
       "case_name": "Diaz v. Mush Foods, Inc.",
