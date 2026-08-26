@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-08-26T13:46:35.539074Z",
+  "generated_at": "2026-08-26T14:35:38.904600Z",
   "days_back": 30,
-  "count": 94,
+  "count": 95,
   "stats": {
-    "total_filings": 94,
+    "total_filings": 95,
     "distinct_categories": 10,
     "distinct_courts": 27,
-    "needs_llm": 39
+    "needs_llm": 40
   },
   "actions": [
+    {
+      "docket_id": 74700187,
+      "case_name": "Martiny v. Apple American Group LLC",
+      "docket_number": "1:26-cv-02053",
+      "court": "District Court, N.D. Ohio",
+      "court_id": "ohnd",
+      "date_filed": "2026-08-26",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332 Diversity-Property Damage",
+      "parties_summary": "Apple American Group LLC; Makayla Martiny; Apple American Group II, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74700187/martiny-v-apple-american-group-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.330474/gov.uscourts.ohnd.330474.1.0.pdf",
+      "snippet": "         Case: 1:26-cv-02053-JPC Doc #: 1 Filed: 08/25/26 1 of 22. PageID #: 1\n\n\n\n\n                             UNITED STATES DISTRICT COURT\n                              NORTHERN DISTRICT OF OHIO\n\n    MAKAYLA MARTINY, individually and on                Case No. 1:26-CV-02053\n    behalf of all others similarly situated,\n\n                         Plaintiff,\n\n           v.\n\n    APPLE AMERICAN GROUP LLC and                        CLASS ACTION COMPLAINT\n    APPLE AMERICAN GROUP II, LLC,\n            ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74698239,
       "case_name": "Sousie v. Apple American Group LLC",
