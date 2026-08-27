@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T05:58:02.221179Z",
+  "generated_at": "2026-08-27T17:20:56.193836Z",
   "days_back": 30,
   "count": 90,
   "stats": {
@@ -32,7 +32,7 @@
     },
     {
       "docket_id": 74703173,
-      "case_name": "Rivera v. Aelfric Eden",
+      "case_name": "Rivera v. Eden",
       "docket_number": "1:26-cv-07283",
       "court": "District Court, S.D. New York",
       "court_id": "nysd",
@@ -41,7 +41,7 @@
       "nos_code": "446",
       "cause": "42:12188 Americans With Disabilities Act - Civil Enforcement Actions",
       "parties_summary": "Ysmarie Rivera; Aelfric Eden",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74703173/rivera-v-aelfric-eden/",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74703173/rivera-v-eden/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.671334/gov.uscourts.nysd.671334.1.0.pdf",
       "snippet": "             Case 1:26-cv-07283             Document 1             Filed 08/26/26   Page 1 of 28\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n---------------------------------------------------------------x\nYSMARIE RIVERA, on behalf of herself and all\nothers similarly situated,\n\n                          Plaintiff,                                    CLASS ACTION COMPLAINT\n                                                                        & DEMAND FOR JURY TRIAL\n\n           ",
       "category": "Civil Rights",
