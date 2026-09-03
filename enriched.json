@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-03T09:19:16.875029Z",
+  "generated_at": "2026-09-03T13:41:20.060350Z",
   "days_back": 30,
-  "count": 78,
+  "count": 79,
   "stats": {
-    "total_filings": 78,
+    "total_filings": 79,
     "distinct_categories": 10,
     "distinct_courts": 20,
-    "needs_llm": 28
+    "needs_llm": 29
   },
   "actions": [
+    {
+      "docket_id": 74741822,
+      "case_name": "Barber v. Carhartt, Inc.",
+      "docket_number": "2:26-cv-13167",
+      "court": "District Court, E.D. Michigan",
+      "court_id": "mied",
+      "date_filed": "2026-09-02",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity-Tort/Non-Motor Vehicle",
+      "parties_summary": "Luke Barber; Harvey Salzberg; Bradley Moye; Carhartt, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74741822/barber-v-carhartt-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.397643/gov.uscourts.mied.397643.1.0.pdf",
+      "snippet": "    Case 2:26-cv-13167-JEL-APP ECF No. 1, PageID.1 Filed 09/02/26 Page 1 of 39\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                       FOR THE EASTERN DISTRICT OF MICHIGAN\n\n    LUKE BARBER, BRADLEY MOYE and\n    HARVEY SALZBERG, individually and                     Case No.\n    on behalf of all others similarly situated,\n                                                          CLASS ACTION COMPLAINT\n                     Plaintiffs,\n                                     ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74736702,
       "case_name": "LEAP ACQUISITIONS, LLC v. GRIVAS",
