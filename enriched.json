@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-04T19:44:11.194909Z",
+  "generated_at": "2026-09-04T21:58:40.845794Z",
   "days_back": 30,
-  "count": 82,
+  "count": 83,
   "stats": {
-    "total_filings": 82,
+    "total_filings": 83,
     "distinct_categories": 9,
     "distinct_courts": 21,
-    "needs_llm": 35
+    "needs_llm": 36
   },
   "actions": [
     {
@@ -44,6 +44,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/74748395/mccoy-v-lowes-companies-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.330784/gov.uscourts.ohnd.330784.1.0.pdf",
       "snippet": "      Case: 5:26-cv-02156-JRA Doc #: 1 Filed: 09/03/26 1 of 19. PageID #: 1\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                           NORTHERN DISTRICT OF OHIO\n                                EASTERN DIVISION\n\n\n JAMES MCCOY\n Individually and on behalf\n of all others similarly\n situated,                                      CASE NO. 5:26-cv-2156\n\n              Plaintiff,\n                                                CLASS ACTION COMPLAINT\n\n v.\n                      ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74748014,
+      "case_name": "Kempf v. Carhartt, Inc.",
+      "docket_number": "2:26-cv-13192",
+      "court": "District Court, E.D. Michigan",
+      "court_id": "mied",
+      "date_filed": "2026-09-03",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity-Personal Injury",
+      "parties_summary": "Carhartt, Inc.; Jakob Kempf",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74748014/kempf-v-carhartt-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.397708/gov.uscourts.mied.397708.1.0.pdf",
+      "snippet": " Case 2:26-cv-13192-DPH-APP ECF No. 1, PageID.1 Filed 09/03/26 Page 1 of 39\n\n\n\n\n                       IN THE UNITED STATES DISTRICT COURT\n                      FOR THE EASTERN DISTRICT OF MICHIGAN\n\n\nJAKOB KEMPF, on behalf of himself and all others          Case No. 26-cv-13192\nsimilarly situated,\n                                                          CLASS ACTION\n                                 Plaintiff,\n       v.                                                 JURY TRIAL DEMANDED\n\nCARHART",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
