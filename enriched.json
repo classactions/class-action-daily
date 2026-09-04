@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-04T09:12:50.943390Z",
+  "generated_at": "2026-09-04T13:38:14.725167Z",
   "days_back": 30,
-  "count": 79,
+  "count": 80,
   "stats": {
-    "total_filings": 79,
+    "total_filings": 80,
     "distinct_categories": 9,
     "distinct_courts": 21,
-    "needs_llm": 32
+    "needs_llm": 33
   },
   "actions": [
+    {
+      "docket_id": 74748395,
+      "case_name": "McCoy v. Lowe's Companies, Inc.",
+      "docket_number": "5:26-cv-02156",
+      "court": "District Court, N.D. Ohio",
+      "court_id": "ohnd",
+      "date_filed": "2026-09-03",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332 Diversity-Declaratory Judgment",
+      "parties_summary": "Lowe's Companies, Inc.; James McCoy",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74748395/mccoy-v-lowes-companies-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ohnd.330784/gov.uscourts.ohnd.330784.1.0.pdf",
+      "snippet": "      Case: 5:26-cv-02156-JRA Doc #: 1 Filed: 09/03/26 1 of 19. PageID #: 1\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                           NORTHERN DISTRICT OF OHIO\n                                EASTERN DIVISION\n\n\n JAMES MCCOY\n Individually and on behalf\n of all others similarly\n situated,                                      CASE NO. 5:26-cv-2156\n\n              Plaintiff,\n                                                CLASS ACTION COMPLAINT\n\n v.\n                      ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74745112,
       "case_name": "GORDON v. ADAPTHEALTH CORP.",
