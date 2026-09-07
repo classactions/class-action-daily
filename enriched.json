@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-06T22:35:07.602549Z",
+  "generated_at": "2026-09-07T00:32:10.501376Z",
   "days_back": 30,
-  "count": 75,
+  "count": 73,
   "stats": {
-    "total_filings": 75,
+    "total_filings": 73,
     "distinct_categories": 8,
-    "distinct_courts": 20,
-    "needs_llm": 32
+    "distinct_courts": 19,
+    "needs_llm": 31
   },
   "actions": [
     {
@@ -1539,48 +1539,6 @@
       "subcategory": "Other Fraud",
       "category_source": "rule",
       "category_confidence": 0.6,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 73736373,
-      "case_name": "Miller, Salem v. InDebted USA, Inc.",
-      "docket_number": "3:26-cv-00728",
-      "court": "District Court, W.D. Wisconsin",
-      "court_id": "wiwd",
-      "date_filed": "2026-08-07",
-      "nature_of_suit": "480 Consumer Credit",
-      "nos_code": "480",
-      "cause": "15:1692 Fair Debt Collection Act",
-      "parties_summary": "Salem  Miller; InDebted USA, Inc.",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73736373/miller-salem-v-indebted-usa-inc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wiwd.57079/gov.uscourts.wiwd.57079.1.0.pdf",
-      "snippet": "         Case: 3:26-cv-00728-jdp          Document #: 1        Filed: 08/07/26     Page 1 of 12\n\n\n\n\n                               UNITED STATES DISTRICT COURT\n                               WESTERN DISTRICT OF WISCONSIN\n\n SALEM MILLER, individually and on behalf of all                         CLASS ACTION\n others similarly situated,\n                                                                             Case No.\n       Plaintiff,\n                                                            ",
-      "category": "Consumer",
-      "subcategory": "Consumer Credit",
-      "category_source": "rule",
-      "category_confidence": 0.6,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 73735811,
-      "case_name": "Louis v. Target Corporation",
-      "docket_number": "7:26-cv-06768",
-      "court": "District Court, S.D. New York",
-      "court_id": "nysd",
-      "date_filed": "2026-08-07",
-      "nature_of_suit": "360 P.I.: Other",
-      "nos_code": "360",
-      "cause": "28:1332 Diversity Action",
-      "parties_summary": "Louis; Target Corporation",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73735811/louis-v-target-corporation/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.670115/gov.uscourts.nysd.670115.1.0.pdf",
-      "snippet": "             Case 7:26-cv-06768      Document 1         Filed 08/07/26     Page 1 of 16\n\n\n\n\n                      IN THE UNITED STATES DISTRICT COURT\n                    FOR THE SOUTHERN DISTRICT OF NEW YORK\n\n\n ALEXANDRIA LOUIS, individually and on behalf of              Case No. 7:26-cv-6768\n all others similarly situated,\n\n                                               Plaintiff,     CLASS ACTION COMPLAINT\n\n        v.                                                    JURY TRIAL DEMANDED\n\n TAR",
-      "category": "Other",
-      "subcategory": "Other",
-      "category_source": "rule",
-      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     }
