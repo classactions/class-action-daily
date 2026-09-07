@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-07T16:13:09.961642Z",
+  "generated_at": "2026-09-07T20:03:54.262411Z",
   "days_back": 30,
-  "count": 73,
+  "count": 74,
   "stats": {
-    "total_filings": 73,
+    "total_filings": 74,
     "distinct_categories": 8,
     "distinct_courts": 19,
-    "needs_llm": 31
+    "needs_llm": 32
   },
   "actions": [
+    {
+      "docket_id": 74756149,
+      "case_name": "Scofield v. 1-800-Hansons, LLC",
+      "docket_number": "1:26-cv-04183",
+      "court": "District Court, D. Colorado",
+      "court_id": "cod",
+      "date_filed": "2026-09-07",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Scofield; 1-800-Hansons, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74756149/scofield-v-1-800-hansons-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.cod.258688/gov.uscourts.cod.258688.1.0.pdf",
+      "snippet": "Case No. 1:26-cv-04183        Document 1     filed 09/07/26   USDC Colorado        pg 1 of 17\n\n\n\n\n                             UNITED STATES DISTRICT COURT\n                             FOR THE DISTRICT OF COLORADO\n\n  MICHAEL SCOFIELD, individually and on           Case No. 1:26-cv-4183\n  behalf of all others similarly situated,\n                                                  CLASS ACTION COMPLAINT\n                Plaintiff,\n                                                  DEMAND FOR JURY TRIA",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74753934,
       "case_name": "PLUMBERS & PIPEFITTERS LOCAL UNION 295 PENSION FUND v. DICKS SPORTING GOODS, INC.",
