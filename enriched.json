@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-09T11:37:50.226867Z",
+  "generated_at": "2026-09-09T15:38:06.482708Z",
   "days_back": 30,
-  "count": 74,
+  "count": 75,
   "stats": {
-    "total_filings": 74,
+    "total_filings": 75,
     "distinct_categories": 8,
     "distinct_courts": 19,
     "needs_llm": 32
   },
   "actions": [
+    {
+      "docket_id": 74756768,
+      "case_name": "Barclay v. Amazon.com Services, LLC",
+      "docket_number": "1:26-cv-05531",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-09-08",
+      "nature_of_suit": "440 Civil Rights: Other",
+      "nos_code": "440",
+      "cause": "28:451 Employment Discrimination",
+      "parties_summary": "Dazaria  Parks; Jennifer Hatch; Willamina Barclay; Kristina Green",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74756768/barclay-v-amazoncom-services-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.550934/gov.uscourts.nyed.550934.1.0.pdf",
+      "snippet": "   Case 1:26-cv-05531        Document 1       Filed 09/08/26      Page 1 of 49 PageID #: 1\n\n\n\n\nUNITED STATES DISTRICT COURT\nEASTERN DISTRICT OF NEW YORK\n\n\n WILLAMINA BARCLAY, KRISTINA GREEN,\n JENNIFER HATCH, and DAZARIA PARKS, on\n behalf of themselves and all persons similarly                No. ______\n situated,\n\n                       Plaintiffs,                             CLASS ACTION COMPLAINT &\n                                                               JURY DEMAND\n        -against-\n\n A",
+      "category": "Civil Rights",
+      "subcategory": "Other Civil Rights",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74756149,
       "case_name": "Scofield v. 1-800-Hansons, LLC",
