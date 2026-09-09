@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-09T21:29:56.454494Z",
+  "generated_at": "2026-09-09T23:27:06.419834Z",
   "days_back": 30,
-  "count": 78,
+  "count": 79,
   "stats": {
-    "total_filings": 78,
+    "total_filings": 79,
     "distinct_categories": 8,
     "distinct_courts": 19,
     "needs_llm": 34
   },
   "actions": [
+    {
+      "docket_id": 74768579,
+      "case_name": "Addison v. Greenberg Traurig, P.A.",
+      "docket_number": "1:26-cv-07793",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-09",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1331 Fed. Question",
+      "parties_summary": "Christine  Matthews; Kenneth  Adams; Bianca  C. Addison; Greenberg Traurig, LLP",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74768579/addison-v-greenberg-traurig-pa/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.672377/gov.uscourts.nysd.672377.1.0.pdf",
+      "snippet": "               Case 1:26-cv-07793        Document 1       Filed 09/09/26   Page 1 of 46\n\n\n\n\n                               UNITED STATES DISTRICT COURT\n                             SOUTHERN DISTRICT OF NEW YORK\n\n    BIANCA C. ADDISON, JAMAAL                             Case No.\n    ABRAHAM, KENNETH ADAMS, AND\n    CHRISTINE MATTHEWS, individually                      CLASS ACTION COMPLAINT\n    and on behalf of all others similarly situated,\n\n                           Plaintiffs,                 ",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74767394,
       "case_name": "Rose v. Webull Financial LLC",
