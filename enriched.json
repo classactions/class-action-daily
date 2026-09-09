@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-09T18:57:13.844877Z",
+  "generated_at": "2026-09-09T21:29:56.454494Z",
   "days_back": 30,
-  "count": 77,
+  "count": 78,
   "stats": {
-    "total_filings": 77,
+    "total_filings": 78,
     "distinct_categories": 8,
     "distinct_courts": 19,
     "needs_llm": 34
   },
   "actions": [
+    {
+      "docket_id": 74767394,
+      "case_name": "Rose v. Webull Financial LLC",
+      "docket_number": "1:26-cv-07784",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-09",
+      "nature_of_suit": "370 Other Fraud",
+      "nos_code": "370",
+      "cause": "28:1332fr Diversity-Fraud",
+      "parties_summary": "Webull Financial LLC; Devin  Rose",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74767394/rose-v-webull-financial-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.672361/gov.uscourts.nysd.672361.1.0.pdf",
+      "snippet": "            Case 1:26-cv-07784        Document 1      Filed 09/09/26      Page 1 of 20\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                           SOUTHERN DISTRICT OF NEW YORK\n\nDEVIN ROSE, individually and on behalf               Case No. 1:26-cv-7784\nof all others similarly situated,\n                                                     CLASS ACTION COMPLAINT\n                               Plaintiff,\n                                                     JURY TRIAL DEM",
+      "category": "Consumer",
+      "subcategory": "Other Fraud",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74765859,
       "case_name": "Dease v. HumanEdge, Inc.",
