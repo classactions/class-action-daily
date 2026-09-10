@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-10T11:35:52.691116Z",
+  "generated_at": "2026-09-10T15:33:40.236779Z",
   "days_back": 30,
-  "count": 79,
+  "count": 80,
   "stats": {
-    "total_filings": 79,
+    "total_filings": 80,
     "distinct_categories": 8,
     "distinct_courts": 19,
     "needs_llm": 34
   },
   "actions": [
+    {
+      "docket_id": 74769131,
+      "case_name": "CARTER v. KEN'S FOODS, LLC",
+      "docket_number": "1:26-cv-10941",
+      "court": "District Court, N.D. Illinois",
+      "court_id": "ilnd",
+      "date_filed": "2026-09-09",
+      "nature_of_suit": "370 Other Fraud",
+      "nos_code": "370",
+      "cause": "28:1332 Diversity-Breach of Contract",
+      "parties_summary": "KEN'S FOODS, LLC; KAREN CARTER",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74769131/carter-v-kens-foods-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.507520/gov.uscourts.ilnd.507520.1.0.pdf",
+      "snippet": "         Case: 1:26-cv-10941 Document #: 1 Filed: 09/09/26 Page 1 of 29 PageID #:1\n\n\n\n\n                               UNITED STATES DISTRICT COURT\n                               NORTHERN DISTRICT OF ILLINOIS\n\n\n    KAREN CARTER, individually and on behalf\n    of all others similarly situated,        Case No.\n\n                         Plaintiff,                      CLASS ACTION COMPLAINT\n\n    v.                                                   JURY DEMAND\n\n    KEN\u2019S FOODS, LLC\n                  ",
+      "category": "Consumer",
+      "subcategory": "Other Fraud",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74768723,
       "case_name": "Kasmer v. Britax Child Safety, Inc.",
@@ -61,7 +82,7 @@
       "nature_of_suit": "370 Other Fraud",
       "nos_code": "370",
       "cause": "28:1332fr Diversity-Fraud",
-      "parties_summary": "Webull Financial LLC; Devin  Rose",
+      "parties_summary": "Devin  Rose; Webull Financial LLC",
       "courtlistener_url": "https://www.courtlistener.com/docket/74767394/rose-v-webull-financial-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.672361/gov.uscourts.nysd.672361.1.0.pdf",
       "snippet": "            Case 1:26-cv-07784        Document 1      Filed 09/09/26      Page 1 of 20\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                           SOUTHERN DISTRICT OF NEW YORK\n\nDEVIN ROSE, individually and on behalf               Case No. 1:26-cv-7784\nof all others similarly situated,\n                                                     CLASS ACTION COMPLAINT\n                               Plaintiff,\n                                                     JURY TRIAL DEM",
