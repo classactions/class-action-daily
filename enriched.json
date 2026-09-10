@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T23:27:06.419834Z",
+  "generated_at": "2026-09-10T01:17:30.965513Z",
   "days_back": 30,
   "count": 79,
   "stats": {
@@ -9,6 +9,27 @@
     "needs_llm": 34
   },
   "actions": [
+    {
+      "docket_id": 74768723,
+      "case_name": "Kasmer v. Britax Child Safety, Inc.",
+      "docket_number": "1:26-cv-10932",
+      "court": "District Court, N.D. Illinois",
+      "court_id": "ilnd",
+      "date_filed": "2026-09-09",
+      "nature_of_suit": "370 Other Fraud",
+      "nos_code": "370",
+      "cause": "28:1332 Diversity-Fraud",
+      "parties_summary": "Britax Child Safety, Inc.; Jessica Kasmer",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74768723/kasmer-v-britax-child-safety-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.507512/gov.uscourts.ilnd.507512.1.0.pdf",
+      "snippet": "           Case: 1:26-cv-10932 Document #: 1 Filed: 09/09/26 Page 1 of 31 PageID #:1\n\n\n\n                              IN THE UNITED STATES DISTRICT COURT\n                           FOR THE NORTHERN DISTRICT OF ILLINOIS\n\n\n\n\n    JESSICA KASMER, individually and on                        COMPLAINT \u2013 CLASS ACTION\n    behalf of all others similarly situated,\n\n                           Plaintiff,                          DEMAND FOR JURY TRIAL\n\n                      v.\n\n                               ",
+      "category": "Consumer",
+      "subcategory": "Other Fraud",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74768579,
       "case_name": "Addison v. Greenberg Traurig, P.A.",
@@ -1642,27 +1663,6 @@
       "snippet": "       Case 1:26-cv-10134       Document 1       Filed 08/11/26       Page 1 of 22 PageID: 1\n\n\n\n\n                            IN THE UNITED STATES DISTRICT COURT\n                            FOR THE DISTRICT OF NEW JERSEY\n                                   CAMDEN VICINAGE\n\n JACQUELINE MCCORMICK,                             Civil Action No.\n individually and on behalf of similarly\n situated individuals,                             CLASS ACTION COMPLAINT\n\n         Plaintiff,\n\n vs.\n\n THE CAMPBELL\u2019S C",
       "category": "Privacy/TCPA/Data",
       "subcategory": "Other Statutory Actions",
-      "category_source": "rule",
-      "category_confidence": 0.6,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 73742669,
-      "case_name": "Wright v. McCormick & Company, Inc.",
-      "docket_number": "1:26-cv-04870",
-      "court": "District Court, E.D. New York",
-      "court_id": "nyed",
-      "date_filed": "2026-08-10",
-      "nature_of_suit": "370 Fraud or Truth-In-Lending",
-      "nos_code": "370",
-      "cause": "28:1332 Diversity-Fraud",
-      "parties_summary": "McCormick & Company, Inc.; LaTonya Wright",
-      "courtlistener_url": "https://www.courtlistener.com/docket/73742669/wright-v-mccormick-company-inc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.549733/gov.uscourts.nyed.549733.1.0.pdf",
-      "snippet": "    Case 1:26-cv-04870           Document 1    Filed 08/10/26     Page 1 of 17 PageID #: 1\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                           EASTERN DISTRICT OF NEW YORK\n\n\nLaTonya Wright, individually and on behalf\nof all others similarly situated,\n                                  Plaintiff     Case No.\n\n                 - against -                    Class Action Complaint\n\nMcCormick & Company, Inc.,                      Jury Trial Demanded\n                ",
-      "category": "Consumer",
-      "subcategory": "Other Fraud",
       "category_source": "rule",
       "category_confidence": 0.6,
       "ingest_source": "poll",
