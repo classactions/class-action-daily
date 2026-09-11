@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-11T18:53:36.769081Z",
+  "generated_at": "2026-09-11T23:27:37.290612Z",
   "days_back": 30,
-  "count": 80,
+  "count": 81,
   "stats": {
-    "total_filings": 80,
+    "total_filings": 81,
     "distinct_categories": 7,
     "distinct_courts": 20,
     "needs_llm": 36
   },
   "actions": [
+    {
+      "docket_id": 74781697,
+      "case_name": "Nguyen v. FuelCell Energy, Inc.",
+      "docket_number": "1:26-cv-07953",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-11",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Nguyen; FuelCell Energy, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74781697/nguyen-v-fuelcell-energy-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.672634/gov.uscourts.nysd.672634.1.0.pdf",
+      "snippet": "           Case 1:26-cv-07953     Document 1   Filed 09/11/26   Page 1 of 24\n\n\n\n\n                        UNITED STATES DISTRICT COURT\n                       SOUTHERN DISTRICT OF NEW YORK\n\nHAN NGUYEN, Individually and on Behalf     Case No.\nof All Others Similarly Situated,\n                                           CLASS ACTION COMPLAINT FOR\n                    Plaintiff,             VIOLATIONS OF THE FEDERAL\n                                           SECURITIES LAWS\n      v.\n                   ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74779277,
       "case_name": "Koppenhaver v. NFM Lending, LLC",
