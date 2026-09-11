@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-11T01:16:26.692247Z",
+  "generated_at": "2026-09-11T06:16:23.374511Z",
   "days_back": 30,
   "count": 77,
   "stats": {
     "total_filings": 77,
     "distinct_categories": 7,
     "distinct_courts": 19,
-    "needs_llm": 35
+    "needs_llm": 34
   },
   "actions": [
     {
@@ -16,17 +16,17 @@
       "court": "District Court, S.D. Florida",
       "court_id": "flsd",
       "date_filed": "2026-09-10",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "FNY PARTNERS FUND LP; DOUGLAS K. AMMERMAN",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:0078 Securities Exchange Act",
+      "parties_summary": "FNY PARTNERS FUND LP; ANTHONY M. JABBOUR; CANNAE HOLDINGS, INC.; THOMAS M. HAGERTY",
       "courtlistener_url": "https://www.courtlistener.com/docket/74776199/fny-partners-fund-lp-v-douglas-k-ammerman/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.723320/gov.uscourts.flsd.723320.1.0.pdf",
       "snippet": "Case 1:26-cv-26258-XXXX Document 1 Entered on FLSD Docket 09/10/2026 Page 1 of 40\n\n\n\n\n                             UNITED STATES DISTRICT COURT\n                             SOUTHERN DISTRICT OF FLORIDA\n\n                                       Case No. ______________\n\n   FNY PARTNERS FUND LP and FNY\n   MANAGED ACCOUNTS, LLC, individually\n   and on behalf of all others similarly situated,     CLASS ACTION\n\n                         Plaintiffs,                   JURY TRIAL DEMANDED\n   v.\n\n   DOUGLAS ",
-      "category": "Other",
-      "subcategory": "Other",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
-      "category_confidence": 0.2,
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
