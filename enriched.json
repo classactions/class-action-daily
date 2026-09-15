@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-14T22:52:22.303274Z",
+  "generated_at": "2026-09-15T01:05:28.306224Z",
   "days_back": 30,
-  "count": 71,
+  "count": 72,
   "stats": {
-    "total_filings": 71,
+    "total_filings": 72,
     "distinct_categories": 7,
     "distinct_courts": 20,
     "needs_llm": 35
   },
   "actions": [
+    {
+      "docket_id": 74789930,
+      "case_name": "Rosewood Funeral Home Inc. v. Baidu, Inc.",
+      "docket_number": "1:26-cv-08012",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-14",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Rosewood Funeral Home Inc.; Baidu, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74789930/rosewood-funeral-home-inc-v-baidu-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.672733/gov.uscourts.nysd.672733.1.0.pdf",
+      "snippet": "            Case 1:26-cv-08012      Document 1   Filed 09/14/26   Page 1 of 40\n\n\n\n\n                          UNITED STATES DISTRICT COURT\n                         SOUTHERN DISTRICT OF NEW YORK\n\nROSEWOOD FUNERAL HOME INC.,                  Case No.\nIndividually and on Behalf of All Others\nSimilarly Situated,                          CLASS ACTION COMPLAINT FOR\n                                             VIOLATIONS OF THE FEDERAL\n                      Plaintiff,             SECURITIES LAWS\n\n      ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74786884,
       "case_name": "Hunter v. AST SpaceMobile, Inc.",
