@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-16T10:32:30.207567Z",
+  "generated_at": "2026-09-16T15:13:32.867412Z",
   "days_back": 30,
-  "count": 74,
+  "count": 75,
   "stats": {
-    "total_filings": 74,
+    "total_filings": 75,
     "distinct_categories": 7,
     "distinct_courts": 20,
-    "needs_llm": 35
+    "needs_llm": 36
   },
   "actions": [
+    {
+      "docket_id": 74796688,
+      "case_name": "Doe v. Indyke",
+      "docket_number": "1:26-cv-08047",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-15",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1331 Fed. Question",
+      "parties_summary": "Richard D. Kahn; JANE DOE; Amy; Darren K Indyke",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74796688/doe-v-indyke/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.672825/gov.uscourts.nysd.672825.1.0.pdf",
+      "snippet": "            Case 1:26-cv-08047       Document 1        Filed 09/15/26    Page 1 of 36\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                          SOUTHERN DISTRICT OF NEW YORK\n\n\nJANE DOE and \u201cAMY,\u201d individually and on behalf of all\nothers similarly situated,\n                                                               CLASS ACTION COMPLAINT\n                                      Plaintiff,\n                                                                 Index No. _____",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74794009,
       "case_name": "Johnson v. Bounce AI, Inc.",
