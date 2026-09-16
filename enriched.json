@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-16T18:58:53.605509Z",
+  "generated_at": "2026-09-16T21:56:37.452994Z",
   "days_back": 30,
-  "count": 75,
+  "count": 76,
   "stats": {
-    "total_filings": 75,
+    "total_filings": 76,
     "distinct_categories": 7,
     "distinct_courts": 20,
-    "needs_llm": 36
+    "needs_llm": 37
   },
   "actions": [
+    {
+      "docket_id": 74801148,
+      "case_name": "Ritchie v. Luminis Health, Inc.",
+      "docket_number": "1:26-cv-03663",
+      "court": "District Court, D. Maryland",
+      "court_id": "mdd",
+      "date_filed": "2026-09-16",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332 Diversity-(Citizenship)",
+      "parties_summary": "Rachel Rogers; Angela Ritchie; Luminis Health, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74801148/ritchie-v-luminis-health-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mdd.613544/gov.uscourts.mdd.613544.1.0.pdf",
+      "snippet": "             Case 1:26-cv-03663       Document 1        Filed 09/16/26      Page 1 of 47\n\n\n\n                                UNITED STATES DISTRICT COURT\n                                   DISTRICT OF MARYLAND\n\n ANGELA RITCHIE and RACHEL                          Case No. 1:26-cv-03663\n ROGERS, individually and on behalf of all\n others similarly situated,\n                                                    CLASS ACTION COMPLAINT\n                  Plaintiffs,\n\n        v.                            ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74796688,
       "case_name": "Doe v. Indyke",
@@ -19,7 +40,7 @@
       "nature_of_suit": "360 P.I.: Other",
       "nos_code": "360",
       "cause": "28:1331 Fed. Question",
-      "parties_summary": "Darren K Indyke; Amy; Jane Doe; Richard D. Kahn",
+      "parties_summary": "Darren K Indyke; Richard D. Kahn; Amy; Jane Doe",
       "courtlistener_url": "https://www.courtlistener.com/docket/74796688/doe-v-indyke/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.672825/gov.uscourts.nysd.672825.1.0_1.pdf",
       "snippet": "       Case 1:26-cv-08047-GHW           Document 1       Filed 09/15/26      Page 1 of 36\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                          SOUTHERN DISTRICT OF NEW YORK\n\n\nJANE DOE and \u201cAMY,\u201d individually and on behalf of all\nothers similarly situated,\n                                                               CLASS ACTION COMPLAINT\n                                      Plaintiff,\n                                                                 Index No. _",
