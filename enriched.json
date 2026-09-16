@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-15T22:34:00.736822Z",
+  "generated_at": "2026-09-16T00:54:37.422153Z",
   "days_back": 30,
-  "count": 73,
+  "count": 74,
   "stats": {
-    "total_filings": 73,
+    "total_filings": 74,
     "distinct_categories": 7,
     "distinct_courts": 20,
     "needs_llm": 35
   },
   "actions": [
+    {
+      "docket_id": 74794009,
+      "case_name": "Johnson v. Bounce AI, Inc.",
+      "docket_number": "8:26-cv-02694",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-09-15",
+      "nature_of_suit": "480 Consumer Credit",
+      "nos_code": "480",
+      "cause": "15:1692 Fair Debt Collection Act",
+      "parties_summary": "Bounce AI, Inc.; Rich Johnson",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74794009/johnson-v-bounce-ai-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.466225/gov.uscourts.flmd.466225.1.0.pdf",
+      "snippet": "      Case 8:26-cv-02694         Document 1     Filed 09/15/26    Page 1 of 16 PageID 1\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                             MIDDLE DISTRICT OF FLORIDA\n\nRICH JOHNSON, individually and on behalf of                         CLASS ACTION\nall others similarly situated,\n                                                                        Case No.\n      Plaintiff,\n                                                              JURY TRIAL DEMANDED\nvs",
+      "category": "Consumer",
+      "subcategory": "Consumer Credit",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74789930,
       "case_name": "Rosewood Funeral Home Inc. v. Baidu, Inc.",
