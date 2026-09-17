@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-17T00:01:36.783500Z",
+  "generated_at": "2026-09-17T05:03:23.204756Z",
   "days_back": 30,
-  "count": 76,
+  "count": 77,
   "stats": {
-    "total_filings": 76,
+    "total_filings": 77,
     "distinct_categories": 7,
     "distinct_courts": 20,
     "needs_llm": 37
   },
   "actions": [
+    {
+      "docket_id": 74802885,
+      "case_name": "DePaoli v. Adjustment Bureau, Inc.",
+      "docket_number": "8:26-cv-02708",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-09-16",
+      "nature_of_suit": "480 Consumer Credit",
+      "nos_code": "480",
+      "cause": "15:1692 Fair Debt Collection Act",
+      "parties_summary": "Tulsa Adjustment Bureau, Inc.; Richard K Peck; Travis DePaoli",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74802885/depaoli-v-adjustment-bureau-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.466346/gov.uscourts.flmd.466346.1.0.pdf",
+      "snippet": "     Case 8:26-cv-02708    Document 1       Filed 09/16/26   Page 1 of 11 PageID 1\n\n\n\n\n                      UNITED STATES DISTRICT COURT\n                       MIDDLE DISTRICT OF FLORIDA\n                            TAMPA DIVISION\n\n\nTravis Depaoli,\nindividually and on behalf of                         CASE NO.:\nall others similarly situated,\n\n      Plaintiff,\n\nv.\n\nTulsa Adjustment Bureau, Inc.\n\n      Defendant.\n                                        /\n\n                          CLASS ACTION COM",
+      "category": "Consumer",
+      "subcategory": "Consumer Credit",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74801148,
       "case_name": "Ritchie v. Luminis Health, Inc.",
