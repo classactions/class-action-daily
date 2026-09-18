@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:45:02.858160Z",
+  "generated_at": "2026-09-18T22:42:02.228048Z",
   "days_back": 30,
   "count": 77,
   "stats": {
@@ -32,7 +32,7 @@
     },
     {
       "docket_id": 74809579,
-      "case_name": "Reeves v. POMCAR LLC",
+      "case_name": "Reeves v. Pomcar LLC",
       "docket_number": "8:26-cv-02729",
       "court": "District Court, M.D. Florida",
       "court_id": "flmd",
