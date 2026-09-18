@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-18T14:02:37.226209Z",
+  "generated_at": "2026-09-18T17:45:02.858160Z",
   "days_back": 30,
-  "count": 76,
+  "count": 77,
   "stats": {
-    "total_filings": 76,
+    "total_filings": 77,
     "distinct_categories": 7,
     "distinct_courts": 19,
     "needs_llm": 37
   },
   "actions": [
+    {
+      "docket_id": 74811749,
+      "case_name": "Khokhar v. The Trustees of Columbia University In The City of New York",
+      "docket_number": "1:26-cv-08135",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-18",
+      "nature_of_suit": "440 Civil Rights: Other",
+      "nos_code": "440",
+      "cause": "42:1983 Civil Rights Act",
+      "parties_summary": "John/Jane DOE ALLIED UNIVERSAL SECURITY OFFICERS 1-10; Michael Ting; Jessie Rubin; Luis Bello",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74811749/khokhar-v-the-trustees-of-columbia-university-in-the-city-of-new-york/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673057/gov.uscourts.nysd.673057.1.0.pdf",
+      "snippet": "          Case 1:26-cv-08135         Document 1     Filed 09/18/26     Page 1 of 53\n\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n\n                                                          CLASS ACTION\n NISREEN KHOKHAR, JESSIE RUBIN AND                        COMPLAINT\n COURTLAND BUCHANAN, individually and on\n behalf of all others similarly situated,\n                                                          Docket No. ____________\n                       Plaintiffs,\n             ",
+      "category": "Civil Rights",
+      "subcategory": "Other Civil Rights",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74809579,
       "case_name": "Reeves v. POMCAR LLC",
