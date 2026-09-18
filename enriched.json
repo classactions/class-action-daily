@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-18T00:32:18.499455Z",
+  "generated_at": "2026-09-18T05:25:00.416566Z",
   "days_back": 30,
-  "count": 75,
+  "count": 76,
   "stats": {
-    "total_filings": 75,
+    "total_filings": 76,
     "distinct_categories": 7,
     "distinct_courts": 19,
     "needs_llm": 37
   },
   "actions": [
+    {
+      "docket_id": 74809579,
+      "case_name": "Reeves v. POMCAR LLC",
+      "docket_number": "8:26-cv-02729",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-09-17",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1331 Fed. Question: Personal Injury",
+      "parties_summary": "Ricky Reeves; POMCAR LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74809579/reeves-v-pomcar-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.466403/gov.uscourts.flmd.466403.1.0.pdf",
+      "snippet": "      Case 8:26-cv-02729         Document 1           Filed 09/17/26   Page 1 of 28 PageID 1\n\n\n\n\n                              UNITED STATES DISTRICT COURT\n                               MIDDLE DISTRICT OF FLORIDA\n\n                                              Case No.:\n\n\nRICKY REEVES, individually,\nand on behalf of all others similarly situated,\n\n       Plaintiff,\n\nv.\n\nPOMCAR, LLC,\n\n       Defendant.\n                                                  /\n\n\n                                         ",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74802885,
       "case_name": "DePaoli v. Adjustment Bureau, Inc.",
