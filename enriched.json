@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-22T12:43:15.813602Z",
+  "generated_at": "2026-09-22T17:26:57.730528Z",
   "days_back": 30,
-  "count": 75,
+  "count": 76,
   "stats": {
-    "total_filings": 75,
+    "total_filings": 76,
     "distinct_categories": 6,
     "distinct_courts": 20,
     "needs_llm": 42
   },
   "actions": [
+    {
+      "docket_id": 74827794,
+      "case_name": "Jordan v. Vanguard Marketing Corporation",
+      "docket_number": "1:26-cv-08216",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-21",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1332 Diversity Action",
+      "parties_summary": "Diana Huack; Denise Torkelson; Morgan Stanley Smith Barney LLC; Rose Palermo",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74827794/jordan-v-vanguard-marketing-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673274/gov.uscourts.nysd.673274.1.0.pdf",
+      "snippet": "              Case 1:26-cv-08216            Document 1           Filed 09/21/26          Page 1 of 37\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n\n\nANDREA JORDAN, ELENA CIGLER,                                     Case No. __________________\nLAURA HEIT, SAM SHIREY, TRENT\nBERGER, GENE KLIPIN, DIANA HUACK,                                CLASS ACTION COMPLAINT\nLARRY PETREY, ALAN DALEWITZ,\nMARSHA DIGIACOMO, ROSE                                           DEMAND FOR JURY TRIAL\nPALERMO",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74826696,
       "case_name": "Hagardt v. LendingTree, Inc.",
