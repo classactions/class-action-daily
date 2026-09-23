@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-23T07:02:11.633082Z",
+  "generated_at": "2026-09-23T12:50:02.182075Z",
   "days_back": 30,
-  "count": 79,
+  "count": 81,
   "stats": {
-    "total_filings": 79,
+    "total_filings": 81,
     "distinct_categories": 6,
     "distinct_courts": 20,
-    "needs_llm": 43
+    "needs_llm": 45
   },
   "actions": [
     {
@@ -52,6 +52,27 @@
       "law360_coverage": []
     },
     {
+      "docket_id": 74831933,
+      "case_name": "Simmons v. Cart.com, LLC",
+      "docket_number": "1:26-cv-08236",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-22",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Simmons; Cart.com, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74831933/simmons-v-cartcom-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673324/gov.uscourts.nysd.673324.1.0.pdf",
+      "snippet": "            Case 1:26-cv-08236       Document 1       Filed 09/22/26      Page 1 of 19\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK________\nRANDOLPH SIMMONS, on behalf of himself and all\nothers similarly situated,\n                                                            Case No. ________\n\n                      Plaintiff,\n\n  v.                                                        CLASS ACTION COMPLAINT\n                                                            & DEMAND FOR ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
       "docket_id": 74831841,
       "case_name": "Bleiberg v. Blue Yonder Partners, LLC",
       "docket_number": "2:26-cv-13583",
@@ -65,6 +86,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/74831841/bleiberg-v-blue-yonder-partners-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.398303/gov.uscourts.mied.398303.1.0.pdf",
       "snippet": "  Case 4:26-cv-13583-SDK-CI ECF No. 1, PageID.1 Filed 09/22/26 Page 1 of 18\n\n\n\n\n                             UNITED STATES DISTRICT COURT\n                             EASTERN DISTRICT OF MICHIGAN\n\n\n MARVIN BLEIBERG, individually and on behalf of                        CLASS ACTION\n all others similarly situated,\n                                                                             Case No.\n\n                                                                   JURY TRIAL DEMANDED\n    Plaintif",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74830518,
+      "case_name": "Thomas v. JustSeven, LLC",
+      "docket_number": "1:26-cv-08230",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-22",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Thomas; JustSeven, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74830518/thomas-v-justseven-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673300/gov.uscourts.nysd.673300.1.0.pdf",
+      "snippet": "            Case 1:26-cv-08230        Document 1       Filed 09/22/26     Page 1 of 20\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK________\nCHRISTINE THOMAS, on behalf of herself and all\nothers similarly situated,                                   CLASS ACTION COMPLAINT\n                                                             AND DEMAND FOR JURY\n                                                             Case No. ________\n\n                      Plaintiff,\n\nv.\n\nJUSTSEVEN LLC",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
