@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-24T06:58:26.113960Z",
+  "generated_at": "2026-09-24T12:34:12.095414Z",
   "days_back": 30,
-  "count": 77,
+  "count": 78,
   "stats": {
-    "total_filings": 77,
+    "total_filings": 78,
     "distinct_categories": 6,
     "distinct_courts": 20,
-    "needs_llm": 39
+    "needs_llm": 40
   },
   "actions": [
     {
@@ -23,6 +23,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/74839591/mcinerney-v-aecom/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.txnd.427256/gov.uscourts.txnd.427256.1.0.pdf",
       "snippet": "     Case 3:26-cv-03217-S       Document 1        Filed 09/23/26       Page 1 of 34      PageID 1\n\n\n\n                              UNITED STATES DISTRICT COURT\n                               NORTHERN DISTRICT OF TEXAS\n                                    DALLAS DIVISION\n\nTERENCE MCINERNEY, on behalf of                        No.\nhimself and all others similarly situated,\n                                                       CLASS ACTION COMPLAINT\n                                Plaintiff,\n\nv.   ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74838220,
+      "case_name": "Simmons v. World Market, LLC",
+      "docket_number": "1:26-cv-08287",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-23",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Simmons; World Market, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74838220/simmons-v-world-market-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673408/gov.uscourts.nysd.673408.1.0.pdf",
+      "snippet": "            Case 1:26-cv-08287       Document 1       Filed 09/23/26      Page 1 of 19\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK________\nRANDOLPH SIMMONS, on behalf of himself and all\nothers similarly situated,\n                                                            Case No. ________\n\n                      Plaintiff,\n\nv.                                                          CLASS ACTION COMPLAINT\n                                                            & DEMAND FOR ",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
