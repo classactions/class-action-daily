@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-25T08:22:29.730981Z",
+  "generated_at": "2026-09-25T14:00:08.646610Z",
   "days_back": 30,
-  "count": 74,
+  "count": 75,
   "stats": {
-    "total_filings": 74,
+    "total_filings": 75,
     "distinct_categories": 6,
     "distinct_courts": 20,
-    "needs_llm": 36
+    "needs_llm": 37
   },
   "actions": [
+    {
+      "docket_id": 74849818,
+      "case_name": "Meyerson v. Tarter Krinsky & Drogin LLP",
+      "docket_number": "1:26-cv-08354",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-24",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity Action",
+      "parties_summary": "Tarter Krinsky & Drogin LLP; Alan Meyerson",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74849818/meyerson-v-tarter-krinsky-drogin-llp/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673562/gov.uscourts.nysd.673562.1.0.pdf",
+      "snippet": "                Case 1:26-cv-08354           Document 1          Filed 09/24/26        Page 1 of 50\n\n\n\n\n                                  UNITED STATES DISTRICT COURT\n                                SOUTHERN DISTRICT OF NEW YORK\n\n\n\n    ALAN MEYERSON, on behalf of himself                   Case No.: ________________________\n    and all others similarly situated,\n                            Plaintiff,                    CLASS ACTION COMPLAINT\n    vs.\n                                               ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74840487,
       "case_name": "Lasorsa v. ClearOne Advantage LLC",
