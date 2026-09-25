@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-25T18:22:17.563709Z",
+  "generated_at": "2026-09-25T21:44:40.629819Z",
   "days_back": 30,
-  "count": 84,
+  "count": 85,
   "stats": {
-    "total_filings": 84,
+    "total_filings": 85,
     "distinct_categories": 6,
     "distinct_courts": 22,
     "needs_llm": 44
   },
   "actions": [
+    {
+      "docket_id": 74854515,
+      "case_name": "ZENG v. DATAVAULT AI INC.",
+      "docket_number": "2:26-cv-07424",
+      "court": "District Court, E.D. Pennsylvania",
+      "court_id": "paed",
+      "date_filed": "2026-09-25",
+      "nature_of_suit": "850 Other Statutes: Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "DATAVAULT AI INC.; NATHANIEL T. BRADLEY; BRETT MOYER; VAN ZENG",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74854515/zeng-v-datavault-ai-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.662687/gov.uscourts.paed.662687.1.0.pdf",
+      "snippet": "        Case 2:26-cv-07424      Document 1    Filed 09/25/26   Page 1 of 31\n\n\n\n\n                      UNITED STATES DISTRICT COURT\n                    EASTERN DISTRICT OF PENNSYLVANIA\n\nVAN ZENG, Individually and on Behalf of   )   Case No.\nAll Others Similarly Situated,            )\n                                          )\n                          Plaintiff,      )\n                                          )   CLASS ACTION\n      vs.                                 )\n                         ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74849818,
       "case_name": "Meyerson v. Tarter Krinsky & Drogin LLP",
