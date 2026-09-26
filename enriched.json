@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-26T14:36:20.499355Z",
+  "generated_at": "2026-09-26T18:10:49.604657Z",
   "days_back": 30,
-  "count": 81,
+  "count": 82,
   "stats": {
-    "total_filings": 81,
+    "total_filings": 82,
     "distinct_categories": 6,
     "distinct_courts": 22,
-    "needs_llm": 43
+    "needs_llm": 44
   },
   "actions": [
     {
@@ -27,6 +27,27 @@
       "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74850848,
+      "case_name": "Simmons v. Wolverine World Wide, Inc.",
+      "docket_number": "1:26-cv-08375",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-25",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Simmons; Wolverine World Wide, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74850848/simmons-v-wolverine-world-wide-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673593/gov.uscourts.nysd.673593.1.0.pdf",
+      "snippet": "            Case 1:26-cv-08375       Document 1       Filed 09/25/26      Page 1 of 21\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK________\nRANDOLPH SIMMONS, on behalf of himself and all\nothers similarly situated,\n                                                            Case No. ________\n\n                      Plaintiff,\n\nv.                                                          CLASS ACTION\n                                                            COMPLAINT AND DEMAND\n  ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
