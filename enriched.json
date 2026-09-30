@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-09-29T21:41:46.600024Z",
+  "generated_at": "2026-09-30T00:55:03.885369Z",
   "days_back": 30,
   "count": 84,
   "stats": {
     "total_filings": 84,
     "distinct_categories": 7,
     "distinct_courts": 21,
-    "needs_llm": 44
+    "needs_llm": 43
   },
   "actions": [
+    {
+      "docket_id": 74868559,
+      "case_name": "LAGUNA v. ENDAVA PLC",
+      "docket_number": "1:26-cv-08556",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-29",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "12:22 Securities Fraud",
+      "parties_summary": "LAGUNA; ENDAVA PLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74868559/laguna-v-endava-plc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673883/gov.uscourts.nysd.673883.1.0.pdf",
+      "snippet": "            Case 1:26-cv-08556      Document 1   Filed 09/29/26   Page 1 of 27\n\n\n\n\n                          UNITED STATES DISTRICT COURT\n                         SOUTHERN DISTRICT OF NEW YORK\n\nGUILLERMO SALGADO LAGUNA,                    Case No.\nIndividually and on Behalf of All Others\nSimilarly Situated,                          CLASS ACTION COMPLAINT FOR\n                                             VIOLATIONS OF THE FEDERAL\n                      Plaintiff,             SECURITIES LAWS\n\n      ",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74865440,
       "case_name": "Lackey v. Saber Healthcare Holdings, LLC",
@@ -1749,27 +1770,6 @@
       "subcategory": "Amer. w/ Disabilities \u2014 Other",
       "category_source": "rule",
       "category_confidence": 0.6,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 74722394,
-      "case_name": "O'Connor v. McKesson Corporation",
-      "docket_number": "3:26-cv-02929",
-      "court": "District Court, N.D. Texas",
-      "court_id": "txnd",
-      "date_filed": "2026-08-30",
-      "nature_of_suit": "360 Torts/Pers Inj: Other Personal Injury",
-      "nos_code": "360",
-      "cause": "28:1332 Diversity-Tort/Non-Motor Vehicle",
-      "parties_summary": "Deneice O'Connor; McKesson Corporation",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74722394/oconnor-v-mckesson-corporation/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.txnd.425842/gov.uscourts.txnd.425842.1.0.pdf",
-      "snippet": "  Case 3:26-cv-02929-N            Document 1    Filed 08/30/26       Page 1 of 47      PageID 1\n\n\n\n\n                             UNITED STATES DISTRICT COURT\n                             NORTHERN DISTRICT OF TEXAS\n\n\nDENEICE O\u2019CONNOR, individually, and             Case No. _______________________________\non behalf of all others similarly situated,\n                                                CLASS ACTION COMPLAINT\n                Plaintiff,\nvs.\n                                               JU",
-      "category": "Other",
-      "subcategory": "Other",
-      "category_source": "rule",
-      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     }
