@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-30T12:51:16.432338Z",
+  "generated_at": "2026-09-30T18:12:59.162117Z",
   "days_back": 30,
-  "count": 84,
+  "count": 86,
   "stats": {
-    "total_filings": 84,
+    "total_filings": 86,
     "distinct_categories": 7,
     "distinct_courts": 21,
-    "needs_llm": 43
+    "needs_llm": 44
   },
   "actions": [
     {
@@ -27,6 +27,48 @@
       "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74867321,
+      "case_name": "Russo v. Pacha Soap Co.",
+      "docket_number": "1:26-cv-08524",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-29",
+      "nature_of_suit": "446 Civil Rights: Americans with Disabilities - Other",
+      "nos_code": "446",
+      "cause": "42:12188 Americans With Disabilities Act - Civil Enforcement Actions",
+      "parties_summary": "Susan Russo; Pacha Soap Co.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74867321/russo-v-pacha-soap-co/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673833/gov.uscourts.nysd.673833.1.0.pdf",
+      "snippet": "            Case 1:26-cv-08524        Document 1        Filed 09/29/26      Page 1 of 23\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK________\nSUSAN RUSSO, on behalf of herself and all\nothers similarly situated,                                       Case No. ________\n\n                       Plaintiff,\n\n       v.\n\nPACHA SOAP CO.\n\n                  Defendant,\n____________________________________________\n       Plaintiff SUSAN RUSSO, individually and on behalf of all others similarl",
+      "category": "Civil Rights",
+      "subcategory": "Amer. w/ Disabilities \u2014 Other",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74867035,
+      "case_name": "ADAME v. The Comedy Store",
+      "docket_number": "2:26-cv-11266",
+      "court": "District Court, C.D. California",
+      "court_id": "cacd",
+      "date_filed": "2026-09-29",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "ADAME; The Comedy Store",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74867035/adame-v-the-comedy-store/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.1041012/gov.uscourts.cacd.1041012.1.0.pdf",
+      "snippet": "10\n\n11\n\n12\n\n13\n\n14\n\n15\n\n16\n\n17\n\n18\n\n19\n\n20\n\n21\n\n22\n\n23\n\n24\n\n25\n\n26\n\n27\n\n28\n\nCase 2:26-cv-11266 Documenti1_ Filed 09/29/26 Pagelof28 Page ID#1\n\nEDELSBERG LAW, P.A.\n\nScott Edelsberg, Esq. (CA Bar No. 330990)\n1925 Century Park E #1700\n\nLos Angeles, CA 90067\n\nTelephone: 305-975-3320\n\nscott(Medelsberglaw.com\n\nCounsel for Plaintiff and Proposed Classes\n\nUNITED STATES DISTRICT COURT\nCENTRAL DISTRICT OF CALIFORNIA\n\nFERNANDO ADAME,, indtvidually Case No.\nand on behalf of all others similarly\nsituated, CL",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
