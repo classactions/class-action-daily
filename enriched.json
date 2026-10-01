@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-01T07:23:22.648664Z",
+  "generated_at": "2026-10-01T14:38:24.035673Z",
   "days_back": 30,
-  "count": 79,
+  "count": 80,
   "stats": {
-    "total_filings": 79,
-    "distinct_categories": 7,
+    "total_filings": 80,
+    "distinct_categories": 8,
     "distinct_courts": 21,
     "needs_llm": 41
   },
   "actions": [
+    {
+      "docket_id": 74882120,
+      "case_name": "Sosa v. PUBLIC PARTNERSHIPS, LLC",
+      "docket_number": "1:26-cv-08622",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-09-30",
+      "nature_of_suit": "790 Labor: Other",
+      "nos_code": "790",
+      "cause": "28:1453 Class Action Fairness Act",
+      "parties_summary": "Leyden Sosa; PUBLIC PARTNERSHIPS HOME CARE LLC; PUBLIC PARTNERSHIPS, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74882120/sosa-v-public-partnerships-llc/",
+      "complaint_url": null,
+      "snippet": "",
+      "category": "Labor",
+      "subcategory": "Other Labor Litigation",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74877551,
       "case_name": "Novak v. Endava plc",
