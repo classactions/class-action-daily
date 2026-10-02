@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-02T03:18:52.401267Z",
+  "generated_at": "2026-10-02T09:57:32.706240Z",
   "days_back": 30,
-  "count": 84,
+  "count": 85,
   "stats": {
-    "total_filings": 84,
+    "total_filings": 85,
     "distinct_categories": 8,
     "distinct_courts": 23,
-    "needs_llm": 47
+    "needs_llm": 48
   },
   "actions": [
+    {
+      "docket_id": 74907791,
+      "case_name": "Salmeron v. MULLINS",
+      "docket_number": "1:26-cv-26911",
+      "court": "District Court, S.D. Florida",
+      "court_id": "flsd",
+      "date_filed": "2026-10-02",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Salmeron; MULLINS",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74907791/salmeron-v-mullins/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.725158/gov.uscourts.flsd.725158.1.0.pdf",
+      "snippet": "Case 1:26-cv-26911-XXXX Document 1 Entered on FLSD Docket 10/02/2026 Page 1 of 53\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                            SOUTHERN DISTRICT OF FLORIDA\n                                   MIAMI DIVISION\n\n\n   ORLANDO ROSALES SALMERON and\n   JOHN DOE\n   individually and on behalf of all others\n   similarly situated,                                       Case No. __________________\n   Plaintiffs,\n\n   v.\n\n   MARKWAYNE MULLIN, in his official capacity\n  ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74905371,
       "case_name": "Hodgson, Philip v. Kovo+ (USA), Inc.",
