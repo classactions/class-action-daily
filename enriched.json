@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-03T00:04:24.661266Z",
+  "generated_at": "2026-10-03T05:31:21.097903Z",
   "days_back": 30,
-  "count": 85,
+  "count": 86,
   "stats": {
-    "total_filings": 85,
+    "total_filings": 86,
     "distinct_categories": 8,
-    "distinct_courts": 25,
-    "needs_llm": 48
+    "distinct_courts": 26,
+    "needs_llm": 49
   },
   "actions": [
+    {
+      "docket_id": 74913178,
+      "case_name": "Allegheny County Employees' Retirement System v. Coastal Financial Corporation",
+      "docket_number": "2:26-cv-03746",
+      "court": "District Court, W.D. Washington",
+      "court_id": "wawd",
+      "date_filed": "2026-10-02",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Allegheny County Employees' Retirement System; Coastal Financial Corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74913178/allegheny-county-employees-retirement-system-v-coastal-financial/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.369604/gov.uscourts.wawd.369604.1.0.pdf",
+      "snippet": "                 Case 2:26-cv-03746          Document 1     Filed 10/02/26     Page 1 of 18\n\n\n\n\n 1\n 2\n\n 3\n\n 4\n\n 5\n\n 6\n\n 7\n                                      UNITED STATES DISTRICT COURT\n 8\n                                   WESTERN DISTRICT OF WASHINGTON\n 9\n                                                AT SEATTLE\n10\n     ALLEGHENY COUNTY EMPLOYEES\u2019\n11   RETIREMENT SYSTEM, Individually and\n     On Behalf of All Others Similarly Situated,          Case No. 2:26-cv-03746\n12\n                   ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74912650,
       "case_name": "Ehmcke, David v. Kovo+ (USA), Inc.",
