@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-04T23:22:07.785178Z",
+  "generated_at": "2026-10-05T02:11:23.716750Z",
   "days_back": 30,
-  "count": 82,
+  "count": 81,
   "stats": {
-    "total_filings": 82,
+    "total_filings": 81,
     "distinct_categories": 8,
     "distinct_courts": 26,
     "needs_llm": 45
@@ -1707,27 +1707,6 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 74753934,
-      "case_name": "PLUMBERS & PIPEFITTERS LOCAL UNION 295 PENSION FUND v. DICKS SPORTING GOODS, INC.",
-      "docket_number": "2:26-cv-01860",
-      "court": "District Court, W.D. Pennsylvania",
-      "court_id": "pawd",
-      "date_filed": "2026-09-04",
-      "nature_of_suit": "850 Securities/Commodities",
-      "nos_code": "850",
-      "cause": "15:78m(a) Securities Exchange Act",
-      "parties_summary": "DICKS SPORTING GOODS, INC.; EDWARD W STACK; PLUMBERS & PIPEFITTERS LOCAL UNION #295 PENSION FUND,; LAUREN R. HOBART",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74753934/plumbers-pipefitters-local-union-295-pension-fund-v-dicks-sporting/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.335510/gov.uscourts.pawd.335510.1.0.pdf",
-      "snippet": "            Case 2:26-cv-01860           Document 1      Filed 09/04/26      Page 1 of 23\n\n\n\n\n                              UNITED STATES DISTRICT COURT\n                            WESTERN DISTRICT OF PENNSYLVANIA\n\n\n\n PLUMBERS & PIPEFITTERS LOCAL                       Case No.:\n UNION #295 PENSION FUND,\n Individually and on behalf of all others           CLASS ACTION\n similarly situated,\n                                                    COMPLAINT FOR VIOLATIONS OF\n                          Pla",
-      "category": "Securities",
-      "subcategory": "Securities/Commodities/Exchange",
-      "category_source": "rule",
-      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     }
