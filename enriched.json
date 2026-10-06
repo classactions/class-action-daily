@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-06T07:02:06.381344Z",
+  "generated_at": "2026-10-06T14:18:16.450425Z",
   "days_back": 30,
-  "count": 84,
+  "count": 86,
   "stats": {
-    "total_filings": 84,
+    "total_filings": 86,
     "distinct_categories": 8,
     "distinct_courts": 27,
-    "needs_llm": 47
+    "needs_llm": 49
   },
   "actions": [
     {
@@ -31,6 +31,27 @@
       "law360_coverage": []
     },
     {
+      "docket_id": 74918483,
+      "case_name": "Parker v. Madewell, Inc.",
+      "docket_number": "1:26-cv-08777",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-10-05",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Parker; Madewell, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74918483/parker-v-madewell-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.674402/gov.uscourts.nysd.674402.1.0.pdf",
+      "snippet": "               Case 1:26-cv-08777                 Document 1       Filed 10/05/26   Page 1 of 30\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n---------------------------------------------------------------x\nJEFFREY PARKER, on behalf of himself and all\nothers similarly situated,                                              Case No. ___________\n\n                              Plaintiff,                                CLASS ACTION COMPLAINT\n-v.-                                      ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
       "docket_id": 74917466,
       "case_name": "BROOKS v. FRONTLINE TECHNOLOGIES GROUP LLC",
       "docket_number": "2:26-cv-07630",
@@ -44,6 +65,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/74917466/brooks-v-frontline-technologies-group-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.663173/gov.uscourts.paed.663173.1.0_1.pdf",
       "snippet": "        Case 2:26-cv-07630-JFM           Document 1        Filed 10/05/26      Page 1 of 26\n\n\n\n\n                       UNITED STATES DISTRICT COURT\n               FOR THE THE EASTERN DISTRICT OF PENNSYLVANIA\n\n\nMARQUITTA BROOKS, individually and               Case No.:\non behalf of all others similarly situated,\n                                                 COMPLAINT \u2013 CLASS ACTION\nPlaintiff,\nv.                                               JURY TRIAL DEMANDED\n\nFRONTLINE TECHNOLOGIES GROUP\nLLC",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74916210,
+      "case_name": "Parker v. Coulter Ventures, LLC",
+      "docket_number": "1:26-cv-08762",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-10-05",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Parker; Coulter Ventures, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74916210/parker-v-coulter-ventures-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.674363/gov.uscourts.nysd.674363.1.0.pdf",
+      "snippet": "              Case 1:26-cv-08762           Document 1         Filed 10/05/26   Page 1 of 33\n\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n----------------------------------------------------------\n JEFFREY PARKER, on behalf of himself and\n all others similarly situated,\n\n                       Plaintiff,                                Case No. ___________\n       -against-                                                 CLASS ACTION COMPLAINT\n                                     ",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
