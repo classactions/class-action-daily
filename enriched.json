@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-09T08:13:04.216584Z",
+  "generated_at": "2026-10-09T15:24:48.277954Z",
   "days_back": 30,
-  "count": 114,
+  "count": 116,
   "stats": {
-    "total_filings": 114,
+    "total_filings": 116,
     "distinct_categories": 9,
-    "distinct_courts": 31,
-    "needs_llm": 63
+    "distinct_courts": 33,
+    "needs_llm": 64
   },
   "actions": [
+    {
+      "docket_id": 74941915,
+      "case_name": "Darcy v. The Chemours Company",
+      "docket_number": "1:26-cv-01299",
+      "court": "District Court, D. Delaware",
+      "court_id": "ded",
+      "date_filed": "2026-10-08",
+      "nature_of_suit": "850 Securities/Commodities",
+      "nos_code": "850",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "parties_summary": "Darcy; The Chemours Company",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74941915/darcy-v-the-chemours-company/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ded.94968/gov.uscourts.ded.94968.1.0.pdf",
+      "snippet": "Case 1:26-cv-01299-UNA            Document 1          Filed 10/08/26    Page 1 of 22 PageID #: 1\n\n\n\n\n                              UNITED STATES DISTRICT COURT\n                                 DISTRICT OF DELAWARE\n\n\n RYAN DARCY, Individually and on Behalf of             Case No.\n All Others Similarly Situated,\n\n                                Plaintiff,             CLASS ACTION COMPLAINT\n\n                        v.\n                                                       JURY TRIAL DEMANDED\n THE C",
+      "category": "Securities",
+      "subcategory": "Securities/Commodities/Exchange",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74941091,
       "case_name": "Reilly v. WCG Health Management Inc.",
@@ -52,6 +73,27 @@
       "law360_coverage": []
     },
     {
+      "docket_id": 74936677,
+      "case_name": "Bottoms v. Whirlpool Corporation",
+      "docket_number": "1:26-cv-02885",
+      "court": "District Court, W.D. Michigan",
+      "court_id": "miwd",
+      "date_filed": "2026-10-08",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Bottoms; Whirlpool Corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74936677/bottoms-v-whirlpool-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.miwd.123043/gov.uscourts.miwd.123043.1.0.pdf",
+      "snippet": "      Case 1:26-cv-02885        ECF No. 1, PageID.1               Filed 10/08/26   Page 1 of 29\n\n\n\n\n                          IN THE UNITED STATES DISTRICT COURT\n                         FOR THE WESTERN DISTRICT OF MICHIGAN\n\n ANITA BOTTOMS, individually and               :\n on behalf of all others similarly situated,   :\n                                               :       Case No:\n            Plaintiff,                         :\n v.                                            :       Hon.\n    ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
       "docket_id": 74936656,
       "case_name": "Ward v. Webull Corporation",
       "docket_number": "8:26-cv-03052",
@@ -82,7 +124,7 @@
       "nature_of_suit": "370 Fraud or Truth-In-Lending",
       "nos_code": "370",
       "cause": "28:1332 Diversity-Fraud",
-      "parties_summary": "Ross; Church & Dwight Co., Inc.",
+      "parties_summary": "Janet Ross; Church & Dwight Co., Inc.",
       "courtlistener_url": "https://www.courtlistener.com/docket/74936445/ross-v-church-dwight-co-inc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.552504/gov.uscourts.nyed.552504.1.0.pdf",
       "snippet": "     Case 2:26-cv-06491            Document 1          Filed 10/08/26         Page 1 of 19 PageID #: 1\n\n\n\n\nUNITED STATES DISTRICT COURT\nEASTERN DISTRICT OF NEW YORK\n\n    JANET ROSS, individually and on behalf of                   Civil Action No.: 26-cv-6491\n    all others similarly situated,\n                                                                CLASS ACTION COMPLAINT\n                   Plaintiff,\n                                                                JURY TRIAL DEMANDED\n     ",
