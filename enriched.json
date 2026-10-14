@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-14T07:50:45.865505Z",
+  "generated_at": "2026-10-14T13:12:02.913903Z",
   "days_back": 30,
-  "count": 114,
+  "count": 115,
   "stats": {
-    "total_filings": 114,
+    "total_filings": 115,
     "distinct_categories": 9,
     "distinct_courts": 33,
-    "needs_llm": 66
+    "needs_llm": 67
   },
   "actions": [
     {
@@ -27,6 +27,27 @@
       "subcategory": "Civil Rights \u2014 Employment",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74957128,
+      "case_name": "Simmons v. Instavision, Inc.",
+      "docket_number": "2:26-cv-13902",
+      "court": "District Court, E.D. Michigan",
+      "court_id": "mied",
+      "date_filed": "2026-10-13",
+      "nature_of_suit": "485 Telephone Consumer Protection Act (TCPA)",
+      "nos_code": "485",
+      "cause": "47:227 Restrictions of Use of Telephone Equipment",
+      "parties_summary": "Jennie Simmons; Instavision, Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74957128/simmons-v-instavision-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.398940/gov.uscourts.mied.398940.1.0.pdf",
+      "snippet": "     Case 2:26-cv-13902-LJM-EAS ECF No. 1, PageID.1 Filed 10/13/26 Page 1 of 10\n\n\n\n\n                               UNITED STATES DISTRICT COURT\n                               EASTERN DISTRICT OF MICHIGAN\n\n                                               CASE NO:\n\nJENNIE SIMMONS,\nindividually and on behalf of all\nothers similarly situated,                                        CLASS ACTION\n\n         Plaintiff,                                               JURY TRIAL DEMANDED\n\nv.\n\nINSTAVISION, INC.",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
