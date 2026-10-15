@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-15T21:52:57.445839Z",
+  "generated_at": "2026-10-15T23:58:54.496443Z",
   "days_back": 30,
-  "count": 116,
+  "count": 117,
   "stats": {
-    "total_filings": 116,
+    "total_filings": 117,
     "distinct_categories": 9,
     "distinct_courts": 34,
     "needs_llm": 69
   },
   "actions": [
+    {
+      "docket_id": 74969255,
+      "case_name": "INCORPORATED VILLAGE OF LYNBROOK v. Oshkosh Corporation",
+      "docket_number": "2:26-cv-01915",
+      "court": "District Court, E.D. Wisconsin",
+      "court_id": "wied",
+      "date_filed": "2026-10-15",
+      "nature_of_suit": "410 Anti-Trust",
+      "nos_code": "410",
+      "cause": "15:1 Antitrust Litigation",
+      "parties_summary": "Smeal SFA LLC; AIP/CHC Investors LLC; INCORPORATED VILLAGE OF LYNBROOK; Ferrara Fire Apparatus Inc",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74969255/incorporated-village-of-lynbrook-v-oshkosh-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wied.118766/gov.uscourts.wied.118766.1.0.pdf",
+      "snippet": "                               UNITED STATES DISTRICT COURT\n                               EASTERN DISTRICT OF WISCONSIN\n\n\nINCORPORATED VILLAGE OF LYNBROOK, individually and                    Case No. 26-cv-1915\non behalf of all others similarly situated,\n\n                 Plaintiff,                                           CLASS ACTION\n                                                                      COMPLAINT\nv.\n                                                                      INDIRE",
+      "category": "Antitrust",
+      "subcategory": "Antitrust",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74966439,
       "case_name": "JACKSON v. DISTRICT OF COLUMBIA",
