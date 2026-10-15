@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-15T14:34:00.134022Z",
+  "generated_at": "2026-10-15T18:47:18.123498Z",
   "days_back": 30,
-  "count": 115,
+  "count": 116,
   "stats": {
-    "total_filings": 115,
+    "total_filings": 116,
     "distinct_categories": 9,
-    "distinct_courts": 33,
+    "distinct_courts": 34,
     "needs_llm": 69
   },
   "actions": [
@@ -19,7 +19,7 @@
       "nature_of_suit": "555 Prisoner Petition: Prison Condition (Other)",
       "nos_code": "555",
       "cause": "42:1983 Prisoner Civil Rights",
-      "parties_summary": "KEVIN CONDRAY; MUSTAFA WRIGHT; SPIRO STAFILATOS; JUWUAN TUTT",
+      "parties_summary": "MUSTAFA WRIGHT; KEVIN CONDRAY; SPIRO STAFILATOS; JUWUAN TUTT",
       "courtlistener_url": "https://www.courtlistener.com/docket/74966439/jackson-v-district-of-columbia/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297644/gov.uscourts.dcd.297644.1.0_1.pdf",
       "snippet": "            Case 1:26-cv-03591      Document 1       Filed 10/15/26   Page 1 of 50\n\n\n\n\n                          UNITED STATES DISTRICT COURT\n                          FOR THE DISTRICT OF COLUMBIA\n\n\nPERNELL JACKSON\nCentral Detention Facility\n1901 D Street, S.E.\nWashington, DC 20003\nindividually and on behalf of all others similarly\nsituated,\n\nKEVIN CONDRAY\nCentral Detention Facility\n1901 D Street, S.E.\nWashington, DC 20003\n\nLINNELL SHELTON\nFCI Allenwood Medium\nPO Box 2000\nWhite Deer, PA 17887\n\nS",
@@ -52,6 +52,27 @@
       "law360_coverage": []
     },
     {
+      "docket_id": 74964170,
+      "case_name": "Branch v. Roundpoint Mortgage Servicing, LLC",
+      "docket_number": "2:26-cv-00660",
+      "court": "District Court, S.D. West Virginia",
+      "court_id": "wvsd",
+      "date_filed": "2026-10-14",
+      "nature_of_suit": "480 Consumer Credit",
+      "nos_code": "480",
+      "cause": "28:1453(b) - Class Action Fairness Act",
+      "parties_summary": "Roundpoint Mortgage Servicing, LLC; Emily Branch; Brian Branch",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74964170/branch-v-roundpoint-mortgage-servicing-llc/",
+      "complaint_url": null,
+      "snippet": "",
+      "category": "Consumer",
+      "subcategory": "Consumer Credit",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
       "docket_id": 74963847,
       "case_name": "PEPER v. KENNAMETAL INC.",
       "docket_number": "2:26-cv-07887",
@@ -74,7 +95,7 @@
     },
     {
       "docket_id": 74962385,
-      "case_name": "Ferguson v. MarketSource Insurance Services, LLC, f/k/a Salelytics, LLC",
+      "case_name": "Ferguson v. MarketSource Insurance Services LLC",
       "docket_number": "1:26-cv-01910",
       "court": "District Court, E.D. Wisconsin",
       "court_id": "wied",
@@ -83,7 +104,7 @@
       "nos_code": "710",
       "cause": "28:1331 Fed. Question: Fair Labor Standards",
       "parties_summary": "Laura Ferguson; MarketSource Insurance Services, LLC, f/k/a Salelytics, LLC",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74962385/ferguson-v-marketsource-insurance-services-llc-fka-salelytics-llc/",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74962385/ferguson-v-marketsource-insurance-services-llc/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wied.118753/gov.uscourts.wied.118753.1.0.pdf",
       "snippet": "                         UNITED STATES DISTRICT COURT\n                     FOR THE EASTERN DISTRICT OF WISCONSIN\n                              GREEN BAY DIVISION\n\n\nLAURA FERGUSON, individually and on\nbehalf of all others similarly situated,\n                                                        Case No.: ______________\n       Plaintiff,\n\n       v.\n                                                        Collective & Class Action\nMARKETSOURCE INSURANCE\nSERVICES, LLC, formerly known as\nSALELYTICS,",
       "category": "Wage & Hour",
