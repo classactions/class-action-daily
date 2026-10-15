@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-15T04:55:49.939357Z",
+  "generated_at": "2026-10-15T14:34:00.134022Z",
   "days_back": 30,
-  "count": 114,
+  "count": 115,
   "stats": {
-    "total_filings": 114,
+    "total_filings": 115,
     "distinct_categories": 9,
     "distinct_courts": 33,
-    "needs_llm": 68
+    "needs_llm": 69
   },
   "actions": [
+    {
+      "docket_id": 74966439,
+      "case_name": "JACKSON v. DISTRICT OF COLUMBIA",
+      "docket_number": "1:26-cv-03591",
+      "court": "District Court, District of Columbia",
+      "court_id": "dcd",
+      "date_filed": "2026-10-15",
+      "nature_of_suit": "555 Prisoner Petition: Prison Condition (Other)",
+      "nos_code": "555",
+      "cause": "42:1983 Prisoner Civil Rights",
+      "parties_summary": "KEVIN CONDRAY; MUSTAFA WRIGHT; SPIRO STAFILATOS; JUWUAN TUTT",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74966439/jackson-v-district-of-columbia/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297644/gov.uscourts.dcd.297644.1.0_1.pdf",
+      "snippet": "            Case 1:26-cv-03591      Document 1       Filed 10/15/26   Page 1 of 50\n\n\n\n\n                          UNITED STATES DISTRICT COURT\n                          FOR THE DISTRICT OF COLUMBIA\n\n\nPERNELL JACKSON\nCentral Detention Facility\n1901 D Street, S.E.\nWashington, DC 20003\nindividually and on behalf of all others similarly\nsituated,\n\nKEVIN CONDRAY\nCentral Detention Facility\n1901 D Street, S.E.\nWashington, DC 20003\n\nLINNELL SHELTON\nFCI Allenwood Medium\nPO Box 2000\nWhite Deer, PA 17887\n\nS",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74964413,
       "case_name": "Angney II v. TouchSource, LLC",
