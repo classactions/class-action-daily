@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T00:55:03.468574Z",
+  "generated_at": "2026-10-17T05:12:59.732037Z",
   "days_back": 30,
-  "count": 116,
+  "count": 117,
   "stats": {
-    "total_filings": 116,
+    "total_filings": 117,
     "distinct_categories": 9,
     "distinct_courts": 34,
-    "needs_llm": 68
+    "needs_llm": 69
   },
   "actions": [
     {
@@ -19,7 +19,7 @@
       "nature_of_suit": "850 Securities/Commodities",
       "nos_code": "850",
       "cause": "15:78j(b)ss Stockholder Suit",
-      "parties_summary": "New England Teamsters Pension Fund; Bank Of America Corporation",
+      "parties_summary": "Bank Of America Corporation; Brian Moynihan; New England Teamsters Pension Fund; Alastair Borthwick",
       "courtlistener_url": "https://www.courtlistener.com/docket/74979264/new-england-teamsters-pension-fund-v-bank-of-america-corporation/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.675317/gov.uscourts.nysd.675317.1.0.pdf",
       "snippet": "            Case 1:26-cv-09137      Document 1       Filed 10/16/26     Page 1 of 27\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                          SOUTHERN DISTRICT OF NEW YORK\n\nNEW ENGLAND TEAMSTERS PENSION                        Civil Action No.\nFUND, Individually and on behalf of all others\nsimilarly situated,\n                                                     DEMAND FOR JURY TRIAL\n                      Plaintiff,\n\n       v.                                           ",
@@ -27,6 +27,27 @@
       "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74978323,
+      "case_name": "James v. Valenti Southeast Management LLC",
+      "docket_number": "8:26-cv-03149",
+      "court": "District Court, M.D. Florida",
+      "court_id": "flmd",
+      "date_filed": "2026-10-16",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity-Personal Injury",
+      "parties_summary": "Valenti Southeast Management LLC; Jack James",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74978323/james-v-valenti-southeast-management-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.468424/gov.uscourts.flmd.468424.1.0.pdf",
+      "snippet": "     Case 8:26-cv-03149          Document 1        Filed 10/16/26      Page 1 of 36 PageID 1\n\n\n\n                              IN THE UNITED STATES DISTRICT\n                            COURT MIDDLE DISTRICT OF FLORIDA\n                                     TAMPA DIVISION\n\n\n\nJACK JAMES, individually and on behalf of              Case No.: 8:26-cv-03149\nall others similarly situated,\n                                                       CLASS ACTION\n                        Plaintiff,\n   v.          ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
