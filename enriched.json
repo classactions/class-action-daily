@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-19T10:36:45.593190Z",
+  "generated_at": "2026-10-19T17:16:43.547686Z",
   "days_back": 30,
-  "count": 114,
+  "count": 115,
   "stats": {
-    "total_filings": 114,
+    "total_filings": 115,
     "distinct_categories": 9,
     "distinct_courts": 34,
     "needs_llm": 67
   },
   "actions": [
+    {
+      "docket_id": 74980862,
+      "case_name": "Mercado v. McDonalds Corporation",
+      "docket_number": "1:26-cv-09142",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-10-19",
+      "nature_of_suit": "370 Other Fraud",
+      "nos_code": "370",
+      "cause": "28:1332fr Diversity-Fraud",
+      "parties_summary": "McDonalds Corporation; Alexander Mercado",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74980862/mercado-v-mcdonalds-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.675322/gov.uscourts.nysd.675322.1.0.pdf",
+      "snippet": "             Case 1:26-cv-09142      Document 1             Filed 10/19/26   Page 1 of 26\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                           SOUTHERN DISTRICT OF NEW YORK\n\n Alexander Mercado, individually and on                  Case No.: 26-cv-09142\n behalf of all others similarly situated,\n                                                         CLASS ACTION COMPLAINT\n                                        Plaintiff,\n                                       ",
+      "category": "Consumer",
+      "subcategory": "Other Fraud",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74980643,
       "case_name": "Ambrosia v. Phreesia, Inc.",
