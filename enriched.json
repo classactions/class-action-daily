@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-20T10:42:28.992776Z",
+  "generated_at": "2026-10-20T19:30:07.994507Z",
   "days_back": 30,
-  "count": 121,
+  "count": 122,
   "stats": {
-    "total_filings": 121,
+    "total_filings": 122,
     "distinct_categories": 9,
-    "distinct_courts": 34,
+    "distinct_courts": 35,
     "needs_llm": 70
   },
   "actions": [
+    {
+      "docket_id": 74989045,
+      "case_name": "Hindman v. American Landmark Management LLC",
+      "docket_number": "1:26-cv-01229",
+      "court": "District Court, M.D. North Carolina",
+      "court_id": "ncmd",
+      "date_filed": "2026-10-20",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1332 Diversity",
+      "parties_summary": "Conrad at Concord Mills Poe LLC; American Landmark Management LLC; Diron Kelly; Paula Hindman",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74989045/hindman-v-american-landmark-management-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ncmd.106223/gov.uscourts.ncmd.106223.1.0.pdf",
+      "snippet": "                  IN THE UNITED STATES DISTRICT COURT\n              FOR THE MIDDLE DISTRICT OF NORTH CAROLINA\n                             Durham Division\n\n PAULA HINDMAN and DIRON KELLY,\n on behalf of themselves and all similarly\n situated individuals,\n\n                      Plaintiffs,\n\n v.                                              COMPLAINT \u2013 Class Action\n\n AMERICAN LANDMARK                               Civil Action No. 26-cv-1229\n MANAGEMENT LLC, CADENCE AT\n CATES CREEK POE LLC, and\n CON",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74985350,
       "case_name": "Bondi v. Dunkin' Brands, Inc.",
@@ -32,7 +53,7 @@
     },
     {
       "docket_id": 74983934,
-      "case_name": "Garcia v. ZIZZL, LLC",
+      "case_name": "Garcia v. zizzl LLC",
       "docket_number": "2:26-cv-01939",
       "court": "District Court, E.D. Wisconsin",
       "court_id": "wied",
