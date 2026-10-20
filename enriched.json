@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-20T05:35:00.539737Z",
+  "generated_at": "2026-10-20T10:42:28.992776Z",
   "days_back": 30,
-  "count": 120,
+  "count": 121,
   "stats": {
-    "total_filings": 120,
+    "total_filings": 121,
     "distinct_categories": 9,
     "distinct_courts": 34,
     "needs_llm": 70
@@ -69,6 +69,27 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 74983146,
+      "case_name": "Arkinson v. Loro Piana & C. Inc.",
+      "docket_number": "2:26-cv-06710",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-10-19",
+      "nature_of_suit": "710 Labor: Fair Standards",
+      "nos_code": "710",
+      "cause": "29:201 Fair Labor Standards Act",
+      "parties_summary": "Arkinson; Loro Piana & C. Inc.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74983146/arkinson-v-loro-piana-c-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.552914/gov.uscourts.nyed.552914.1.0.pdf",
+      "snippet": "   Case 2:26-cv-06710         Document 1        Filed 10/19/26      Page 1 of 21 PageID #: 1\n\n\n\n\nUNITED STATES DISTRICT COURT\nEASTERN DISTRICT OF NEW YORK\n\n CHRISTINE ARKINSON, on behalf of herself,                       COMPLAINT\n individually, and on behalf of all others similarly\n situated,                                                       Civil Case No.:\n\n                                       Plaintiff,                CLASS AND COLLECTIVE\n                                                ",
+      "category": "Wage & Hour",
+      "subcategory": "Fair Labor Standards Act",
+      "category_source": "rule",
+      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     },
