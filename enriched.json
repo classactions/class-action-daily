@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-21T01:09:00.132234Z",
+  "generated_at": "2026-10-21T06:13:14.844653Z",
   "days_back": 30,
-  "count": 122,
+  "count": 123,
   "stats": {
-    "total_filings": 122,
+    "total_filings": 123,
     "distinct_categories": 9,
     "distinct_courts": 35,
-    "needs_llm": 69
+    "needs_llm": 70
   },
   "actions": [
+    {
+      "docket_id": 74994593,
+      "case_name": "Greve v. JM Bullion, Inc.",
+      "docket_number": "3:26-cv-03671",
+      "court": "District Court, N.D. Texas",
+      "court_id": "txnd",
+      "date_filed": "2026-10-20",
+      "nature_of_suit": "190 Contract: Other Contract",
+      "nos_code": "190",
+      "cause": "28:1332 Diversity-Other Contract",
+      "parties_summary": "JM Bullion, Inc.; Thomas Greve",
+      "courtlistener_url": "https://www.courtlistener.com/docket/74994593/greve-v-jm-bullion-inc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.txnd.429096/gov.uscourts.txnd.429096.1.0.pdf",
+      "snippet": "    Case 3:26-cv-03671-N            Document 1       Filed 10/20/26   Page 1 of 33       PageID 1\n\n\n\n                              UNITED STATES DISTRICT COURT\n                           FOR THE NORTHERN DISTRICT OF TEXAS\n\n    THOMAS GREVE, individually and on\n    behalf of all others similarly situated,                  No.\n\n                       Plaintiff,                             CIVIL ACTION\n\n           vs.                                                CLASS ACTION COMPLAINT\n\n    JM BUL",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 74991165,
       "case_name": "Williams v. Target Corporation",
