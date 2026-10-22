@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-22T08:08:56.647855Z",
+  "generated_at": "2026-10-22T13:58:03.616501Z",
   "days_back": 30,
-  "count": 130,
+  "count": 131,
   "stats": {
-    "total_filings": 130,
+    "total_filings": 131,
     "distinct_categories": 9,
     "distinct_courts": 38,
-    "needs_llm": 76
+    "needs_llm": 77
   },
   "actions": [
     {
@@ -44,6 +44,27 @@
       "courtlistener_url": "https://www.courtlistener.com/docket/75002170/rihani-v-chicago-collision-attorneys/",
       "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.510020/gov.uscourts.ilnd.510020.1.0.pdf",
       "snippet": "      Case: 1:26-cv-12981 Document #: 1 Filed: 10/21/26 Page 1 of 13 PageID #:1\n\n\n\n\n                         IN THE UNITED STATES DISTRICT COURT\n                        FOR THE NORTHERN DISTRICT OF ILLINOIS\n\n\n JORDAN RIHANI, on behalf of himself and others\n similarly situated\n                                                            Case No. 1:26-cv-12981\n                    Plaintiff,\n            vs.\n                                                            CLASS ACTION COMPLAINT\n\n\n  CHICAG",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 75000087,
+      "case_name": "Rivera v. Nvidia Corporation",
+      "docket_number": "1:26-cv-09239",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-10-21",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Rivera; Nvidia Corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75000087/rivera-v-nvidia-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.675562/gov.uscourts.nysd.675562.1.0.pdf",
+      "snippet": "             Case 1:26-cv-09239             Document 1             Filed 10/21/26   Page 1 of 25\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK\n---------------------------------------------------------------x\nYSMARIE RIVERA, on behalf of herself and all\nothers similarly situated,                                               Case No. ___________\n\n                          Plaintiff,                                    CLASS ACTION COMPLAINT\n-v.-                                     ",
       "category": "Other",
       "subcategory": "Other",
       "category_source": "rule",
