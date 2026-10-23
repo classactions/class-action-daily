@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-23T05:07:15.411780Z",
+  "generated_at": "2026-10-23T10:18:18.443218Z",
   "days_back": 30,
-  "count": 133,
+  "count": 134,
   "stats": {
-    "total_filings": 133,
+    "total_filings": 134,
     "distinct_categories": 9,
     "distinct_courts": 38,
     "needs_llm": 83
   },
   "actions": [
+    {
+      "docket_id": 75009079,
+      "case_name": "Williams v. Get Set Go Logistics LLC",
+      "docket_number": "2:26-cv-06810",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-10-22",
+      "nature_of_suit": "790 Labor: Other",
+      "nos_code": "790",
+      "cause": "28:1331 Fed. Question",
+      "parties_summary": "Williams; Get Set Go Logistics LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75009079/williams-v-get-set-go-logistics-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.553164/gov.uscourts.nyed.553164.1.0.pdf",
+      "snippet": "     Case 2:26-cv-06810       Document 1        Filed 10/22/26      Page 1 of 11 PageID #: 1\n\n\n\n\n                      IN THE UNITED STATES DISTRICT COURT\n                     FOR THE EASTERN DISTRICT OF NEW YORK\n\n\n SHIRLON WILLIAMS on behalf of himself                   CLASS ACTION COMPLAINT\n and all others similarly situated;                                AND\n                                                              JURY DEMAND\n        Plaintiff,\n\n vs.\n                                   ",
+      "category": "Labor",
+      "subcategory": "Other Labor Litigation",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75005617,
       "case_name": "Holloway v. Parker-Hannifin Corporation",
