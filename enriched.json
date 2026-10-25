@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-25T00:24:54.687491Z",
+  "generated_at": "2026-10-25T05:00:58.178791Z",
   "days_back": 30,
-  "count": 123,
+  "count": 124,
   "stats": {
-    "total_filings": 123,
+    "total_filings": 124,
     "distinct_categories": 9,
     "distinct_courts": 34,
-    "needs_llm": 75
+    "needs_llm": 76
   },
   "actions": [
+    {
+      "docket_id": 75016738,
+      "case_name": "WILLIAMSON v. QUEST DIAGNOSTICS INCORPORATED",
+      "docket_number": "2:26-cv-13889",
+      "court": "District Court, D. New Jersey",
+      "court_id": "njd",
+      "date_filed": "2026-10-24",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity-Personal Injury",
+      "parties_summary": "WILLIAMSON; QUEST DIAGNOSTICS INCORPORATED",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75016738/williamson-v-quest-diagnostics-incorporated/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.njd.611439/gov.uscourts.njd.611439.1.0.pdf",
+      "snippet": "         Case 2:26-cv-13889        Document 1       Filed 10/24/26      Page 1 of 49 PageID: 1\n\n\n\n\n                                  UNITED STATES DISTRICT COURT\n                                 FOR THE DISTRICT OF NEW JERSEY\n                                        NEWARK DIVISION\n\n    LISA WILLIAMSON, individually and on                Case No.: 2:26-cv-13889\n    behalf of all others similarly situated,\n                                                        COMPLAINT \u2013 CLASS ACTION\n           ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75013533,
       "case_name": "AYALA v. QUEST DIAGNOSTICS INCORPORATED",
