@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-26T11:56:44.311646Z",
+  "generated_at": "2026-10-26T18:08:42.039401Z",
   "days_back": 30,
-  "count": 122,
+  "count": 123,
   "stats": {
-    "total_filings": 122,
+    "total_filings": 123,
     "distinct_categories": 9,
     "distinct_courts": 34,
-    "needs_llm": 75
+    "needs_llm": 76
   },
   "actions": [
+    {
+      "docket_id": 75018339,
+      "case_name": "KISSELBACH v. QUEST DIAGNOSTICS INCORPORATED",
+      "docket_number": "2:26-cv-13911",
+      "court": "District Court, D. New Jersey",
+      "court_id": "njd",
+      "date_filed": "2026-10-26",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332 Diversity-Property Damage",
+      "parties_summary": "KISSELBACH; QUEST DIAGNOSTICS INCORPORATED",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75018339/kisselbach-v-quest-diagnostics-incorporated/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.njd.611470/gov.uscourts.njd.611470.1.0.pdf",
+      "snippet": "    Case 2:26-cv-13911      Document 1     Filed 10/26/26    Page 1 of 41 PageID: 1\n\n\n\n\n                     UNITED STATES DISTRICT COURT\n                     FOR THE DISTRICT NEW JERSEY\n\n\nDONALD KISSELBACH,                          Case No. _________\nindividually, and on behalf of all\nothers similarly situated,                  CLASS ACTION COMPLAINT\n                     Plaintiff,\n              v.\n                                            JURY TRIAL DEMANDED\nQUEST DIAGNOSTICS\nINCORPORATED,\n ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75016738,
       "case_name": "WILLIAMSON v. QUEST DIAGNOSTICS INCORPORATED",
