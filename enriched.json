@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T22:41:53.978191Z",
+  "generated_at": "2026-10-26T00:53:14.193531Z",
   "days_back": 30,
-  "count": 124,
+  "count": 122,
   "stats": {
-    "total_filings": 124,
+    "total_filings": 122,
     "distinct_categories": 9,
     "distinct_courts": 34,
-    "needs_llm": 76
+    "needs_llm": 75
   },
   "actions": [
     {
@@ -2568,48 +2568,6 @@
       "subcategory": "Other Fraud",
       "category_source": "rule",
       "category_confidence": 0.6,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 74854515,
-      "case_name": "ZENG v. DATAVAULT AI INC.",
-      "docket_number": "2:26-cv-07424",
-      "court": "District Court, E.D. Pennsylvania",
-      "court_id": "paed",
-      "date_filed": "2026-09-25",
-      "nature_of_suit": "850 Other Statutes: Securities/Commodities",
-      "nos_code": "850",
-      "cause": "15:78m(a) Securities Exchange Act",
-      "parties_summary": "DATAVAULT AI INC.; NATHANIEL T. BRADLEY; BRETT MOYER; VAN ZENG",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74854515/zeng-v-datavault-ai-inc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.662687/gov.uscourts.paed.662687.1.0.pdf",
-      "snippet": "        Case 2:26-cv-07424      Document 1    Filed 09/25/26   Page 1 of 31\n\n\n\n\n                      UNITED STATES DISTRICT COURT\n                    EASTERN DISTRICT OF PENNSYLVANIA\n\nVAN ZENG, Individually and on Behalf of   )   Case No.\nAll Others Similarly Situated,            )\n                                          )\n                          Plaintiff,      )\n                                          )   CLASS ACTION\n      vs.                                 )\n                         ",
-      "category": "Securities",
-      "subcategory": "Securities/Commodities/Exchange",
-      "category_source": "rule",
-      "category_confidence": 0.6,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 74850848,
-      "case_name": "Simmons v. Wolverine World Wide, Inc.",
-      "docket_number": "1:26-cv-08375",
-      "court": "District Court, S.D. New York",
-      "court_id": "nysd",
-      "date_filed": "2026-09-25",
-      "nature_of_suit": "",
-      "nos_code": "",
-      "cause": "",
-      "parties_summary": "Simmons; Wolverine World Wide, Inc.",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74850848/simmons-v-wolverine-world-wide-inc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.673593/gov.uscourts.nysd.673593.1.0.pdf",
-      "snippet": "            Case 1:26-cv-08375       Document 1       Filed 09/25/26      Page 1 of 21\n\n\n\nUNITED STATES DISTRICT COURT\nSOUTHERN DISTRICT OF NEW YORK________\nRANDOLPH SIMMONS, on behalf of himself and all\nothers similarly situated,\n                                                            Case No. ________\n\n                      Plaintiff,\n\nv.                                                          CLASS ACTION\n                                                            COMPLAINT AND DEMAND\n  ",
-      "category": "Other",
-      "subcategory": "Other",
-      "category_source": "rule",
-      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     }
