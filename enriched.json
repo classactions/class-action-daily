@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-28T07:47:48.489217Z",
+  "generated_at": "2026-10-28T14:43:18.352147Z",
   "days_back": 30,
-  "count": 130,
+  "count": 131,
   "stats": {
-    "total_filings": 130,
+    "total_filings": 131,
     "distinct_categories": 9,
     "distinct_courts": 34,
-    "needs_llm": 81
+    "needs_llm": 82
   },
   "actions": [
     {
@@ -111,6 +111,27 @@
       "subcategory": "Amer. w/ Disabilities \u2014 Other",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 75024584,
+      "case_name": "Canela Cruz v. 1239 Food Corp.",
+      "docket_number": "1:26-cv-09378",
+      "court": "District Court, S.D. New York",
+      "court_id": "nysd",
+      "date_filed": "2026-10-27",
+      "nature_of_suit": "",
+      "nos_code": "",
+      "cause": "",
+      "parties_summary": "Canela Cruz; 1239 Food Corp.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75024584/canela-cruz-v-1239-food-corp/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.675863/gov.uscourts.nysd.675863.1.0.pdf",
+      "snippet": "          Case 1:26-cv-09378    Document 1   Filed 10/27/26   Page 1 of 21\n\n\n\n                        UNITED STATES DISTRICT COURT\n                       SOUTHERN DISTRICT OF NEW YORK\n\nT H E S A M U E L LA W F I R M\nMichael Samuel (MS 7997)\n1441 Broadway, Suite 6085\nNew York, New York 10018\n(212) 563-9884\nmichael@thesamuellawfirm.com\n\nAttorneys for Plaintiff, Individually\nand on behalf of all others similarly\nsituated\n\n\nErasmo Canela Cruz, on behalf of\n                                           ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
