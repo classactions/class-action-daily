@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-10-28T14:43:18.352147Z",
+  "generated_at": "2026-10-28T19:59:33.698288Z",
   "days_back": 30,
-  "count": 131,
+  "count": 132,
   "stats": {
-    "total_filings": 131,
+    "total_filings": 132,
     "distinct_categories": 9,
     "distinct_courts": 34,
-    "needs_llm": 82
+    "needs_llm": 83
   },
   "actions": [
+    {
+      "docket_id": 75028945,
+      "case_name": "Rogers",
+      "docket_number": "2:26-cv-00215",
+      "court": "District Court, N.D. Texas",
+      "court_id": "txnd",
+      "date_filed": "2026-10-27",
+      "nature_of_suit": "441 Civil Rights: Voting",
+      "nos_code": "441",
+      "cause": "02:437 Federal Election Commission",
+      "parties_summary": "Daniel Rogers",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75028945/rogers/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.txnd.429501/gov.uscourts.txnd.429501.1.0.pdf",
+      "snippet": "     Case 2:26-cv-00215-Z    Document 1       Filed 10/27/26    Page 1 of 27   PageID 1\n\n\n\n                        IN THE UNITED STATES DISTRICT COURT\n                        FOR THE NORTHERN DISTRICT OF TEXAS\n                                 AMARILLO DIVISION\n\nPOTTER COUNTY REPUBLICAN                           Civil Action No. 2:26-cv-00215\n\n      PARTY, DANIEL ROGERS,\n      individually, and on behalf of all           CLASS ACTION COMPLAINT\n      others similarly effected Plaintiffs,        FO",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75028005,
       "case_name": "Moore v. Access Residential Management, LLC",
