@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:47:45.585785Z",
+  "generated_at": "2026-10-30T23:23:31.853478Z",
   "days_back": 30,
   "count": 137,
   "stats": {
@@ -53,7 +53,7 @@
     },
     {
       "docket_id": 75044165,
-      "case_name": "Johnson v. Exotic Metals Forming Company, LLC",
+      "case_name": "Johnson v. Exotic Metals Forming Company LLC",
       "docket_number": "2:26-cv-00475",
       "court": "District Court, E.D. Washington",
       "court_id": "waed",
