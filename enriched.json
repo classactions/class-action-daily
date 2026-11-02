@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-11-02T02:38:38.599430Z",
+  "generated_at": "2026-11-02T10:20:13.900541Z",
   "days_back": 30,
-  "count": 119,
+  "count": 120,
   "stats": {
-    "total_filings": 119,
+    "total_filings": 120,
     "distinct_categories": 8,
-    "distinct_courts": 33,
-    "needs_llm": 73
+    "distinct_courts": 34,
+    "needs_llm": 74
   },
   "actions": [
+    {
+      "docket_id": 75055848,
+      "case_name": "Morris v. Truist Financial Corporation",
+      "docket_number": "3:26-cv-00919",
+      "court": "District Court, W.D. North Carolina",
+      "court_id": "ncwd",
+      "date_filed": "2026-11-01",
+      "nature_of_suit": "190 Contract: Other",
+      "nos_code": "190",
+      "cause": "28:1332 Diversity-Contract Dispute",
+      "parties_summary": "Morris; Truist Financial Corporation",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75055848/morris-v-truist-financial-corporation/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.ncwd.125455/gov.uscourts.ncwd.125455.1.0.pdf",
+      "snippet": "                             UNITED STATES DISTRICT COURT\n\n                      WESTERN DISTRICT OF NORTH CAROLINA\n\n\nWENDY L. MORRIS and LINDA W.                      \u00a7 Civil Action No. [Insert]\nBELLAMY, Individually and on Behalf of All        \u00a7\nOthers Similarly Situated,                        \u00a7\n                                                  \u00a7\n                               Plaintiffs,        \u00a7 CLASS ACTION COMPLAINT\n                                                  \u00a7\n       vs.           ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75048023,
       "case_name": "Cartagena v. TrueAccord Corp.",
