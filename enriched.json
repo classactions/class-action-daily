@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-11-05T04:26:24.038883Z",
+  "generated_at": "2026-11-05T12:37:00.805362Z",
   "days_back": 30,
-  "count": 122,
+  "count": 123,
   "stats": {
-    "total_filings": 122,
+    "total_filings": 123,
     "distinct_categories": 8,
     "distinct_courts": 33,
     "needs_llm": 78
   },
   "actions": [
+    {
+      "docket_id": 75073734,
+      "case_name": "Hernandez v. Ricon Peruano Corp.",
+      "docket_number": "2:26-cv-07129",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-11-04",
+      "nature_of_suit": "710 Labor: Fair Standards",
+      "nos_code": "710",
+      "cause": "29:201 Denial of Overtime Compensation",
+      "parties_summary": "Hernandez; Ricon Peruano Corp.",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75073734/hernandez-v-ricon-peruano-corp/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.553784/gov.uscourts.nyed.553784.1.0.pdf",
+      "snippet": "Case 2:26-cv-07129 Document1- Filed 11/04/26 Page1of13 PagelD#: 1\n\nUNITED STATES DISTRICT COURT\nEASTERN DISTRICT CF NEW YORK\n\nween eon-= -X\nEUGENIO ULISES HERNADEZ, on behelf of himself\nand all other persons similarly situated,\nPlaintiff.\n-against- COMPLAINT\nRICON PERUANO CORP., CANDELA E&E CORP.,\nELVIN PAULINO and ELIZABETH PAULINO,\nDefendants. Class and Collective Action\n------ x\n\nPlaintiff, EUGENIO ULISES HERNADEZ (\u201cPlaintiff\u201d), on behalf of himself and all other\npersons similarly situated, t",
+      "category": "Wage & Hour",
+      "subcategory": "Fair Labor Standards Act",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75072713,
       "case_name": "RICCA v. TRUEACCORD CORP.",
