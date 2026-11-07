@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-07T13:40:11.683905Z",
+  "generated_at": "2026-11-07T18:24:38.706041Z",
   "days_back": 30,
-  "count": 109,
+  "count": 110,
   "stats": {
-    "total_filings": 109,
+    "total_filings": 110,
     "distinct_categories": 8,
     "distinct_courts": 32,
-    "needs_llm": 68
+    "needs_llm": 69
   },
   "actions": [
     {
@@ -27,6 +27,27 @@
       "subcategory": "Securities/Commodities/Exchange",
       "category_source": "rule",
       "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
+    {
+      "docket_id": 75085422,
+      "case_name": "ESCHENBACHER v. DELTA DENTAL OF MISSOURI",
+      "docket_number": "4:26-cv-01922",
+      "court": "District Court, E.D. Missouri",
+      "court_id": "moed",
+      "date_filed": "2026-11-06",
+      "nature_of_suit": "380 Personal Property: Other",
+      "nos_code": "380",
+      "cause": "28:1332 Diversity-(Citizenship)",
+      "parties_summary": "BENJAMIN SMERUD; SCOTT ESCHENBACHER; DELTA DENTAL OF MISSOURI",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75085422/eschenbacher-v-delta-dental-of-missouri/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.232697/gov.uscourts.moed.232697.1.0.pdf",
+      "snippet": "     Case: 4:26-cv-01922        Doc. #: 1     Filed: 11/06/26      Page: 1 of 45 PageID #: 1\n\n\n\n\n                          UNITED STATES DISTRICT COURT\n                      FOR THE EASTERN DISTRICT OF MISSOURI\n\n\nSCOTT ESCHENBACHER and BENJAMIN                         No.\nSMERUD, on behalf of themselves and all\nothers similarly situated,                              CLASS ACTION COMPLAINT\n\n                               Plaintiffs,\n                                                        DEMAND F",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
       "ingest_source": "poll",
       "law360_coverage": []
     },
