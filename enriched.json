@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-08T23:19:02.035730Z",
+  "generated_at": "2026-11-09T02:50:01.172949Z",
   "days_back": 30,
-  "count": 103,
+  "count": 101,
   "stats": {
-    "total_filings": 103,
+    "total_filings": 101,
     "distinct_categories": 8,
     "distinct_courts": 31,
-    "needs_llm": 66
+    "needs_llm": 65
   },
   "actions": [
     {
@@ -2127,48 +2127,6 @@
       "subcategory": "Other",
       "category_source": "rule",
       "category_confidence": 0.2,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 74944296,
-      "case_name": "THOMPSON v. ACADIA HEALTHCARE COMPANY INC.",
-      "docket_number": "2:26-cv-02211",
-      "court": "District Court, W.D. Pennsylvania",
-      "court_id": "pawd",
-      "date_filed": "2026-10-09",
-      "nature_of_suit": "360 P.I.: Other",
-      "nos_code": "360",
-      "cause": "28:1332 Diversity-Other",
-      "parties_summary": "ACADIA HEALTHCARE COMPANY INC.; KEVIN THOMPSON",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74944296/thompson-v-acadia-healthcare-company-inc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.336885/gov.uscourts.pawd.336885.1.0.pdf",
-      "snippet": "             Case 2:26-cv-02211        Document 1      Filed 10/09/26     Page 1 of 20\n\n\n\n\n                           UNITED STATES DISTRICT COURT\n                         WESTERN DISTRICT OF PENNSYLVANIA\n                               PITTSBURGH DIVISION\n\n\n   KEVIN THOMPSON, individually and\n   on behalf of all others similarly situated,\n                                                     Case No.:\n                          Plaintiff,\n                                                     COMPLA",
-      "category": "Other",
-      "subcategory": "Other",
-      "category_source": "rule",
-      "category_confidence": 0.2,
-      "ingest_source": "poll",
-      "law360_coverage": []
-    },
-    {
-      "docket_id": 74944258,
-      "case_name": "Furdek v. Amazon.com, Inc.",
-      "docket_number": "2:26-cv-03843",
-      "court": "District Court, W.D. Washington",
-      "court_id": "wawd",
-      "date_filed": "2026-10-09",
-      "nature_of_suit": "410 Anti-Trust",
-      "nos_code": "410",
-      "cause": "15:1 Antitrust Litigation",
-      "parties_summary": "Furdek; Amazon.com, Inc.",
-      "courtlistener_url": "https://www.courtlistener.com/docket/74944258/furdek-v-amazoncom-inc/",
-      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.369829/gov.uscourts.wawd.369829.1.0_1.pdf",
-      "snippet": "                 Case 2:26-cv-03843      Document 1     Filed 10/09/26   Page 1 of 55\n\n\n\n\n 1\n\n 2\n\n 3\n\n 4\n\n 5\n\n 6\n\n 7\n                                UNITED STATES DISTRICT COURT\n 8                             WESTERN DISTRICT OF WASHINGTON\n                                         AT SEATTLE\n 9\n\n10   JOLENE FURDEK and JONATHAN RYAN,                   Case No.\n     on behalf of themselves and all others similarly\n11   situated,                                          CLASS ACTION COMPLAINT\n12\n   ",
-      "category": "Antitrust",
-      "subcategory": "Antitrust",
-      "category_source": "rule",
-      "category_confidence": 0.6,
       "ingest_source": "poll",
       "law360_coverage": []
     }
