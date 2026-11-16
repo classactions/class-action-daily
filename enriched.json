@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-11-16T08:48:22.602114Z",
+  "generated_at": "2026-11-16T19:05:50.677055Z",
   "days_back": 30,
-  "count": 129,
+  "count": 130,
   "stats": {
-    "total_filings": 129,
+    "total_filings": 130,
     "distinct_categories": 9,
     "distinct_courts": 33,
-    "needs_llm": 84
+    "needs_llm": 85
   },
   "actions": [
+    {
+      "docket_id": 75122044,
+      "case_name": "Murphy v. USA Waste Management Resources, LLC",
+      "docket_number": "4:26-cv-10009",
+      "court": "District Court, S.D. Texas",
+      "court_id": "txsd",
+      "date_filed": "2026-11-16",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity-Non-Motor Vehicle",
+      "parties_summary": "Murphy; USA Waste Management Resources, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75122044/murphy-v-usa-waste-management-resources-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.txsd.2122738/gov.uscourts.txsd.2122738.1.0.pdf",
+      "snippet": "        Case 4:26-cv-10009       Document 1       Filed 11/16/26 in TXSD         Page 1 of 55\n\n\n\n\n                        IN THE UNITED STATES DISTRICT COURT\n                        FOR THE SOUTHERN DISTRICT OF TEXAS\n\n\n   THOMAS MURPHY and LOUIS\n   YBARRA individually and on behalf of\n   all others similarly situated;                     Case No.: 4:26-cv-10009\n\n                           Plaintiffs,                COMPLAINT-CLASS ACTION\n\n   v.                                                 JUR",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75118671,
       "case_name": "Provan v. Bodum USA, Inc.",
