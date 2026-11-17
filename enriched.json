@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-11-17T02:31:41.371079Z",
+  "generated_at": "2026-11-17T11:21:57.484998Z",
   "days_back": 30,
-  "count": 133,
+  "count": 134,
   "stats": {
-    "total_filings": 133,
+    "total_filings": 134,
     "distinct_categories": 9,
     "distinct_courts": 33,
     "needs_llm": 87
   },
   "actions": [
+    {
+      "docket_id": 75127293,
+      "case_name": "Villagomez v. LoanDepot.com, LLC",
+      "docket_number": "3:26-cv-06505",
+      "court": "District Court, S.D. California",
+      "court_id": "casd",
+      "date_filed": "2026-11-16",
+      "nature_of_suit": "890 Other Statutory Actions",
+      "nos_code": "890",
+      "cause": "28:1453 Class Action Fairness Act",
+      "parties_summary": "Villagomez; LoanDepot.com, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75127293/villagomez-v-loandepotcom-llc/",
+      "complaint_url": null,
+      "snippet": "",
+      "category": "Privacy/TCPA/Data",
+      "subcategory": "Other Statutory Actions",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75125766,
       "case_name": "Nina v. BA Sports Nutrition, LLC",
