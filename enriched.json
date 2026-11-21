@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-11-21T17:50:24.169290Z",
+  "generated_at": "2026-11-21T22:37:55.452506Z",
   "days_back": 30,
-  "count": 162,
+  "count": 163,
   "stats": {
-    "total_filings": 162,
+    "total_filings": 163,
     "distinct_categories": 9,
     "distinct_courts": 34,
-    "needs_llm": 105
+    "needs_llm": 106
   },
   "actions": [
+    {
+      "docket_id": 75156503,
+      "case_name": "Margolis v. USA Waste-Management Resources, LLC",
+      "docket_number": "4:26-cv-10199",
+      "court": "District Court, S.D. Texas",
+      "court_id": "txsd",
+      "date_filed": "2026-11-21",
+      "nature_of_suit": "360 P.I.: Other",
+      "nos_code": "360",
+      "cause": "28:1332 Diversity-Personal Injury",
+      "parties_summary": "Margolis; USA Waste-Management Resources, LLC",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75156503/margolis-v-usa-waste-management-resources-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.txsd.2124005/gov.uscourts.txsd.2124005.1.0.pdf",
+      "snippet": "     Case 4:26-cv-10199         Document 1       Filed 11/21/26 in TXSD        Page 1 of 62\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                             SOUTHERN DISTRICT OF TEXAS\n                                 HOUSTON DIVISION\n\n                                                        4:26-cv-10199\n                                              Case No.: ___________________\nJONATHAN MARGOLIS, individually\nand on behalf of all others similarly\n                        ",
+      "category": "Other",
+      "subcategory": "Other",
+      "category_source": "rule",
+      "category_confidence": 0.2,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75154627,
       "case_name": "Amiti v. Walgreens Co",
