@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-11-25T05:32:55.125465Z",
+  "generated_at": "2026-11-25T16:32:03.065424Z",
   "days_back": 30,
-  "count": 161,
+  "count": 162,
   "stats": {
-    "total_filings": 161,
+    "total_filings": 162,
     "distinct_categories": 10,
     "distinct_courts": 36,
     "needs_llm": 102
   },
   "actions": [
+    {
+      "docket_id": 75171516,
+      "case_name": "Colburn v. Magnet ABA Therapy, LLC",
+      "docket_number": "2:26-cv-07616",
+      "court": "District Court, E.D. New York",
+      "court_id": "nyed",
+      "date_filed": "2026-11-24",
+      "nature_of_suit": "710 Labor: Fair Standards",
+      "nos_code": "710",
+      "cause": "29:201 Fair Labor Standards Act",
+      "parties_summary": "Magnet ABA Therapy, LLC; Kelsie Colburn",
+      "courtlistener_url": "https://www.courtlistener.com/docket/75171516/colburn-v-magnet-aba-therapy-llc/",
+      "complaint_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.554713/gov.uscourts.nyed.554713.1.0.pdf",
+      "snippet": "   Case 2:26-cv-07616             Document 1   Filed 11/24/26    Page 1 of 27 PageID #: 1\n\n\n\n\n                            UNITED STATES DISTRICT COURT\n                            EASTERN DISTRICT OF NEW YORK\n\n\nKELSIE COLBURN, individually and on                 Case No. 2:26-cv-07616\nbehalf of all others similarly situated,\n                                                    COLLECTIVE AND CLASS ACTION\n                     Plaintiff,                     COMPLAINT\n\n            v.                 ",
+      "category": "Wage & Hour",
+      "subcategory": "Fair Labor Standards Act",
+      "category_source": "rule",
+      "category_confidence": 0.6,
+      "ingest_source": "poll",
+      "law360_coverage": []
+    },
     {
       "docket_id": 75166283,
       "case_name": "MORSU v. MONTAUK RENEWABLES, INC.",
